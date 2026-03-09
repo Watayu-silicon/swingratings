@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NVDA Moving Average Bounce Setup | SwingRatings</title>
-    <meta name="description" content="Is NVDA ready to bounce? SwingRatings scores NVDA's moving average setup using technical indicators like RSI and Bollinger Bands—so you know the odds before you trade.">
+    <title>WAT Moving Average Bounce Setup | SwingRatings</title>
+    <meta name="description" content="Is WAT ready to bounce? SwingRatings scores WAT's moving average setup using technical indicators like RSI and Bollinger Bands—so you know the odds before you trade.">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3713445785900735" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
     <style>
@@ -154,15 +154,15 @@
     const urlParams = new URLSearchParams(window.location.search);
     
     // JS内でティッカー名を固定（Colabで生成時に置換される）
-    let ticker = "NVDA";
+    let ticker = "WAT";
     
     // パスから取得するロジックはバックアップとして残す
-    if (!ticker || ticker === 'NVDA') {
+    if (!ticker || ticker === 'WAT') {
          const pathName = window.location.pathname;
          ticker = pathName.substring(pathName.lastIndexOf('/') + 1).replace('.html', '').toUpperCase();
     }
     
-    if (!ticker || ticker === 'INDEX') ticker = 'NVDA'; // デフォルト
+    if (!ticker || ticker === 'INDEX') ticker = 'WAT'; // デフォルト
 
     let maParam = urlParams.get('ma') || '200';
     let ma = maParam.toLowerCase().startsWith('ma') ? maParam.toLowerCase() : `ma${maParam}`;
