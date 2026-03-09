@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDT Moving Average Bounce Setup | SwingRatings</title>
+    <meta name="description" content="Is MDT ready to bounce? SwingRatings scores MDT's moving average setup using technical indicators like RSI and Bollinger Bands—so you know the odds before you trade.">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3713445785900735" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <style>
+        :root { --bg-dark: #0B0E14; --panel-bg: #151924; --panel-border: #2A2E39; --text-main: #D1D4DC; --text-muted: #787B86; --accent-green: #00E676; --accent-red: #FF5252; --accent-blue: #2962FF; --accent-orange: #FF9800; --accent-yellow: #FFC107; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: "Inter", -apple-system, sans-serif; background-color: var(--bg-dark); color: var(--text-main); padding: 20px; display: flex; justify-content: center; line-height: 1.5; }
+        .container { max-width: 1200px; width: 100%; }
+        
+        nav { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid var(--panel-border); }
+        .logo { text-decoration: none; display: flex; align-items: center; gap: 16px; transition: transform 0.2s ease; }
+        .logo:hover { transform: translateY(-1px); }
+        .logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--accent-blue), var(--accent-green)); border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .logo-text { font-size: 26px; font-weight: 800; color: #fff; letter-spacing: -0.8px; display: flex; align-items: center; }
+        .logo-text span { background: linear-gradient(135deg, var(--accent-blue), var(--accent-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-left: 3px; }
+
+        header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 15px; margin-bottom: 15px; }
+        .ticker-info h1 { font-size: 28px; margin-bottom: 2px; color: #fff; }
+        .ticker-info span { color: var(--text-muted); font-size: 14px; display: block; margin-bottom: 5px; }
+        .price-info { text-align: right; }
+        .price-info h2 { font-size: 32px; color: #fff; }
+        .price-info .change { font-size: 16px; font-weight: bold; }
+        
+        .tags-container { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+        .tag { padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: bold; border: 1px solid transparent; }
+        .tag-ma { background-color: rgba(255, 152, 0, 0.1); color: var(--accent-orange); border-color: rgba(255, 152, 0, 0.3); }
+        .tag-bb { background-color: rgba(41, 98, 255, 0.1); color: #82B1FF; border-color: rgba(41, 98, 255, 0.3); }
+        .tag-rsi { background-color: rgba(0, 230, 118, 0.1); color: var(--accent-green); border-color: rgba(0, 230, 118, 0.3); }
+
+        .disclaimer-panel { background-color: rgba(255, 193, 7, 0.05); border: 1px solid rgba(255, 193, 7, 0.3); border-left: 4px solid var(--accent-yellow); border-radius: 6px; padding: 12px 15px; margin-bottom: 20px; display: flex; gap: 10px; }
+        .disclaimer-icon { color: var(--accent-yellow); font-size: 18px; }
+        .disclaimer-text { font-size: 12px; color: #D1D4DC; line-height: 1.4; }
+
+        .grid-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom: 20px; align-items: start; }
+        .col-left, .col-right { display: flex; flex-direction: column; gap: 20px; }
+        .panel { background-color: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 8px; padding: 20px; }
+        .panel-title { font-size: 14px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid var(--panel-border); padding-bottom: 8px; font-weight: bold; letter-spacing: 0.5px; }
+        
+        .score-container { text-align: center; }
+        .total-score { font-size: 56px; font-weight: bold; color: var(--accent-green); line-height: 1; }
+        .stars-container { margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .stars-outer { display: inline-block; position: relative; font-family: sans-serif; color: #2A2E39; font-size: 28px; }
+        .stars-outer::before { content: '★★★★★'; }
+        .stars-inner { position: absolute; top: 0; left: 0; white-space: nowrap; overflow: hidden; color: #FFD700; }
+        .stars-inner::before { content: '★★★★★'; }
+
+        .metric-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 14px; border-bottom: 1px dashed #2A2E39; padding-bottom: 8px; }
+        .metric-row:last-child { border-bottom: none; }
+        .metric-val { font-weight: bold; color: #fff; }
+        .text-red { color: var(--accent-red); }
+
+        .auto-summary { font-size: 14px; color: #B0B3B8; background-color: rgba(255,255,255,0.02); padding: 15px; border-radius: 6px; border-left: 3px solid var(--accent-blue); line-height: 1.6; }
+        
+        .rsi-gauge { width: 100%; height: 8px; background: linear-gradient(to right, var(--accent-red) 0%, var(--accent-green) 35%, var(--accent-orange) 50%, #2A2E39 100%); border-radius: 4px; position: relative; margin: 25px 0 15px 0; }
+        .rsi-marker { position: absolute; top: -33px; transform: translateX(-50%); text-align: center; }
+        .rsi-marker::after { content: '▼'; display: block; color: #fff; font-size: 12px; }
+
+        @media (max-width: 768px) {
+            .grid-layout { display: flex; flex-direction: column; }
+            #chart-container { height: 400px !important; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <a href="https://swingratings.com" class="logo">
+            <div class="logo-icon"><img src="./logo.svg" alt="" style="width:130%"></div>
+            <div class="logo-text">Swing<span>Ratings</span></div>
+        </a>
+    </nav>
+
+    <header>
+        <div class="ticker-info">
+            <h1 id="ui-ticker">---</h1>
+            <span id="ui-name">Loading...</span>
+            <div class="tags-container">
+                <div id="ui-tag-ma" class="tag tag-ma">#---</div>
+                <div id="ui-tag-bb" class="tag tag-bb" style="display: none;">#BB -2σ Confluence</div>
+                <div id="ui-tag-rsi" class="tag tag-rsi" style="display: none;">#Prime RSI</div>
+            </div>
+        </div>
+        <div class="price-info">
+            <h2 id="ui-price">$---.--</h2>
+            <div id="ui-change" class="change">--- (---%)</div>
+        </div>
+    </header>
+
+    <div class="disclaimer-panel">
+        <div class="disclaimer-icon">⚠️</div>
+        <div class="disclaimer-text"><strong>Not Financial Advice.</strong> The algorithmic scores and technical analysis provided by SwingRatings are for educational and informational purposes only. Trading involves risk, and market uncertainty means past performance does not guarantee future results.</div>
+    </div>
+
+    <div class="grid-layout">
+        <div class="col-left">
+            <div class="panel panel-chart" style="padding: 0; overflow: hidden;">
+                <div id="chart-container" style="width: 100%; height: 500px;"></div>
+            </div>
+            <div class="panel panel-summary">
+                <div class="panel-title">Algorithmic Insight</div>
+                <div id="ui-summary" class="auto-summary">Loading algorithm data...</div>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <div class="panel panel-score">
+                <div class="panel-title">Bounce Probability Score</div>
+                <div class="score-container">
+                    <div id="ui-score" class="total-score">--</div>
+                    <div class="stars-container">
+                        <div class="stars-outer"><div id="ui-stars-inner" class="stars-inner" style="width: 0%;"></div></div>
+                        <div id="ui-stars-text" style="font-weight:bold; color:#fff;">--</div>
+                    </div>
+                    <div id="ui-score-note" style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">--</div>
+                </div>
+            </div>
+
+            <div class="panel panel-breakdown">
+                <div class="panel-title">Technical Factors</div>
+                <div class="metric-row"><span>Target MA Distance</span><span id="ui-ma-dist" class="metric-val">--</span></div>
+                <div class="metric-row"><span>BB -2σ Confluence</span><span id="ui-bb-conf" class="metric-val">--</span></div>
+                <div class="metric-row"><span>BB -3σ Confluence</span><span id="ui-bb3-conf" class="metric-val">--</span></div>
+                <div class="metric-row" style="border-bottom: none;"><span>Recent MA Knocks</span><span id="ui-ma-knock" class="metric-val">--</span></div>
+                
+                <div style="margin-top: 25px; margin-bottom: 5px; font-size: 13px; color: var(--text-muted);">Projected RSI (at touch)</div>
+                <div class="rsi-gauge">
+                    <div id="ui-rsi-marker" class="rsi-marker" style="left: 0%;"><span id="ui-rsi-text" style="color:#fff; font-size: 12px; font-weight: bold;">--</span></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted);">
+                    <span>Danger (<30)</span><span>Ideal (30-40)</span><span>Weak (>50)</span>
+                </div>
+            </div>
+
+            <div class="panel panel-resistances">
+                <div class="panel-title" style="color: var(--accent-red); border-bottom-color: rgba(255, 82, 82, 0.3);">
+                    Overhead Resistance Targets
+                </div>
+                <div id="ui-resistances-list">
+                    <div style="font-size: 13px; color: var(--text-muted);">Loading targets...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // JS内でティッカー名を固定（Colabで生成時に置換される）
+    let ticker = "MDT";
+    
+    // パスから取得するロジックはバックアップとして残す
+    if (!ticker || ticker === 'MDT') {
+         const pathName = window.location.pathname;
+         ticker = pathName.substring(pathName.lastIndexOf('/') + 1).replace('.html', '').toUpperCase();
+    }
+    
+    if (!ticker || ticker === 'INDEX') ticker = 'MDT'; // デフォルト
+
+    let maParam = urlParams.get('ma') || '200';
+    let ma = maParam.toLowerCase().startsWith('ma') ? maParam.toLowerCase() : `ma${maParam}`;
+
+    // TradingView Widget
+    new TradingView.widget({
+        "autosize": true,
+        "symbol": ticker,
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "dark",
+        "style": "1",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_top_toolbar": false,
+        "hide_legend": false,
+        "save_image": false,
+        "container_id": "chart-container",
+        "studies": [
+            { "id": "MASimple@tv-basicstudies", "inputs": { "length": 50 } },
+            { "id": "MASimple@tv-basicstudies", "inputs": { "length": 100 } },
+            { "id": "MASimple@tv-basicstudies", "inputs": { "length": 200 } },
+            {
+                "id": "BB@tv-basicstudies",
+                "inputs": { "length": 20, "mult": 2 },
+                "styles": { "plot_0": { "visible": false }, "plot_1": { "visible": true }, "plot_2": { "visible": true } }
+            }
+        ]
+    });
+
+    // JSON Data Fetch
+    const jsonFile = `${ticker.toLowerCase()}_${ma}.json`;
+    const timestamp = new Date().getTime();
+    fetch(`${jsonFile}?t=${timestamp}`)
+        .then(response => response.json())
+        .then(data => {
+            const raw = data.raw_metrics;
+            
+            // --- 銘柄基本情報 ---
+            document.getElementById('ui-ticker').textContent = data.meta.ticker;
+            document.getElementById('ui-name').textContent = `${data.meta.name} • ${data.meta.market}`;
+            document.getElementById('ui-price').textContent = `$${data.meta.price.toFixed(2)}`;
+            
+            const changeEl = document.getElementById('ui-change');
+            const sign = data.meta.change > 0 ? "+" : "";
+            changeEl.textContent = `${sign}${data.meta.change.toFixed(2)} (${sign}${data.meta.changePercent.toFixed(2)}%)`;
+            changeEl.style.color = data.meta.change > 0 ? "var(--accent-green)" : "var(--accent-red)";
+
+            // --- タグの処理 ---
+            let maLabelEn = raw.targetMA_label;
+            if(maLabelEn === "日足200MA") maLabelEn = "Daily 200MA";
+            if(maLabelEn === "日足50MA") maLabelEn = "Daily 50MA";
+            if(maLabelEn === "週足100MA") maLabelEn = "Weekly 100MA";
+            if(!maLabelEn) maLabelEn = "Daily " + maParam + "MA";
+            
+            document.getElementById('ui-tag-ma').textContent = `#${maLabelEn} Approaching`;
+            
+            if (raw.bb2Confluence_pct !== undefined && raw.bb2Confluence_pct < 1.0) {
+                const bbTag = document.getElementById('ui-tag-bb');
+                bbTag.style.display = 'block';
+                bbTag.textContent = `#BB -2σ Confluence (${raw.bb2Confluence_pct}%)`;
+            }
+
+            // --- スコアと指標 ---
+            document.getElementById('ui-score').textContent = data.score.total;
+            document.getElementById('ui-stars-inner').style.width = `${(data.score.stars / 5) * 100}%`;
+            document.getElementById('ui-stars-text').textContent = data.score.stars.toFixed(1);
+            
+            let note = data.score.note;
+            if (note && note.includes("勝率")) note = note.replace("勝率", "Win Rate:");
+            document.getElementById('ui-score-note').textContent = note;
+            
+            document.getElementById('ui-summary').innerHTML = data.summary;
+            document.getElementById('ui-ma-dist').textContent = data.metrics.maDistance;
+            document.getElementById('ui-bb-conf').textContent = data.metrics.bbConfluence;
+            document.getElementById('ui-bb3-conf').textContent = `${raw.bb3Confluence_pct.toFixed(2)}%`;
+            document.getElementById('ui-ma-knock').textContent = `${raw.maKnock_count} time${raw.maKnock_count !== 1 ? 's' : ''}`;
+
+            const rsi = raw.expectedRsi;
+            document.getElementById('ui-rsi-marker').style.left = `${Math.max(0, Math.min(100, ((rsi - 20) / 40) * 100))}%`;
+            document.getElementById('ui-rsi-text').textContent = rsi.toFixed(1);
+
+            if (rsi >= 30 && rsi <= 40) {
+                document.getElementById('ui-tag-rsi').style.display = 'block';
+            }
+
+            // --- 抵抗線リスト生成 ---
+            let resHtml = '';
+            
+            if (data.resistances && data.resistances.horizontal.length > 0) {
+                let score = 0
+                data.resistances.horizontal.slice(0, 3).forEach((r, idx) => {
+                    const label = idx === 0 ? "Strongest Resistance (Horizontal)" : "Resistance (Horizontal)";
+                    if(idx===0 || r.strength_score.toFixed(1) === score) {
+                        score = r.strength_score.toFixed(1);
+                        resHtml += `
+                        <div style="border-radius: 4px; margin-top: 8px; padding: 8px; background-color: rgba(255,82,82,0.05); border:1px solid rgba(255,82,82,0.1);" class="metric-row">
+                            <span style="color: var(--accent-red); font-size: 13px;">${label}</span>
+                            <div style="text-align: right;">
+                                <div style="font-weight: bold; font-size: 15px;">$${r.price.toFixed(2)}</div>
+                                <div style="font-size: 11px; color: var(--accent-red);">Strength Score: ${r.strength_score.toFixed(1)}</div>
+                            </div>
+                        </div>`
+                    } else {
+                        resHtml += `
+                            <div class="metric-row">
+                                <span style="color: #fff; font-size: 13px;">${label}</span>
+                                <div style="text-align: right;">
+                                    <div style="font-weight: bold; font-size: 15px;">$${r.price.toFixed(2)}</div>
+                                    <div style="font-size: 11px; color: var(--text-muted);">Strength Score: ${r.strength_score.toFixed(1)}</div>
+                                </div>
+                            </div>`;
+                    }
+                });
+            }
+
+            if (data.resistances && data.resistances.trendline_clusters.length > 0) {
+                data.resistances.trendline_clusters.slice(0, 2).forEach(c => {
+                    resHtml += `
+                        <div class="metric-row" style="background-color: rgba(255,82,82,0.05); padding: 8px; border-radius: 4px; margin-top: 8px; border: 1px solid rgba(255,82,82,0.1);">
+                            <span class="text-red" style="font-size: 13px;">Trendline Cluster Zone</span>
+                            <div style="text-align: right;">
+                                <div style="font-weight: bold; color: #fff;">$${c.price.toFixed(2)}</div>
+                                <div style="font-size: 11px; color: var(--accent-red);">${c.count} intersecting lines</div>
+                            </div>
+                        </div>`;
+                });
+            }
+            
+            if (resHtml === '') resHtml = '<div style="font-size: 13px; color: var(--text-muted);">No clear overhead resistance detected.</div>';
+            document.getElementById('ui-resistances-list').innerHTML = resHtml;
+        })
+        .catch(err => console.log("JSON not found, only chart will be displayed."));
+</script>
+
+</body>
+</html>
