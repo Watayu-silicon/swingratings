@@ -130,19 +130,6 @@
     "expected_rsi": 35.87
   },
   {
-    "ticker": "CMA",
-    "name": "Comerica Incorporated",
-    "price": 88.67,
-    "changePercent": -4.51,
-    "score": 65,
-    "stars": 3.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.59,
-    "bb_confluence": 0.31,
-    "expected_rsi": 42.32
-  },
-  {
     "ticker": "NUE",
     "name": "Nucor Corporation",
     "price": 169.47,
@@ -312,6 +299,19 @@
     "expected_rsi": 36.17
   },
   {
+    "ticker": "CMA",
+    "name": "Comerica Incorporated",
+    "price": 88.67,
+    "changePercent": -4.51,
+    "score": 58,
+    "stars": 3.0,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 1.59,
+    "bb_confluence": 0.31,
+    "expected_rsi": 42.32
+  },
+  {
     "ticker": "AOS",
     "name": "A.O. Smith Corporation",
     "price": 70.46,
@@ -338,19 +338,6 @@
     "expected_rsi": 38.38
   },
   {
-    "ticker": "ALL",
-    "name": "Allstate Corporation (The)",
-    "price": 207.69,
-    "changePercent": -2.18,
-    "score": 56,
-    "stars": 3.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.16,
-    "bb_confluence": 1.08,
-    "expected_rsi": 43.64
-  },
-  {
     "ticker": "HST",
     "name": "Host Hotels & Resorts, Inc.",
     "price": 19.16,
@@ -362,6 +349,19 @@
     "ma_distance": 0.81,
     "bb_confluence": 0.95,
     "expected_rsi": 45.73
+  },
+  {
+    "ticker": "ALL",
+    "name": "Allstate Corporation (The)",
+    "price": 207.69,
+    "changePercent": -2.18,
+    "score": 56,
+    "stars": 3.0,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 3.16,
+    "bb_confluence": 1.08,
+    "expected_rsi": 43.64
   },
   {
     "ticker": "AFL",
@@ -403,19 +403,6 @@
     "expected_rsi": 46.14
   },
   {
-    "ticker": "DRI",
-    "name": "Darden Restaurants, Inc.",
-    "price": 201.64,
-    "changePercent": -0.76,
-    "score": 54,
-    "stars": 2.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.95,
-    "bb_confluence": 2.24,
-    "expected_rsi": 38.76
-  },
-  {
     "ticker": "F",
     "name": "Ford Motor Company",
     "price": 12.19,
@@ -427,6 +414,19 @@
     "ma_distance": 1.03,
     "bb_confluence": 0.47,
     "expected_rsi": 31.83
+  },
+  {
+    "ticker": "DRI",
+    "name": "Darden Restaurants, Inc.",
+    "price": 201.64,
+    "changePercent": -0.76,
+    "score": 54,
+    "stars": 2.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 1.95,
+    "bb_confluence": 2.24,
+    "expected_rsi": 38.76
   },
   {
     "ticker": "PH",
@@ -598,6 +598,19 @@
     "expected_rsi": 37.97
   },
   {
+    "ticker": "NOV",
+    "name": "NOV Inc.",
+    "price": 18.96,
+    "changePercent": 2.1,
+    "score": 49,
+    "stars": 2.5,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 2.93,
+    "bb_confluence": 0.59,
+    "expected_rsi": 43.55
+  },
+  {
     "ticker": "SRE",
     "name": "DBA Sempra",
     "price": 93.51,
@@ -713,19 +726,6 @@
     "ma_distance": 0.68,
     "bb_confluence": 5.08,
     "expected_rsi": 43.63
-  },
-  {
-    "ticker": "NOV",
-    "name": "NOV Inc.",
-    "price": 18.96,
-    "changePercent": 2.1,
-    "score": 44,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.93,
-    "bb_confluence": 0.59,
-    "expected_rsi": 43.55
   },
   {
     "ticker": "ARW",
@@ -910,6 +910,19 @@
     "expected_rsi": 45.89
   },
   {
+    "ticker": "CCK",
+    "name": "Crown Holdings, Inc.",
+    "price": 105.12,
+    "changePercent": -0.65,
+    "score": 40,
+    "stars": 2.0,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 4.05,
+    "bb_confluence": 4.83,
+    "expected_rsi": 31.14
+  },
+  {
     "ticker": "MOS",
     "name": "Mosaic Company (The)",
     "price": 26.92,
@@ -1051,19 +1064,6 @@
     "ma_distance": 2.76,
     "bb_confluence": 0.46,
     "expected_rsi": 46.84
-  },
-  {
-    "ticker": "CCK",
-    "name": "Crown Holdings, Inc.",
-    "price": 105.12,
-    "changePercent": -0.65,
-    "score": 36,
-    "stars": 2.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 4.05,
-    "bb_confluence": 4.83,
-    "expected_rsi": 31.14
   },
   {
     "ticker": "PENN",
@@ -2535,19 +2535,6 @@
     "expected_rsi": 47.13
   },
   {
-    "ticker": "GD",
-    "name": "General Dynamics Corporation",
-    "price": 361.98,
-    "changePercent": -0.42,
-    "score": 14,
-    "stars": 0.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 4.34,
-    "bb_confluence": 2.44,
-    "expected_rsi": 45.43
-  },
-  {
     "ticker": "MGM",
     "name": "MGM Resorts International",
     "price": 35.64,
@@ -2559,6 +2546,32 @@
     "ma_distance": 0.47,
     "bb_confluence": 5.06,
     "expected_rsi": 49.7
+  },
+  {
+    "ticker": "ALL",
+    "name": "Allstate Corporation (The)",
+    "price": 207.69,
+    "changePercent": -2.18,
+    "score": 14,
+    "stars": 0.5,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 1.75,
+    "bb_confluence": 2.44,
+    "expected_rsi": 47.26
+  },
+  {
+    "ticker": "GD",
+    "name": "General Dynamics Corporation",
+    "price": 361.98,
+    "changePercent": -0.42,
+    "score": 14,
+    "stars": 0.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 4.34,
+    "bb_confluence": 2.44,
+    "expected_rsi": 45.43
   },
   {
     "ticker": "PNC",
@@ -2585,6 +2598,19 @@
     "ma_distance": 2.17,
     "bb_confluence": 8.33,
     "expected_rsi": 58.32
+  },
+  {
+    "ticker": "MKTX",
+    "name": "MarketAxess Holdings, Inc.",
+    "price": 185.12,
+    "changePercent": -0.53,
+    "score": 12,
+    "stars": 0.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 0.04,
+    "bb_confluence": 7.91,
+    "expected_rsi": 58.73
   },
   {
     "ticker": "TJX",
@@ -2624,19 +2650,6 @@
     "ma_distance": 0.02,
     "bb_confluence": 1.96,
     "expected_rsi": 47.0
-  },
-  {
-    "ticker": "ALL",
-    "name": "Allstate Corporation (The)",
-    "price": 207.69,
-    "changePercent": -2.18,
-    "score": 10,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.75,
-    "bb_confluence": 2.44,
-    "expected_rsi": 47.26
   },
   {
     "ticker": "SYK",
@@ -2717,6 +2730,19 @@
     "expected_rsi": 45.84
   },
   {
+    "ticker": "DPZ",
+    "name": "Domino's Pizza Inc",
+    "price": 415.78,
+    "changePercent": 1.8,
+    "score": 7,
+    "stars": 0.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 1.6,
+    "bb_confluence": 9.39,
+    "expected_rsi": 57.52
+  },
+  {
     "ticker": "ORLY",
     "name": "O'Reilly Automotive, Inc.",
     "price": 94.61,
@@ -2767,19 +2793,6 @@
     "ma_distance": 4.29,
     "bb_confluence": 6.74,
     "expected_rsi": 49.51
-  },
-  {
-    "ticker": "MKTX",
-    "name": "MarketAxess Holdings, Inc.",
-    "price": 185.12,
-    "changePercent": -0.53,
-    "score": 4,
-    "stars": 0.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 0.04,
-    "bb_confluence": 7.91,
-    "expected_rsi": 58.73
   },
   {
     "ticker": "MSCI",
@@ -2845,19 +2858,6 @@
     "ma_distance": 0.04,
     "bb_confluence": 1.97,
     "expected_rsi": 52.06
-  },
-  {
-    "ticker": "DPZ",
-    "name": "Domino's Pizza Inc",
-    "price": 415.78,
-    "changePercent": 1.8,
-    "score": 2,
-    "stars": 0.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.6,
-    "bb_confluence": 9.39,
-    "expected_rsi": 57.52
   },
   {
     "ticker": "ABNB",
