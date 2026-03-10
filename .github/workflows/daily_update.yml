@@ -1,0 +1,47 @@
+name: Daily SwingRatings Update
+
+# 実行するタイミングの設定
+on:
+  schedule:
+    # UTC（協定世界時）での指定。日本時間(JST)の午前6:30は、UTCの「前日21:30」になります。
+    - cron: '30 21 * * *'
+  workflow_dispatch: # GitHubの画面から「手動」でいつでも実行できるボタンを追加
+
+permissions:
+  contents: write # スクリプトがGitHubにファイルをPush（書き込み）できるようにする権限
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest # 最新のLinux環境を使用
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10' # Python 3.10を使用
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run analysis script
+      run: |
+        # 評価用のPythonスクリプトを実行（ファイル名はご自身の環境に合わせてください）
+        python test.py
+
+    - name: Commit and Push changes
+      run: |
+        # GitHub ActionsのBotとしてコミットする設定
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 生成・更新されたすべてのJSONファイルを追加
+        git add *.json
+        
+        # 変更があった場合のみコミットしてプッシュする（エラー回避）
+        git commit -m "Auto-update: Daily market data" || echo "No changes to commit"
+        git push
