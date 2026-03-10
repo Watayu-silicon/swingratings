@@ -3,7 +3,3 @@ numpy
 yfinance
 scipy
 scikit-learn
-sklearn
-itertools
-json
-os
