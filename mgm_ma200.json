@@ -3,9 +3,9 @@
     "ticker": "MGM",
     "name": "MGM Resorts International",
     "market": "NYQ",
-    "price": 35.57,
-    "change": -1.56,
-    "changePercent": -4.2
+    "price": 35.64,
+    "change": 0.07,
+    "changePercent": 0.2
   },
   "score": {
     "total": 38,
@@ -14,65 +14,58 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 34.94,
-    "maDistance_pct": 1.79,
-    "bb2Confluence_pct": 3.57,
-    "bb3Confluence_pct": 7.06,
+    "targetMA_price": 34.96,
+    "maDistance_pct": 1.95,
+    "bb2Confluence_pct": 3.66,
+    "bb3Confluence_pct": 7.04,
     "maKnock_count": 1,
-    "expectedRsi": 47.56
+    "expectedRsi": 47.53
   },
   "metrics": {
-    "maDistance": "+1.79%",
-    "bbConfluence": "3.57%",
+    "maDistance": "+1.95%",
+    "bbConfluence": "3.66%",
     "maKnock": "1 time recently",
-    "expectedRsi": "47.56"
+    "expectedRsi": "47.53"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 37.46,
         "touches": 9,
-        "strength_score": 5.883
+        "strength_score": 5.815
       },
       {
         "price": 39.25,
         "touches": 1,
-        "strength_score": 0.785
+        "strength_score": 0.776
       }
     ],
     "trendline_clusters": [
       {
-        "price": 37.14,
-        "count": 8
+        "price": 37.16,
+        "count": 5
       },
       {
-        "price": 37.24,
+        "price": 37.08,
+        "count": 4
+      },
+      {
+        "price": 37.3,
+        "count": 4
+      },
+      {
+        "price": 36.86,
         "count": 3
       },
       {
-        "price": 37.39,
-        "count": 3
-      },
-      {
-        "price": 36.83,
-        "count": 2
-      },
-      {
-        "price": 36.99,
+        "price": 37.41,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that MGM is currently testing its Daily 200MA near $34.94. Historically, the win rate for bounces at this support level is 75.0%. In the event of a successful bounce, the primary overhead resistance is projected around $37.46.",
+  "summary": "The SwingRatings algorithm detects that MGM is currently testing its Daily 200MA near $34.96. Historically, the win rate for bounces at this support level is 75.0%. In the event of a successful bounce, the primary overhead resistance is projected around $37.46.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 36.13999938964844,
-        "high": 36.349998474121094,
-        "low": 34.970001220703125,
-        "close": 35.75
-      },
       {
         "time": "2025-08-04",
         "open": 35.7599983215332,
@@ -1115,13 +1108,16 @@
         "high": 36.56999969482422,
         "low": 35.2400016784668,
         "close": 35.56999969482422
+      },
+      {
+        "time": "2026-03-09",
+        "open": 34.75,
+        "high": 35.88999938964844,
+        "low": 33.44499969482422,
+        "close": 35.63999938964844
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 34.535149869918826
-      },
       {
         "time": "2025-08-04",
         "value": 34.511499853134154
@@ -1717,13 +1713,13 @@
       {
         "time": "2026-03-06",
         "value": 34.943949966430665
+      },
+      {
+        "time": "2026-03-09",
+        "value": 34.95764995574951
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 36.20066229593652
-      },
       {
         "time": "2025-08-04",
         "value": 35.867047310862716
@@ -2319,6 +2315,10 @@
       {
         "time": "2026-03-06",
         "value": 33.6955385372588
+      },
+      {
+        "time": "2026-03-09",
+        "value": 33.6773141222949
       }
     ],
     "supportLine": 33.71

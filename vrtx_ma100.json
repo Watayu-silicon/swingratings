@@ -3,60 +3,53 @@
     "ticker": "VRTX",
     "name": "Vertex Pharmaceuticals Incorpor",
     "market": "NMS",
-    "price": 456.69,
-    "change": -4.13,
-    "changePercent": -0.9
+    "price": 460.87,
+    "change": 4.18,
+    "changePercent": 0.92
   },
   "score": {
-    "total": 56,
-    "stars": 3.0,
+    "total": 69,
+    "stars": 3.5,
     "note": "/ 100 (Win Rate: 60%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 449.33,
-    "maDistance_pct": 1.64,
-    "bb2Confluence_pct": 1.13,
-    "bb3Confluence_pct": 1.21,
+    "targetMA_price": 449.86,
+    "maDistance_pct": 2.45,
+    "bb2Confluence_pct": 0.62,
+    "bb3Confluence_pct": 1.81,
     "maKnock_count": 0,
-    "expectedRsi": 41.05
+    "expectedRsi": 41.67
   },
   "metrics": {
-    "maDistance": "+1.64%",
-    "bbConfluence": "1.13%",
+    "maDistance": "+2.45%",
+    "bbConfluence": "0.62%",
     "maKnock": "0 times recently",
-    "expectedRsi": "41.05"
+    "expectedRsi": "41.67"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 483.75,
         "touches": 3,
-        "strength_score": 2.147
+        "strength_score": 2.122
       },
       {
         "price": 500.96,
         "touches": 2,
-        "strength_score": 1.806
+        "strength_score": 1.785
       },
       {
         "price": 464.15,
         "touches": 2,
-        "strength_score": 1.057
+        "strength_score": 1.045
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm detects that VRTX is currently testing its Daily 100MA near $449.33. Historically, the win rate for bounces at this support level is 60.0%. In the event of a successful bounce, the primary overhead resistance is projected around $483.75.",
+  "summary": "The SwingRatings algorithm detects that VRTX is currently testing its Daily 100MA near $449.86. Historically, the win rate for bounces at this support level is 60.0%. In the event of a successful bounce, the primary overhead resistance is projected around $483.75.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 457.3900146484375,
-        "high": 464.2300109863281,
-        "low": 453.510009765625,
-        "close": 462.1300048828125
-      },
       {
         "time": "2025-08-04",
         "open": 466.510009765625,
@@ -1099,13 +1092,16 @@
         "high": 460.0,
         "low": 450.6700134277344,
         "close": 456.69000244140625
+      },
+      {
+        "time": "2026-03-09",
+        "open": 454.2099914550781,
+        "high": 461.260009765625,
+        "low": 450.7795104980469,
+        "close": 460.8699951171875
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 468.3180990600586
-      },
       {
         "time": "2025-08-04",
         "value": 468.1573989868164
@@ -1701,16 +1697,16 @@
       {
         "time": "2026-03-06",
         "value": 449.3277996826172
+      },
+      {
+        "time": "2026-03-09",
+        "value": 449.8627996826172
       }
     ],
     "bbLower": [
       {
-        "time": "2025-08-01",
-        "value": 454.2844606529313
-      },
-      {
         "time": "2025-08-04",
-        "value": 455.29476343658274
+        "value": 455.2947634365828
       },
       {
         "time": "2025-08-05",
@@ -2303,8 +2299,12 @@
       {
         "time": "2026-03-06",
         "value": 454.4007320842876
+      },
+      {
+        "time": "2026-03-09",
+        "value": 452.66134555340466
       }
     ],
-    "supportLine": 458.38
+    "supportLine": 452.39
   }
 }

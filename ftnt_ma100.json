@@ -3,59 +3,52 @@
     "ticker": "FTNT",
     "name": "Fortinet, Inc.",
     "market": "NMS",
-    "price": 83.67,
-    "change": -0.75,
-    "changePercent": -0.89
+    "price": 83.81,
+    "change": 0.14,
+    "changePercent": 0.17
   },
   "score": {
-    "total": 23,
+    "total": 22,
     "stars": 1.0,
     "note": "/ 100 (Win Rate: 58%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 81.55,
-    "maDistance_pct": 2.6,
-    "bb2Confluence_pct": 8.11,
-    "bb3Confluence_pct": 12.24,
+    "targetMA_price": 81.54,
+    "maDistance_pct": 2.78,
+    "bb2Confluence_pct": 8.1,
+    "bb3Confluence_pct": 12.26,
     "maKnock_count": 2,
-    "expectedRsi": 52.78
+    "expectedRsi": 52.43
   },
   "metrics": {
-    "maDistance": "+2.60%",
-    "bbConfluence": "8.11%",
+    "maDistance": "+2.78%",
+    "bbConfluence": "8.10%",
     "maKnock": "2 times recently",
-    "expectedRsi": "52.78"
+    "expectedRsi": "52.43"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 86.5,
         "touches": 10,
-        "strength_score": 5.078
+        "strength_score": 5.02
       }
     ],
     "trendline_clusters": [
       {
-        "price": 84.69,
-        "count": 14
+        "price": 84.66,
+        "count": 13
       },
       {
-        "price": 84.16,
+        "price": 84.13,
         "count": 4
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that FTNT is currently testing its Daily 100MA near $81.55. Historically, the win rate for bounces at this support level is 58.3%. In the event of a successful bounce, the primary overhead resistance is projected around $86.5.",
+  "summary": "The SwingRatings algorithm detects that FTNT is currently testing its Daily 100MA near $81.54. Historically, the win rate for bounces at this support level is 58.3%. In the event of a successful bounce, the primary overhead resistance is projected around $86.5.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 99.37999725341797,
-        "high": 99.37999725341797,
-        "low": 96.83000183105469,
-        "close": 97.36000061035156
-      },
       {
         "time": "2025-08-04",
         "open": 97.81999969482422,
@@ -1098,13 +1091,16 @@
         "high": 84.4800033569336,
         "low": 82.9000015258789,
         "close": 83.66999816894531
+      },
+      {
+        "time": "2026-03-09",
+        "open": 83.05999755859375,
+        "high": 84.5999984741211,
+        "low": 82.19999694824219,
+        "close": 83.80999755859375
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 101.135
-      },
       {
         "time": "2025-08-04",
         "value": 101.1377000427246
@@ -1700,20 +1696,20 @@
       {
         "time": "2026-03-06",
         "value": 81.54590019226075
+      },
+      {
+        "time": "2026-03-09",
+        "value": 81.54200019836426
       }
     ],
     "bbLower": [
       {
-        "time": "2025-08-01",
-        "value": 98.30824285227924
-      },
-      {
         "time": "2025-08-04",
-        "value": 97.59606950295297
+        "value": 97.59606950295296
       },
       {
         "time": "2025-08-05",
-        "value": 96.53944572569475
+        "value": 96.53944572569473
       },
       {
         "time": "2025-08-06",
@@ -2302,6 +2298,10 @@
       {
         "time": "2026-03-06",
         "value": 74.93544420873633
+      },
+      {
+        "time": "2026-03-09",
+        "value": 74.93873678579432
       }
     ],
     "supportLine": 74.39

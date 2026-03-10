@@ -3,65 +3,53 @@
     "ticker": "ALGN",
     "name": "Align Technology, Inc.",
     "market": "NMS",
-    "price": 174.0,
-    "change": -1.6,
-    "changePercent": -0.91
+    "price": 175.05,
+    "change": 1.05,
+    "changePercent": 0.6
   },
   "score": {
-    "total": 60,
+    "total": 64,
     "stars": 3.0,
-    "note": "/ 100 (Win Rate: 83%)"
+    "note": "/ 100 (Win Rate: 91%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 173.81,
-    "maDistance_pct": 0.11,
-    "bb2Confluence_pct": 0.95,
-    "bb3Confluence_pct": 2.36,
+    "targetMA_price": 174.18,
+    "maDistance_pct": 0.5,
+    "bb2Confluence_pct": 0.26,
+    "bb3Confluence_pct": 3.88,
     "maKnock_count": 0,
-    "expectedRsi": 43.95
+    "expectedRsi": 44.56
   },
   "metrics": {
-    "maDistance": "+0.11%",
-    "bbConfluence": "0.95%",
+    "maDistance": "+0.50%",
+    "bbConfluence": "0.26%",
     "maKnock": "0 times recently",
-    "expectedRsi": "43.95"
+    "expectedRsi": "44.56"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 191.81,
         "touches": 2,
-        "strength_score": 1.835
-      },
-      {
-        "price": 174.34,
-        "touches": 2,
-        "strength_score": 1.335
+        "strength_score": 1.814
       },
       {
         "price": 199.06,
         "touches": 1,
-        "strength_score": 0.841
+        "strength_score": 0.831
       }
     ],
     "trendline_clusters": [
       {
-        "price": 190.8,
+        "price": 191.27,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that ALGN is currently testing its Daily 50MA near $173.81. Historically, the win rate for bounces at this support level is 83.3%. In the event of a successful bounce, the primary overhead resistance is projected around $191.81.",
+  "summary": "The SwingRatings algorithm detects that ALGN is currently testing its Daily 50MA near $174.18. Historically, the win rate for bounces at this support level is 90.9%. In the event of a successful bounce, the primary overhead resistance is projected around $191.81.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 129.0,
-        "high": 139.0,
-        "low": 129.0,
-        "close": 136.52000427246094
-      },
       {
         "time": "2025-08-04",
         "open": 140.67999267578125,
@@ -1104,13 +1092,16 @@
         "high": 174.30999755859375,
         "low": 168.00999450683594,
         "close": 174.0
+      },
+      {
+        "time": "2026-03-09",
+        "open": 170.60000610351562,
+        "high": 175.49000549316406,
+        "low": 164.51010131835938,
+        "close": 175.0500030517578
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 186.39620056152344
-      },
       {
         "time": "2025-08-04",
         "value": 185.71340057373047
@@ -1706,13 +1697,13 @@
       {
         "time": "2026-03-06",
         "value": 173.81059967041017
+      },
+      {
+        "time": "2026-03-09",
+        "value": 174.17639984130858
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 150.82454896497663
-      },
       {
         "time": "2025-08-04",
         "value": 141.75229519028298
@@ -2308,6 +2299,10 @@
       {
         "time": "2026-03-06",
         "value": 175.46509651067157
+      },
+      {
+        "time": "2026-03-09",
+        "value": 173.72727640931473
       }
     ],
     "supportLine": 154.81

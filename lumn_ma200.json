@@ -3,85 +3,73 @@
     "ticker": "LUMN",
     "name": "Lumen Technologies, Inc.",
     "market": "NYQ",
-    "price": 6.62,
-    "change": -0.21,
-    "changePercent": -3.07
+    "price": 6.63,
+    "change": 0.01,
+    "changePercent": 0.15
   },
   "score": {
-    "total": 79,
-    "stars": 4.0,
+    "total": 66,
+    "stars": 3.5,
     "note": "/ 100 (Win Rate: 100%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 6.48,
-    "maDistance_pct": 2.17,
-    "bb2Confluence_pct": 0.32,
-    "bb3Confluence_pct": 8.39,
+    "targetMA_price": 6.49,
+    "maDistance_pct": 2.12,
+    "bb2Confluence_pct": 2.14,
+    "bb3Confluence_pct": 10.44,
     "maKnock_count": 1,
-    "expectedRsi": 35.0
+    "expectedRsi": 35.17
   },
   "metrics": {
-    "maDistance": "+2.17%",
-    "bbConfluence": "0.32%",
+    "maDistance": "+2.12%",
+    "bbConfluence": "2.14%",
     "maKnock": "1 time recently",
-    "expectedRsi": "35.0"
+    "expectedRsi": "35.17"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 9.68,
         "touches": 2,
-        "strength_score": 1.215
+        "strength_score": 1.201
       },
       {
         "price": 8.35,
         "touches": 2,
-        "strength_score": 1.184
+        "strength_score": 1.17
       },
       {
         "price": 8.51,
         "touches": 1,
-        "strength_score": 0.861
+        "strength_score": 0.851
       },
       {
         "price": 8.9,
         "touches": 1,
-        "strength_score": 0.675
+        "strength_score": 0.667
       },
       {
         "price": 7.42,
         "touches": 2,
-        "strength_score": 0.631
+        "strength_score": 0.623
       },
       {
         "price": 9.14,
         "touches": 1,
-        "strength_score": 0.512
+        "strength_score": 0.506
       },
       {
         "price": 11.95,
         "touches": 1,
-        "strength_score": 0.379
-      },
-      {
-        "price": 6.62,
-        "touches": 1,
-        "strength_score": 0.268
+        "strength_score": 0.375
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm detects that LUMN is currently testing its Daily 200MA near $6.48. Historically, the win rate for bounces at this support level is 100.0%. In the event of a successful bounce, the primary overhead resistance is projected around $9.68.",
+  "summary": "The SwingRatings algorithm detects that LUMN is currently testing its Daily 200MA near $6.49. Historically, the win rate for bounces at this support level is 100.0%. In the event of a successful bounce, the primary overhead resistance is projected around $9.68.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 4.019999980926514,
-        "high": 4.019999980926514,
-        "low": 3.369999885559082,
-        "close": 3.7100000381469727
-      },
       {
         "time": "2025-08-04",
         "open": 3.8399999141693115,
@@ -1124,13 +1112,16 @@
         "high": 6.789999961853027,
         "low": 6.550000190734863,
         "close": 6.619999885559082
+      },
+      {
+        "time": "2026-03-09",
+        "open": 6.5,
+        "high": 6.75,
+        "low": 6.269999980926514,
+        "close": 6.630000114440918
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 5.122149996757507
-      },
       {
         "time": "2025-08-04",
         "value": 5.110499997138977
@@ -1726,13 +1717,13 @@
       {
         "time": "2026-03-06",
         "value": 6.479299994707108
+      },
+      {
+        "time": "2026-03-09",
+        "value": 6.492499995231628
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 4.062945314541897
-      },
       {
         "time": "2025-08-04",
         "value": 3.9250689793530826
@@ -2328,6 +2319,10 @@
       {
         "time": "2026-03-06",
         "value": 6.458468458546478
+      },
+      {
+        "time": "2026-03-09",
+        "value": 6.353780808965595
       }
     ],
     "supportLine": 7.53

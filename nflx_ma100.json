@@ -3,9 +3,9 @@
     "ticker": "NFLX",
     "name": "Netflix, Inc.",
     "market": "NMS",
-    "price": 99.02,
-    "change": -0.15,
-    "changePercent": -0.15
+    "price": 98.32,
+    "change": -0.7,
+    "changePercent": -0.71
   },
   "score": {
     "total": 26,
@@ -14,64 +14,57 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 97.24,
-    "maDistance_pct": 1.83,
-    "bb2Confluence_pct": 30.94,
-    "bb3Confluence_pct": 40.07,
+    "targetMA_price": 97.0,
+    "maDistance_pct": 1.36,
+    "bb2Confluence_pct": 30.85,
+    "bb3Confluence_pct": 40.45,
     "maKnock_count": 0,
-    "expectedRsi": 70.79
+    "expectedRsi": 69.85
   },
   "metrics": {
-    "maDistance": "+1.83%",
-    "bbConfluence": "30.94%",
+    "maDistance": "+1.36%",
+    "bbConfluence": "30.85%",
     "maKnock": "0 times recently",
-    "expectedRsi": "70.79"
+    "expectedRsi": "69.85"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 123.85,
         "touches": 4,
-        "strength_score": 1.199
+        "strength_score": 1.185
       },
       {
         "price": 100.19,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.977
       },
       {
         "price": 109.73,
         "touches": 1,
-        "strength_score": 0.477
+        "strength_score": 0.472
       },
       {
         "price": 116.73,
         "touches": 1,
-        "strength_score": 0.416
+        "strength_score": 0.411
       },
       {
         "price": 113.49,
         "touches": 1,
-        "strength_score": 0.375
+        "strength_score": 0.37
       }
     ],
     "trendline_clusters": [
       {
-        "price": 99.81,
+        "price": 99.63,
         "count": 3
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that NFLX is currently testing its Daily 100MA near $97.24. Historically, the win rate for bounces at this support level is 75.0%. In the event of a successful bounce, the primary overhead resistance is projected around $123.85.",
+  "summary": "The SwingRatings algorithm detects that NFLX is currently testing its Daily 100MA near $97.0. Historically, the win rate for bounces at this support level is 75.0%. In the event of a successful bounce, the primary overhead resistance is projected around $123.85.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 116.3010025024414,
-        "high": 117.85099792480469,
-        "low": 115.28500366210938,
-        "close": 115.86000061035156
-      },
       {
         "time": "2025-08-04",
         "open": 116.76499938964844,
@@ -1114,13 +1107,16 @@
         "high": 99.87999725341797,
         "low": 97.4000015258789,
         "close": 99.0199966430664
+      },
+      {
+        "time": "2026-03-09",
+        "open": 97.69000244140625,
+        "high": 98.94000244140625,
+        "low": 96.58000183105469,
+        "close": 98.31999969482422
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 112.54499000549316
-      },
       {
         "time": "2025-08-04",
         "value": 112.82087997436524
@@ -1716,13 +1712,13 @@
       {
         "time": "2026-03-06",
         "value": 97.24051017761231
+      },
+      {
+        "time": "2026-03-09",
+        "value": 97.00468017578125
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 113.0111145226699
-      },
       {
         "time": "2025-08-04",
         "value": 112.75688083355732
@@ -2318,6 +2314,10 @@
       {
         "time": "2026-03-06",
         "value": 67.15224636377899
+      },
+      {
+        "time": "2026-03-09",
+        "value": 67.08084830470399
       }
     ],
     "supportLine": 75.12
