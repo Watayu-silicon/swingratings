@@ -3,67 +3,53 @@
     "ticker": "ABNB",
     "name": "Airbnb, Inc.",
     "market": "NMS",
-    "price": 133.23,
-    "change": -2.62,
-    "changePercent": -1.93
+    "price": 132.44,
+    "change": -1.59,
+    "changePercent": -1.19
   },
   "score": {
-    "total": 9,
+    "total": 14,
     "stars": 0.5,
     "note": "/ 100 (Win Rate: 43%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 127.38,
-    "maDistance_pct": 4.59,
-    "bb2Confluence_pct": 9.97,
-    "bb3Confluence_pct": 14.93,
+    "targetMA_price": 127.63,
+    "maDistance_pct": 3.77,
+    "bb2Confluence_pct": 9.13,
+    "bb3Confluence_pct": 14.03,
     "maKnock_count": 1,
-    "expectedRsi": 47.88
+    "expectedRsi": 47.35
   },
   "metrics": {
-    "maDistance": "+4.59%",
-    "bbConfluence": "9.97%",
+    "maDistance": "+3.77%",
+    "bbConfluence": "9.13%",
     "maKnock": "1 time recently",
-    "expectedRsi": "47.88"
+    "expectedRsi": "47.35"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 138.05,
         "touches": 4,
-        "strength_score": 3.19
+        "strength_score": 3.117
       },
       {
         "price": 141.4,
         "touches": 1,
-        "strength_score": 0.645
+        "strength_score": 0.63
       }
     ],
     "trendline_clusters": [
       {
-        "price": 137.3,
+        "price": 137.36,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that ABNB is currently testing its Daily 100MA near $127.38. Historically, the win rate for bounces at this support level is 42.9%. In the event of a successful bounce, the primary overhead resistance is projected around $138.05.",
+  "summary": "The SwingRatings algorithm indicates that ABNB is currently testing its Daily 100MA support zone near $127.63. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $138.05 and a significant trendline confluence around $137.36 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 130.0399932861328,
-        "high": 130.36000061035156,
-        "low": 126.91999816894531,
-        "close": 128.02000427246094
-      },
-      {
-        "time": "2025-08-04",
-        "open": 129.10000610351562,
-        "high": 131.1300048828125,
-        "low": 128.8300018310547,
-        "close": 130.9600067138672
-      },
       {
         "time": "2025-08-05",
         "open": 131.1199951171875,
@@ -1099,17 +1085,23 @@
         "high": 133.89999389648438,
         "low": 130.97500610351562,
         "close": 133.22999572753906
+      },
+      {
+        "time": "2026-03-09",
+        "open": 131.42999267578125,
+        "high": 134.3000030517578,
+        "low": 128.36500549316406,
+        "close": 134.02999877929688
+      },
+      {
+        "time": "2026-03-10",
+        "open": 133.61000061035156,
+        "high": 134.5800018310547,
+        "low": 130.0749969482422,
+        "close": 132.44000244140625
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 128.89780029296875
-      },
-      {
-        "time": "2025-08-04",
-        "value": 128.95300033569336
-      },
       {
         "time": "2025-08-05",
         "value": 128.98710037231444
@@ -1701,17 +1693,17 @@
       {
         "time": "2026-03-06",
         "value": 127.38444969177246
+      },
+      {
+        "time": "2026-03-09",
+        "value": 127.53614967346192
+      },
+      {
+        "time": "2026-03-10",
+        "value": 127.63164970397949
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 131.0578466922512
-      },
-      {
-        "time": "2025-08-04",
-        "value": 130.16068721817115
-      },
       {
         "time": "2025-08-05",
         "value": 129.1421191041654
@@ -2303,8 +2295,16 @@
       {
         "time": "2026-03-06",
         "value": 114.68446146030436
+      },
+      {
+        "time": "2026-03-09",
+        "value": 115.18668179451576
+      },
+      {
+        "time": "2026-03-10",
+        "value": 115.97633005628964
       }
     ],
-    "supportLine": 116.33
+    "supportLine": 128.1
   }
 }

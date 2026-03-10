@@ -3,75 +3,78 @@
     "ticker": "NFLX",
     "name": "Netflix, Inc.",
     "market": "NMS",
-    "price": 98.32,
-    "change": -0.7,
-    "changePercent": -0.71
+    "price": 96.94,
+    "change": -1.38,
+    "changePercent": -1.4
   },
   "score": {
-    "total": 26,
+    "total": 27,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 75%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 97.0,
-    "maDistance_pct": 1.36,
-    "bb2Confluence_pct": 30.85,
-    "bb3Confluence_pct": 40.45,
+    "targetMA_price": 96.76,
+    "maDistance_pct": 0.19,
+    "bb2Confluence_pct": 30.4,
+    "bb3Confluence_pct": 40.29,
     "maKnock_count": 0,
-    "expectedRsi": 69.85
+    "expectedRsi": 68.19
   },
   "metrics": {
-    "maDistance": "+1.36%",
-    "bbConfluence": "30.85%",
+    "maDistance": "+0.19%",
+    "bbConfluence": "30.40%",
     "maKnock": "0 times recently",
-    "expectedRsi": "69.85"
+    "expectedRsi": "68.19"
   },
   "resistances": {
     "horizontal": [
       {
-        "price": 123.85,
-        "touches": 4,
-        "strength_score": 1.185
-      },
-      {
         "price": 100.19,
         "touches": 1,
-        "strength_score": 0.977
+        "strength_score": 0.966
+      },
+      {
+        "price": 124.78,
+        "touches": 2,
+        "strength_score": 0.641
+      },
+      {
+        "price": 97.33,
+        "touches": 1,
+        "strength_score": 0.53
       },
       {
         "price": 109.73,
         "touches": 1,
-        "strength_score": 0.472
+        "strength_score": 0.467
       },
       {
         "price": 116.73,
         "touches": 1,
-        "strength_score": 0.411
+        "strength_score": 0.406
       },
       {
         "price": 113.49,
         "touches": 1,
-        "strength_score": 0.37
+        "strength_score": 0.366
+      },
+      {
+        "price": 122.45,
+        "touches": 1,
+        "strength_score": 0.277
       }
     ],
     "trendline_clusters": [
       {
-        "price": 99.63,
-        "count": 3
+        "price": 99.46,
+        "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that NFLX is currently testing its Daily 100MA near $97.0. Historically, the win rate for bounces at this support level is 75.0%. In the event of a successful bounce, the primary overhead resistance is projected around $123.85.",
+  "summary": "The SwingRatings algorithm indicates that NFLX is currently testing its Daily 100MA support zone near $96.76. Based on historical price action, bounces from this level have yielded a win rate of 75.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $100.19 and a significant trendline confluence around $99.46 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 116.76499938964844,
-        "high": 117.69999694824219,
-        "low": 116.26200103759766,
-        "close": 117.0989990234375
-      },
       {
         "time": "2025-08-05",
         "open": 117.0999984741211,
@@ -1114,13 +1117,16 @@
         "high": 98.94000244140625,
         "low": 96.58000183105469,
         "close": 98.31999969482422
+      },
+      {
+        "time": "2026-03-10",
+        "open": 97.80500030517578,
+        "high": 98.48999786376953,
+        "low": 96.29000091552734,
+        "close": 96.94000244140625
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 112.82087997436524
-      },
       {
         "time": "2025-08-05",
         "value": 113.04906997680663
@@ -1716,13 +1722,13 @@
       {
         "time": "2026-03-09",
         "value": 97.00468017578125
+      },
+      {
+        "time": "2026-03-10",
+        "value": 96.75873016357421
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 112.75688083355732
-      },
       {
         "time": "2025-08-05",
         "value": 112.1231644336691
@@ -2318,6 +2324,10 @@
       {
         "time": "2026-03-09",
         "value": 67.08084830470399
+      },
+      {
+        "time": "2026-03-10",
+        "value": 67.3454554576697
       }
     ],
     "supportLine": 75.12

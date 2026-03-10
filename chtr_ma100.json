@@ -3,74 +3,62 @@
     "ticker": "CHTR",
     "name": "Charter Communications, Inc.",
     "market": "NMS",
-    "price": 222.81,
-    "change": -9.43,
-    "changePercent": -4.06
+    "price": 219.33,
+    "change": -3.48,
+    "changePercent": -1.56
   },
   "score": {
-    "total": 59,
+    "total": 64,
     "stars": 3.0,
     "note": "/ 100 (Win Rate: 89%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 216.92,
-    "maDistance_pct": 2.72,
-    "bb2Confluence_pct": 2.26,
-    "bb3Confluence_pct": 0.43,
+    "targetMA_price": 216.45,
+    "maDistance_pct": 1.33,
+    "bb2Confluence_pct": 1.45,
+    "bb3Confluence_pct": 1.55,
     "maKnock_count": 0,
-    "expectedRsi": 43.96
+    "expectedRsi": 43.59
   },
   "metrics": {
-    "maDistance": "+2.72%",
-    "bbConfluence": "2.26%",
+    "maDistance": "+1.33%",
+    "bbConfluence": "1.45%",
     "maKnock": "0 times recently",
-    "expectedRsi": "43.96"
+    "expectedRsi": "43.59"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 237.22,
         "touches": 2,
-        "strength_score": 1.91
+        "strength_score": 1.888
       },
       {
         "price": 249.54,
         "touches": 2,
-        "strength_score": 1.17
+        "strength_score": 1.156
       },
       {
         "price": 285.21,
         "touches": 2,
-        "strength_score": 0.585
-      },
-      {
-        "price": 274.64,
-        "touches": 1,
-        "strength_score": 0.256
+        "strength_score": 0.578
       }
     ],
     "trendline_clusters": [
       {
-        "price": 235.31,
-        "count": 4
+        "price": 234.78,
+        "count": 3
       },
       {
-        "price": 234.4,
-        "count": 3
+        "price": 234.41,
+        "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that CHTR is currently testing its Daily 100MA near $216.92. Historically, the win rate for bounces at this support level is 88.9%. In the event of a successful bounce, the primary overhead resistance is projected around $237.22.",
+  "summary": "The SwingRatings algorithm indicates that CHTR is currently testing its Daily 100MA support zone near $216.45. Based on historical price action, bounces from this level have yielded a win rate of 88.9%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $237.22 and a significant trendline confluence around $234.78 (formed by 3 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 265.6199951171875,
-        "high": 268.6700134277344,
-        "low": 260.760009765625,
-        "close": 261.75
-      },
       {
         "time": "2025-08-05",
         "open": 261.75,
@@ -1113,13 +1101,16 @@
         "high": 229.72000122070312,
         "low": 221.52999877929688,
         "close": 222.80999755859375
+      },
+      {
+        "time": "2026-03-10",
+        "open": 222.22999572753906,
+        "high": 222.77999877929688,
+        "low": 216.92160034179688,
+        "close": 219.3300018310547
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 375.3375979614258
-      },
       {
         "time": "2025-08-05",
         "value": 374.49989807128907
@@ -1715,13 +1706,13 @@
       {
         "time": "2026-03-09",
         "value": 216.916600189209
+      },
+      {
+        "time": "2026-03-10",
+        "value": 216.44740020751954
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 243.7471150167819
-      },
       {
         "time": "2025-08-05",
         "value": 233.63592309118752
@@ -2317,6 +2308,10 @@
       {
         "time": "2026-03-09",
         "value": 221.82204605281288
+      },
+      {
+        "time": "2026-03-10",
+        "value": 219.57688813784384
       }
     ],
     "supportLine": 193.51

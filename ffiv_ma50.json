@@ -3,65 +3,58 @@
     "ticker": "FFIV",
     "name": "F5, Inc.",
     "market": "NMS",
-    "price": 285.33,
-    "change": -0.89,
-    "changePercent": -0.31
+    "price": 286.14,
+    "change": 0.81,
+    "changePercent": 0.28
   },
   "score": {
-    "total": 30,
+    "total": 29,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 78%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 272.43,
-    "maDistance_pct": 4.74,
-    "bb2Confluence_pct": 2.54,
-    "bb3Confluence_pct": 4.8,
+    "targetMA_price": 272.9,
+    "maDistance_pct": 4.85,
+    "bb2Confluence_pct": 2.77,
+    "bb3Confluence_pct": 5.12,
     "maKnock_count": 2,
-    "expectedRsi": 48.18
+    "expectedRsi": 47.97
   },
   "metrics": {
-    "maDistance": "+4.74%",
-    "bbConfluence": "2.54%",
+    "maDistance": "+4.85%",
+    "bbConfluence": "2.77%",
     "maKnock": "2 times recently",
-    "expectedRsi": "48.18"
+    "expectedRsi": "47.97"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 304.67,
         "touches": 2,
-        "strength_score": 1.082
+        "strength_score": 1.069
       },
       {
         "price": 346.0,
         "touches": 1,
-        "strength_score": 0.311
+        "strength_score": 0.308
       },
       {
         "price": 329.2,
         "touches": 1,
-        "strength_score": 0.281
+        "strength_score": 0.277
       },
       {
         "price": 334.88,
         "touches": 1,
-        "strength_score": 0.262
+        "strength_score": 0.259
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm detects that FFIV is currently testing its Daily 50MA near $272.43. Historically, the win rate for bounces at this support level is 77.8%. In the event of a successful bounce, the primary overhead resistance is projected around $304.67.",
+  "summary": "The SwingRatings algorithm indicates that FFIV is currently testing its Daily 50MA support zone near $272.9. Based on historical price action, bounces from this level have yielded a win rate of 77.8%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $304.67. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 309.7300109863281,
-        "high": 322.6300048828125,
-        "low": 308.9700012207031,
-        "close": 321.0
-      },
       {
         "time": "2025-08-05",
         "open": 320.5899963378906,
@@ -1104,13 +1097,16 @@
         "high": 287.1400146484375,
         "low": 274.2900085449219,
         "close": 285.3299865722656
+      },
+      {
+        "time": "2026-03-10",
+        "open": 286.8399963378906,
+        "high": 289.989990234375,
+        "low": 281.989990234375,
+        "close": 286.1400146484375
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 294.9806005859375
-      },
       {
         "time": "2025-08-05",
         "value": 295.6666003417969
@@ -1706,13 +1702,13 @@
       {
         "time": "2026-03-09",
         "value": 272.42799896240234
+      },
+      {
+        "time": "2026-03-10",
+        "value": 272.9041995239258
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 287.3561030489303
-      },
       {
         "time": "2025-08-05",
         "value": 286.1002408196438
@@ -1735,7 +1731,7 @@
       },
       {
         "time": "2025-08-12",
-        "value": 287.78039098923534
+        "value": 287.7803909892354
       },
       {
         "time": "2025-08-13",
@@ -1743,7 +1739,7 @@
       },
       {
         "time": "2025-08-14",
-        "value": 290.25563885840603
+        "value": 290.2556388584061
       },
       {
         "time": "2025-08-15",
@@ -1779,7 +1775,7 @@
       },
       {
         "time": "2025-08-27",
-        "value": 309.3439888708838
+        "value": 309.34398887088383
       },
       {
         "time": "2025-08-28",
@@ -1787,7 +1783,7 @@
       },
       {
         "time": "2025-08-29",
-        "value": 311.2885459969364
+        "value": 311.2885459969365
       },
       {
         "time": "2025-09-02",
@@ -1803,19 +1799,19 @@
       },
       {
         "time": "2025-09-05",
-        "value": 307.60072683185746
+        "value": 307.6007268318575
       },
       {
         "time": "2025-09-08",
-        "value": 307.66270233737714
+        "value": 307.6627023373772
       },
       {
         "time": "2025-09-09",
-        "value": 307.2297362523371
+        "value": 307.22973625233715
       },
       {
         "time": "2025-09-10",
-        "value": 307.19667152519645
+        "value": 307.1966715251965
       },
       {
         "time": "2025-09-11",
@@ -1831,7 +1827,7 @@
       },
       {
         "time": "2025-09-16",
-        "value": 305.81060155944334
+        "value": 305.8106015594434
       },
       {
         "time": "2025-09-17",
@@ -1839,7 +1835,7 @@
       },
       {
         "time": "2025-09-18",
-        "value": 305.74490266329013
+        "value": 305.7449026632902
       },
       {
         "time": "2025-09-19",
@@ -1847,7 +1843,7 @@
       },
       {
         "time": "2025-09-22",
-        "value": 306.2229673406001
+        "value": 306.2229673406002
       },
       {
         "time": "2025-09-23",
@@ -1863,11 +1859,11 @@
       },
       {
         "time": "2025-09-26",
-        "value": 308.2087378046941
+        "value": 308.2087378046942
       },
       {
         "time": "2025-09-29",
-        "value": 309.3375963175458
+        "value": 309.33759631754583
       },
       {
         "time": "2025-09-30",
@@ -1891,7 +1887,7 @@
       },
       {
         "time": "2025-10-07",
-        "value": 319.70113614379136
+        "value": 319.7011361437914
       },
       {
         "time": "2025-10-08",
@@ -1923,7 +1919,7 @@
       },
       {
         "time": "2025-10-17",
-        "value": 303.64458029877176
+        "value": 303.6445802987718
       },
       {
         "time": "2025-10-20",
@@ -2308,6 +2304,10 @@
       {
         "time": "2026-03-09",
         "value": 265.5000082555035
+      },
+      {
+        "time": "2026-03-10",
+        "value": 265.34061305593457
       }
     ],
     "supportLine": 255.78

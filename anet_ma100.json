@@ -3,65 +3,58 @@
     "ticker": "ANET",
     "name": "Arista Networks, Inc.",
     "market": "NYQ",
-    "price": 137.17,
-    "change": 4.28,
-    "changePercent": 3.22
+    "price": 139.62,
+    "change": 2.45,
+    "changePercent": 1.79
   },
   "score": {
-    "total": 9,
-    "stars": 0.5,
+    "total": 21,
+    "stars": 1.0,
     "note": "/ 100 (Win Rate: 88%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 135.18,
-    "maDistance_pct": 1.47,
-    "bb2Confluence_pct": 7.84,
-    "bb3Confluence_pct": 11.8,
-    "maKnock_count": 3,
-    "expectedRsi": 51.5
+    "targetMA_price": 135.19,
+    "maDistance_pct": 3.28,
+    "bb2Confluence_pct": 7.76,
+    "bb3Confluence_pct": 11.64,
+    "maKnock_count": 2,
+    "expectedRsi": 51.18
   },
   "metrics": {
-    "maDistance": "+1.47%",
-    "bbConfluence": "7.84%",
-    "maKnock": "3 times recently",
-    "expectedRsi": "51.5"
+    "maDistance": "+3.28%",
+    "bbConfluence": "7.76%",
+    "maKnock": "2 times recently",
+    "expectedRsi": "51.18"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 150.27,
         "touches": 3,
-        "strength_score": 1.835
+        "strength_score": 1.814
       },
       {
-        "price": 140.44,
-        "touches": 2,
-        "strength_score": 1.586
+        "price": 141.41,
+        "touches": 1,
+        "strength_score": 0.602
       },
       {
         "price": 164.94,
         "touches": 1,
-        "strength_score": 0.366
+        "strength_score": 0.362
       },
       {
         "price": 162.68,
         "touches": 1,
-        "strength_score": 0.311
+        "strength_score": 0.308
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm detects that ANET is currently testing its Daily 100MA near $135.18. Historically, the win rate for bounces at this support level is 87.5%. In the event of a successful bounce, the primary overhead resistance is projected around $150.27.",
+  "summary": "The SwingRatings algorithm indicates that ANET is currently testing its Daily 100MA support zone near $135.19. Based on historical price action, bounces from this level have yielded a win rate of 87.5%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $150.27. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 117.56999969482422,
-        "high": 120.69000244140625,
-        "low": 117.55000305175781,
-        "close": 120.3499984741211
-      },
       {
         "time": "2025-08-05",
         "open": 121.5,
@@ -1104,13 +1097,16 @@
         "high": 137.6750030517578,
         "low": 129.7899932861328,
         "close": 137.1699981689453
+      },
+      {
+        "time": "2026-03-10",
+        "open": 138.0,
+        "high": 141.77000427246094,
+        "low": 138.0,
+        "close": 139.6199951171875
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 91.7688995361328
-      },
       {
         "time": "2025-08-05",
         "value": 92.14759956359863
@@ -1706,13 +1702,13 @@
       {
         "time": "2026-03-09",
         "value": 135.1794992828369
+      },
+      {
+        "time": "2026-03-10",
+        "value": 135.18779930114746
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 101.69965102186185
-      },
       {
         "time": "2025-08-05",
         "value": 103.0794986014048
@@ -2308,6 +2304,10 @@
       {
         "time": "2026-03-09",
         "value": 124.57973723414779
+      },
+      {
+        "time": "2026-03-10",
+        "value": 124.69164289019722
       }
     ],
     "supportLine": 123.22

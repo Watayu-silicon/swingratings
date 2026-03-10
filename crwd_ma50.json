@@ -3,80 +3,73 @@
     "ticker": "CRWD",
     "name": "CrowdStrike Holdings, Inc.",
     "market": "NMS",
-    "price": 434.13,
-    "change": 5.14,
-    "changePercent": 1.2
+    "price": 436.33,
+    "change": 2.2,
+    "changePercent": 0.51
   },
   "score": {
-    "total": 25,
-    "stars": 1.5,
+    "total": 23,
+    "stars": 1.0,
     "note": "/ 100 (Win Rate: 67%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 432.36,
-    "maDistance_pct": 0.41,
-    "bb2Confluence_pct": 19.19,
-    "bb3Confluence_pct": 25.1,
+    "targetMA_price": 431.55,
+    "maDistance_pct": 1.11,
+    "bb2Confluence_pct": 19.24,
+    "bb3Confluence_pct": 25.43,
     "maKnock_count": 0,
-    "expectedRsi": 57.7
+    "expectedRsi": 57.3
   },
   "metrics": {
-    "maDistance": "+0.41%",
-    "bbConfluence": "19.19%",
+    "maDistance": "+1.11%",
+    "bbConfluence": "19.24%",
     "maKnock": "0 times recently",
-    "expectedRsi": "57.7"
+    "expectedRsi": "57.3"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 486.88,
         "touches": 2,
-        "strength_score": 1.346
+        "strength_score": 1.331
       },
       {
         "price": 554.73,
         "touches": 2,
-        "strength_score": 0.732
+        "strength_score": 0.724
       },
       {
         "price": 477.0,
         "touches": 1,
-        "strength_score": 0.66
+        "strength_score": 0.652
       },
       {
         "price": 529.9,
         "touches": 1,
-        "strength_score": 0.5
+        "strength_score": 0.494
       },
       {
         "price": 566.9,
         "touches": 1,
-        "strength_score": 0.406
+        "strength_score": 0.401
       },
       {
         "price": 517.41,
         "touches": 1,
-        "strength_score": 0.311
+        "strength_score": 0.308
       },
       {
         "price": 507.2,
         "touches": 1,
-        "strength_score": 0.262
+        "strength_score": 0.259
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm detects that CRWD is currently testing its Daily 50MA near $432.36. Historically, the win rate for bounces at this support level is 66.7%. In the event of a successful bounce, the primary overhead resistance is projected around $486.88.",
+  "summary": "The SwingRatings algorithm indicates that CRWD is currently testing its Daily 50MA support zone near $431.55. Based on historical price action, bounces from this level have yielded a win rate of 66.7%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $486.88. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 452.8999938964844,
-        "high": 457.489990234375,
-        "low": 448.0,
-        "close": 454.8599853515625
-      },
       {
         "time": "2025-08-05",
         "open": 454.6300048828125,
@@ -1117,15 +1110,18 @@
         "time": "2026-03-09",
         "open": 425.57501220703125,
         "high": 438.2799987792969,
-        "low": 425.55499267578125,
+        "low": 425.5199890136719,
         "close": 434.1300048828125
+      },
+      {
+        "time": "2026-03-10",
+        "open": 444.989990234375,
+        "high": 447.95001220703125,
+        "low": 428.54998779296875,
+        "close": 436.3299865722656
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 477.63079956054685
-      },
       {
         "time": "2025-08-05",
         "value": 477.5843994140625
@@ -1721,13 +1717,13 @@
       {
         "time": "2026-03-09",
         "value": 432.36240051269533
+      },
+      {
+        "time": "2026-03-10",
+        "value": 431.5468005371094
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 441.1277128035338
-      },
       {
         "time": "2025-08-05",
         "value": 439.4139259688247
@@ -2323,6 +2319,10 @@
       {
         "time": "2026-03-09",
         "value": 349.371165781602
+      },
+      {
+        "time": "2026-03-10",
+        "value": 348.51032540680615
       }
     ],
     "supportLine": 473.16
