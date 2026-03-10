@@ -13,32 +13,6 @@
     "expected_rsi": 40.47
   },
   {
-    "ticker": "GE",
-    "name": "GE Aerospace",
-    "price": 321.93,
-    "changePercent": -0.37,
-    "score": 76,
-    "stars": 4.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 3.88,
-    "bb_confluence": 0.64,
-    "expected_rsi": 40.47
-  },
-  {
-    "ticker": "MDLZ",
-    "name": "Mondelez International, Inc.",
-    "price": 58.17,
-    "changePercent": -0.39,
-    "score": 73,
-    "stars": 3.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.63,
-    "bb_confluence": 0.37,
-    "expected_rsi": 42.57
-  },
-  {
     "ticker": "MDLZ",
     "name": "Mondelez International, Inc.",
     "price": 58.17,
@@ -76,19 +50,6 @@
     "ma_distance": 2.45,
     "bb_confluence": 0.62,
     "expected_rsi": 41.67
-  },
-  {
-    "ticker": "NVDA",
-    "name": "NVIDIA Corporation",
-    "price": 182.65,
-    "changePercent": 2.72,
-    "score": 68,
-    "stars": 3.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.56,
-    "bb_confluence": 0.02,
-    "expected_rsi": 43.35
   },
   {
     "ticker": "NVDA",
@@ -286,45 +247,6 @@
     "expected_rsi": 40.87
   },
   {
-    "ticker": "NTRS",
-    "name": "Northern Trust Corporation",
-    "price": 138.41,
-    "changePercent": -0.13,
-    "score": 61,
-    "stars": 3.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.01,
-    "bb_confluence": 0.05,
-    "expected_rsi": 40.87
-  },
-  {
-    "ticker": "CAT",
-    "name": "Caterpillar, Inc.",
-    "price": 704.82,
-    "changePercent": 3.51,
-    "score": 60,
-    "stars": 3.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.87,
-    "bb_confluence": 2.68,
-    "expected_rsi": 42.32
-  },
-  {
-    "ticker": "EMR",
-    "name": "Emerson Electric Company",
-    "price": 141.12,
-    "changePercent": 1.99,
-    "score": 60,
-    "stars": 3.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 4.27,
-    "bb_confluence": 2.06,
-    "expected_rsi": 37.88
-  },
-  {
     "ticker": "CAT",
     "name": "Caterpillar, Inc.",
     "price": 704.82,
@@ -362,19 +284,6 @@
     "ma_distance": 2.72,
     "bb_confluence": 2.26,
     "expected_rsi": 43.96
-  },
-  {
-    "ticker": "CARR",
-    "name": "Carrier Global Corporation",
-    "price": 58.72,
-    "changePercent": 0.63,
-    "score": 59,
-    "stars": 3.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.83,
-    "bb_confluence": 2.53,
-    "expected_rsi": 37.34
   },
   {
     "ticker": "CARR",
@@ -401,19 +310,6 @@
     "ma_distance": 0.74,
     "bb_confluence": 1.25,
     "expected_rsi": 36.17
-  },
-  {
-    "ticker": "CHTR",
-    "name": "Charter Communications, Inc.",
-    "price": 222.81,
-    "changePercent": -4.06,
-    "score": 59,
-    "stars": 3.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.72,
-    "bb_confluence": 2.26,
-    "expected_rsi": 43.96
   },
   {
     "ticker": "AOS",
@@ -520,32 +416,6 @@
     "expected_rsi": 38.76
   },
   {
-    "ticker": "HST",
-    "name": "Host Hotels & Resorts, Inc.",
-    "price": 19.16,
-    "changePercent": -0.36,
-    "score": 54,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.81,
-    "bb_confluence": 0.95,
-    "expected_rsi": 45.73
-  },
-  {
-    "ticker": "DRI",
-    "name": "Darden Restaurants, Inc.",
-    "price": 201.64,
-    "changePercent": -0.76,
-    "score": 54,
-    "stars": 2.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.95,
-    "bb_confluence": 2.24,
-    "expected_rsi": 38.76
-  },
-  {
     "ticker": "F",
     "name": "Ford Motor Company",
     "price": 12.19,
@@ -557,32 +427,6 @@
     "ma_distance": 1.03,
     "bb_confluence": 0.47,
     "expected_rsi": 31.83
-  },
-  {
-    "ticker": "GOOGL",
-    "name": "Alphabet Inc.",
-    "price": 306.36,
-    "changePercent": 2.63,
-    "score": 54,
-    "stars": 2.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.47,
-    "bb_confluence": 2.99,
-    "expected_rsi": 45.62
-  },
-  {
-    "ticker": "MU",
-    "name": "Micron Technology, Inc.",
-    "price": 389.32,
-    "changePercent": 5.14,
-    "score": 54,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.0,
-    "bb_confluence": 1.95,
-    "expected_rsi": 46.14
   },
   {
     "ticker": "PH",
@@ -622,19 +466,6 @@
     "ma_distance": 0.34,
     "bb_confluence": 1.19,
     "expected_rsi": 35.78
-  },
-  {
-    "ticker": "NWL",
-    "name": "Newell Brands Inc.",
-    "price": 4.27,
-    "changePercent": 0.71,
-    "score": 53,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.34,
-    "bb_confluence": 0.62,
-    "expected_rsi": 45.11
   },
   {
     "ticker": "AMAT",
@@ -689,45 +520,6 @@
     "expected_rsi": 44.65
   },
   {
-    "ticker": "BK",
-    "name": "The Bank of New York Mellon Cor",
-    "price": 115.1,
-    "changePercent": -0.11,
-    "score": 52,
-    "stars": 2.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.26,
-    "bb_confluence": 2.16,
-    "expected_rsi": 43.29
-  },
-  {
-    "ticker": "LH",
-    "name": "Labcorp Holdings Inc.",
-    "price": 273.61,
-    "changePercent": 1.46,
-    "score": 52,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.35,
-    "bb_confluence": 0.17,
-    "expected_rsi": 44.65
-  },
-  {
-    "ticker": "NEM",
-    "name": "Newmont Corporation",
-    "price": 116.96,
-    "changePercent": 0.58,
-    "score": 52,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.14,
-    "bb_confluence": 1.89,
-    "expected_rsi": 46.95
-  },
-  {
     "ticker": "ETN",
     "name": "Eaton Corporation, PLC",
     "price": 353.87,
@@ -778,32 +570,6 @@
     "ma_distance": 1.09,
     "bb_confluence": 0.4,
     "expected_rsi": 36.38
-  },
-  {
-    "ticker": "ETN",
-    "name": "Eaton Corporation, PLC",
-    "price": 353.87,
-    "changePercent": 1.76,
-    "score": 51,
-    "stars": 2.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.34,
-    "bb_confluence": 1.97,
-    "expected_rsi": 45.16
-  },
-  {
-    "ticker": "GOOG",
-    "name": "Alphabet Inc.",
-    "price": 306.01,
-    "changePercent": 2.58,
-    "score": 50,
-    "stars": 2.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.18,
-    "bb_confluence": 3.07,
-    "expected_rsi": 45.91
   },
   {
     "ticker": "GOOG",
@@ -884,19 +650,6 @@
     "expected_rsi": 42.95
   },
   {
-    "ticker": "BA",
-    "name": "Boeing Company (The)",
-    "price": 225.0,
-    "changePercent": -2.64,
-    "score": 47,
-    "stars": 2.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 2.73,
-    "bb_confluence": 0.37,
-    "expected_rsi": 39.41
-  },
-  {
     "ticker": "ENPH",
     "name": "Enphase Energy, Inc.",
     "price": 40.86,
@@ -921,19 +674,6 @@
     "ma_distance": 3.69,
     "bb_confluence": 3.14,
     "expected_rsi": 34.28
-  },
-  {
-    "ticker": "GE",
-    "name": "GE Aerospace",
-    "price": 321.93,
-    "changePercent": -0.37,
-    "score": 45,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.69,
-    "bb_confluence": 3.7,
-    "expected_rsi": 46.6
   },
   {
     "ticker": "GE",
@@ -1040,32 +780,6 @@
     "expected_rsi": 35.13
   },
   {
-    "ticker": "BA",
-    "name": "Boeing Company (The)",
-    "price": 225.0,
-    "changePercent": -2.64,
-    "score": 42,
-    "stars": 2.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.95,
-    "bb_confluence": 0.58,
-    "expected_rsi": 39.06
-  },
-  {
-    "ticker": "FITB",
-    "name": "Fifth Third Bancorp",
-    "price": 46.98,
-    "changePercent": -0.68,
-    "score": 42,
-    "stars": 2.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.07,
-    "bb_confluence": 0.3,
-    "expected_rsi": 35.13
-  },
-  {
     "ticker": "HOLX",
     "name": "Hologic, Inc.",
     "price": 75.59,
@@ -1144,45 +858,6 @@
     "expected_rsi": 38.1
   },
   {
-    "ticker": "AVGO",
-    "name": "Broadcom Inc.",
-    "price": 345.75,
-    "changePercent": 4.62,
-    "score": 41,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.44,
-    "bb_confluence": 6.44,
-    "expected_rsi": 53.61
-  },
-  {
-    "ticker": "CHTR",
-    "name": "Charter Communications, Inc.",
-    "price": 222.81,
-    "changePercent": -4.06,
-    "score": 41,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.35,
-    "bb_confluence": 2.89,
-    "expected_rsi": 43.0
-  },
-  {
-    "ticker": "INTC",
-    "name": "Intel Corporation",
-    "price": 45.58,
-    "changePercent": 4.97,
-    "score": 41,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.8,
-    "bb_confluence": 5.89,
-    "expected_rsi": 49.98
-  },
-  {
     "ticker": "MS",
     "name": "Morgan Stanley",
     "price": 160.45,
@@ -1194,19 +869,6 @@
     "ma_distance": 1.78,
     "bb_confluence": 0.59,
     "expected_rsi": 34.9
-  },
-  {
-    "ticker": "F",
-    "name": "Ford Motor Company",
-    "price": 12.19,
-    "changePercent": 0.33,
-    "score": 40,
-    "stars": 2.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.03,
-    "bb_confluence": 0.47,
-    "expected_rsi": 31.83
   },
   {
     "ticker": "GWW",
@@ -1248,19 +910,6 @@
     "expected_rsi": 45.89
   },
   {
-    "ticker": "GWW",
-    "name": "W.W. Grainger, Inc.",
-    "price": 1115.28,
-    "changePercent": 0.22,
-    "score": 40,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.14,
-    "bb_confluence": 0.5,
-    "expected_rsi": 44.05
-  },
-  {
     "ticker": "MOS",
     "name": "Mosaic Company (The)",
     "price": 26.92,
@@ -1272,19 +921,6 @@
     "ma_distance": 1.28,
     "bb_confluence": 4.57,
     "expected_rsi": 44.24
-  },
-  {
-    "ticker": "MS",
-    "name": "Morgan Stanley",
-    "price": 160.45,
-    "changePercent": 0.11,
-    "score": 40,
-    "stars": 2.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.78,
-    "bb_confluence": 0.59,
-    "expected_rsi": 34.9
   },
   {
     "ticker": "AMT",
@@ -1352,19 +988,6 @@
     "expected_rsi": 49.6
   },
   {
-    "ticker": "EQR",
-    "name": "Equity Residential",
-    "price": 62.18,
-    "changePercent": -0.86,
-    "score": 39,
-    "stars": 2.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.33,
-    "bb_confluence": 0.8,
-    "expected_rsi": 43.23
-  },
-  {
     "ticker": "PM",
     "name": "Philip Morris International Inc",
     "price": 173.25,
@@ -1402,32 +1025,6 @@
     "ma_distance": 0.31,
     "bb_confluence": 0.42,
     "expected_rsi": 41.79
-  },
-  {
-    "ticker": "MGM",
-    "name": "MGM Resorts International",
-    "price": 35.64,
-    "changePercent": 0.2,
-    "score": 38,
-    "stars": 2.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.95,
-    "bb_confluence": 3.66,
-    "expected_rsi": 47.53
-  },
-  {
-    "ticker": "ETN",
-    "name": "Eaton Corporation, PLC",
-    "price": 353.87,
-    "changePercent": 1.76,
-    "score": 37,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.72,
-    "bb_confluence": 1.6,
-    "expected_rsi": 44.32
   },
   {
     "ticker": "ETN",
@@ -1521,32 +1118,6 @@
     "expected_rsi": 33.69
   },
   {
-    "ticker": "D",
-    "name": "Dominion Energy, Inc.",
-    "price": 62.91,
-    "changePercent": -0.52,
-    "score": 35,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.17,
-    "bb_confluence": 0.87,
-    "expected_rsi": 43.15
-  },
-  {
-    "ticker": "FRT",
-    "name": "Federal Realty Investment Trust",
-    "price": 106.54,
-    "changePercent": -0.94,
-    "score": 35,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.45,
-    "bb_confluence": 0.15,
-    "expected_rsi": 43.8
-  },
-  {
     "ticker": "LIN",
     "name": "Linde plc",
     "price": 483.62,
@@ -1571,19 +1142,6 @@
     "ma_distance": 1.48,
     "bb_confluence": 1.89,
     "expected_rsi": 40.95
-  },
-  {
-    "ticker": "UDR",
-    "name": "UDR, Inc.",
-    "price": 37.21,
-    "changePercent": -0.11,
-    "score": 34,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 3.15,
-    "bb_confluence": 1.34,
-    "expected_rsi": 39.01
   },
   {
     "ticker": "UDR",
@@ -1636,19 +1194,6 @@
     "ma_distance": 4.86,
     "bb_confluence": 6.31,
     "expected_rsi": 32.93
-  },
-  {
-    "ticker": "LIN",
-    "name": "Linde plc",
-    "price": 483.62,
-    "changePercent": -0.23,
-    "score": 34,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.78,
-    "bb_confluence": 0.68,
-    "expected_rsi": 40.25
   },
   {
     "ticker": "PG",
@@ -1716,19 +1261,6 @@
     "expected_rsi": 32.83
   },
   {
-    "ticker": "LOW",
-    "name": "Lowe's Companies, Inc.",
-    "price": 250.22,
-    "changePercent": -0.66,
-    "score": 33,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 2.42,
-    "bb_confluence": 0.66,
-    "expected_rsi": 29.33
-  },
-  {
     "ticker": "LW",
     "name": "Lamb Weston Holdings, Inc.",
     "price": 45.75,
@@ -1740,19 +1272,6 @@
     "ma_distance": 0.71,
     "bb_confluence": 1.33,
     "expected_rsi": 42.22
-  },
-  {
-    "ticker": "MDLZ",
-    "name": "Mondelez International, Inc.",
-    "price": 58.17,
-    "changePercent": -0.39,
-    "score": 33,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.47,
-    "bb_confluence": 0.78,
-    "expected_rsi": 45.78
   },
   {
     "ticker": "STZ",
@@ -1846,19 +1365,6 @@
     "expected_rsi": 38.81
   },
   {
-    "ticker": "MTB",
-    "name": "M&T Bank Corporation",
-    "price": 208.66,
-    "changePercent": -0.86,
-    "score": 32,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 3.01,
-    "bb_confluence": 2.77,
-    "expected_rsi": 32.96
-  },
-  {
     "ticker": "KO",
     "name": "Coca-Cola Company (The)",
     "price": 77.8,
@@ -1883,19 +1389,6 @@
     "ma_distance": 1.84,
     "bb_confluence": 1.1,
     "expected_rsi": 42.45
-  },
-  {
-    "ticker": "ECL",
-    "name": "Ecolab Inc.",
-    "price": 281.86,
-    "changePercent": -0.29,
-    "score": 31,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.72,
-    "bb_confluence": 4.35,
-    "expected_rsi": 29.6
   },
   {
     "ticker": "ECL",
@@ -1922,58 +1415,6 @@
     "ma_distance": 0.93,
     "bb_confluence": 0.35,
     "expected_rsi": 42.14
-  },
-  {
-    "ticker": "LH",
-    "name": "Labcorp Holdings Inc.",
-    "price": 273.61,
-    "changePercent": 1.46,
-    "score": 31,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.21,
-    "bb_confluence": 2.01,
-    "expected_rsi": 40.56
-  },
-  {
-    "ticker": "CB",
-    "name": "Chubb Limited",
-    "price": 324.4,
-    "changePercent": -1.1,
-    "score": 31,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.84,
-    "bb_confluence": 1.1,
-    "expected_rsi": 42.45
-  },
-  {
-    "ticker": "ECL",
-    "name": "Ecolab Inc.",
-    "price": 281.86,
-    "changePercent": -0.29,
-    "score": 31,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.72,
-    "bb_confluence": 4.35,
-    "expected_rsi": 29.6
-  },
-  {
-    "ticker": "KO",
-    "name": "Coca-Cola Company (The)",
-    "price": 77.8,
-    "changePercent": 0.99,
-    "score": 31,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.96,
-    "bb_confluence": 2.17,
-    "expected_rsi": 40.04
   },
   {
     "ticker": "LH",
@@ -2067,19 +1508,6 @@
     "expected_rsi": 48.18
   },
   {
-    "ticker": "AZO",
-    "name": "AutoZone, Inc.",
-    "price": 3672.68,
-    "changePercent": 0.86,
-    "score": 30,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.48,
-    "bb_confluence": 0.75,
-    "expected_rsi": 46.93
-  },
-  {
     "ticker": "BALL",
     "name": "Ball Corporation",
     "price": 62.39,
@@ -2130,58 +1558,6 @@
     "ma_distance": 3.47,
     "bb_confluence": 0.89,
     "expected_rsi": 43.66
-  },
-  {
-    "ticker": "COST",
-    "name": "Costco Wholesale Corporation",
-    "price": 1005.3,
-    "changePercent": 0.72,
-    "score": 30,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.74,
-    "bb_confluence": 1.31,
-    "expected_rsi": 44.46
-  },
-  {
-    "ticker": "FFIV",
-    "name": "F5, Inc.",
-    "price": 285.33,
-    "changePercent": -0.31,
-    "score": 30,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.74,
-    "bb_confluence": 2.54,
-    "expected_rsi": 48.18
-  },
-  {
-    "ticker": "KMB",
-    "name": "Kimberly-Clark Corporation",
-    "price": 102.85,
-    "changePercent": -1.65,
-    "score": 30,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.73,
-    "bb_confluence": 0.21,
-    "expected_rsi": 44.45
-  },
-  {
-    "ticker": "MRK",
-    "name": "Merck & Company, Inc.",
-    "price": 117.11,
-    "changePercent": 1.14,
-    "score": 30,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.62,
-    "bb_confluence": 1.05,
-    "expected_rsi": 43.92
   },
   {
     "ticker": "ITW",
@@ -2249,32 +1625,6 @@
     "expected_rsi": 42.78
   },
   {
-    "ticker": "CNC",
-    "name": "Centene Corporation",
-    "price": 43.32,
-    "changePercent": -0.76,
-    "score": 29,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.32,
-    "bb_confluence": 10.53,
-    "expected_rsi": 52.45
-  },
-  {
-    "ticker": "COO",
-    "name": "The Cooper Companies, Inc.",
-    "price": 75.82,
-    "changePercent": -0.95,
-    "score": 29,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.37,
-    "bb_confluence": 3.88,
-    "expected_rsi": 27.81
-  },
-  {
     "ticker": "DXCM",
     "name": "DexCom, Inc.",
     "price": 68.74,
@@ -2299,19 +1649,6 @@
     "ma_distance": 4.61,
     "bb_confluence": 0.51,
     "expected_rsi": 41.75
-  },
-  {
-    "ticker": "ITW",
-    "name": "Illinois Tool Works Inc.",
-    "price": 276.58,
-    "changePercent": -0.21,
-    "score": 29,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.53,
-    "bb_confluence": 2.18,
-    "expected_rsi": 38.12
   },
   {
     "ticker": "WMT",
@@ -2364,32 +1701,6 @@
     "ma_distance": 1.24,
     "bb_confluence": 6.49,
     "expected_rsi": 48.08
-  },
-  {
-    "ticker": "HAS",
-    "name": "Hasbro, Inc.",
-    "price": 95.78,
-    "changePercent": 1.37,
-    "score": 28,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.94,
-    "bb_confluence": 2.09,
-    "expected_rsi": 41.09
-  },
-  {
-    "ticker": "JCI",
-    "name": "Johnson Controls International ",
-    "price": 133.09,
-    "changePercent": 0.52,
-    "score": 28,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.52,
-    "bb_confluence": 4.88,
-    "expected_rsi": 38.29
   },
   {
     "ticker": "L",
@@ -2548,45 +1859,6 @@
     "expected_rsi": 38.56
   },
   {
-    "ticker": "LLY",
-    "name": "Eli Lilly and Company",
-    "price": 1008.39,
-    "changePercent": 1.82,
-    "score": 27,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.43,
-    "bb_confluence": 1.92,
-    "expected_rsi": 47.27
-  },
-  {
-    "ticker": "PEG",
-    "name": "Public Service Enterprise Group",
-    "price": 84.04,
-    "changePercent": 0.83,
-    "score": 27,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.02,
-    "bb_confluence": 0.57,
-    "expected_rsi": 43.01
-  },
-  {
-    "ticker": "PEG",
-    "name": "Public Service Enterprise Group",
-    "price": 84.04,
-    "changePercent": 0.83,
-    "score": 27,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 3.13,
-    "bb_confluence": 0.67,
-    "expected_rsi": 42.65
-  },
-  {
     "ticker": "NFLX",
     "name": "Netflix, Inc.",
     "price": 98.32,
@@ -2730,110 +2002,6 @@
     "expected_rsi": 59.57
   },
   {
-    "ticker": "CL",
-    "name": "Colgate-Palmolive Company",
-    "price": 93.0,
-    "changePercent": -0.6,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.86,
-    "bb_confluence": 3.98,
-    "expected_rsi": 39.18
-  },
-  {
-    "ticker": "D",
-    "name": "Dominion Energy, Inc.",
-    "price": 62.91,
-    "changePercent": -0.52,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 4.78,
-    "bb_confluence": 2.45,
-    "expected_rsi": 38.56
-  },
-  {
-    "ticker": "DRI",
-    "name": "Darden Restaurants, Inc.",
-    "price": 201.64,
-    "changePercent": -0.76,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 4.94,
-    "bb_confluence": 5.24,
-    "expected_rsi": 33.89
-  },
-  {
-    "ticker": "LH",
-    "name": "Labcorp Holdings Inc.",
-    "price": 273.61,
-    "changePercent": 1.46,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.57,
-    "bb_confluence": 1.38,
-    "expected_rsi": 41.86
-  },
-  {
-    "ticker": "MCD",
-    "name": "McDonald's Corporation",
-    "price": 330.8,
-    "changePercent": 0.84,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.37,
-    "bb_confluence": 1.22,
-    "expected_rsi": 42.67
-  },
-  {
-    "ticker": "NFLX",
-    "name": "Netflix, Inc.",
-    "price": 98.32,
-    "changePercent": -0.71,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.36,
-    "bb_confluence": 30.85,
-    "expected_rsi": 69.85
-  },
-  {
-    "ticker": "NSC",
-    "name": "Norfolk Southern Corporation",
-    "price": 302.43,
-    "changePercent": -0.14,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.83,
-    "bb_confluence": 1.5,
-    "expected_rsi": 41.89
-  },
-  {
-    "ticker": "PEG",
-    "name": "Public Service Enterprise Group",
-    "price": 84.04,
-    "changePercent": 0.83,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.7,
-    "bb_confluence": 0.26,
-    "expected_rsi": 44.07
-  },
-  {
     "ticker": "AMT",
     "name": "American Tower Corporation (REI",
     "price": 186.64,
@@ -2845,19 +2013,6 @@
     "ma_distance": 3.54,
     "bb_confluence": 1.66,
     "expected_rsi": 45.65
-  },
-  {
-    "ticker": "CSX",
-    "name": "CSX Corporation",
-    "price": 40.6,
-    "changePercent": 1.63,
-    "score": 25,
-    "stars": 1.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.94,
-    "bb_confluence": 2.77,
-    "expected_rsi": 40.0
   },
   {
     "ticker": "AFL",
@@ -2964,19 +2119,6 @@
     "expected_rsi": 52.94
   },
   {
-    "ticker": "ECL",
-    "name": "Ecolab Inc.",
-    "price": 281.86,
-    "changePercent": -0.29,
-    "score": 24,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.59,
-    "bb_confluence": 3.22,
-    "expected_rsi": 31.58
-  },
-  {
     "ticker": "KHC",
     "name": "The Kraft Heinz Company",
     "price": 24.44,
@@ -3001,45 +2143,6 @@
     "ma_distance": 1.51,
     "bb_confluence": 1.17,
     "expected_rsi": 42.46
-  },
-  {
-    "ticker": "ECL",
-    "name": "Ecolab Inc.",
-    "price": 281.86,
-    "changePercent": -0.29,
-    "score": 24,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.59,
-    "bb_confluence": 3.22,
-    "expected_rsi": 31.58
-  },
-  {
-    "ticker": "HRL",
-    "name": "Hormel Foods Corporation",
-    "price": 23.88,
-    "changePercent": -2.21,
-    "score": 24,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.51,
-    "bb_confluence": 1.17,
-    "expected_rsi": 42.46
-  },
-  {
-    "ticker": "KHC",
-    "name": "The Kraft Heinz Company",
-    "price": 24.44,
-    "changePercent": -0.41,
-    "score": 24,
-    "stars": 1.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.41,
-    "bb_confluence": 1.02,
-    "expected_rsi": 48.55
   },
   {
     "ticker": "T",
@@ -3105,19 +2208,6 @@
     "ma_distance": 4.34,
     "bb_confluence": 12.05,
     "expected_rsi": 52.53
-  },
-  {
-    "ticker": "EMR",
-    "name": "Emerson Electric Company",
-    "price": 141.12,
-    "changePercent": 1.99,
-    "score": 23,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.34,
-    "bb_confluence": 0.81,
-    "expected_rsi": 41.58
   },
   {
     "ticker": "PG",
@@ -3209,32 +2299,6 @@
     "ma_distance": 0.68,
     "bb_confluence": 1.57,
     "expected_rsi": 47.64
-  },
-  {
-    "ticker": "CTAS",
-    "name": "Cintas Corporation",
-    "price": 200.77,
-    "changePercent": -1.39,
-    "score": 21,
-    "stars": 1.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.4,
-    "bb_confluence": 0.6,
-    "expected_rsi": 46.18
-  },
-  {
-    "ticker": "NSC",
-    "name": "Norfolk Southern Corporation",
-    "price": 302.43,
-    "changePercent": -0.14,
-    "score": 21,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.99,
-    "bb_confluence": 3.68,
-    "expected_rsi": 35.21
   },
   {
     "ticker": "TT",
@@ -3393,19 +2457,6 @@
     "expected_rsi": 30.63
   },
   {
-    "ticker": "EW",
-    "name": "Edwards Lifesciences Corporatio",
-    "price": 84.26,
-    "changePercent": 3.21,
-    "score": 16,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.76,
-    "bb_confluence": 10.17,
-    "expected_rsi": 52.24
-  },
-  {
     "ticker": "EXR",
     "name": "Extra Space Storage Inc",
     "price": 146.29,
@@ -3456,19 +2507,6 @@
     "ma_distance": 3.2,
     "bb_confluence": 17.43,
     "expected_rsi": 54.61
-  },
-  {
-    "ticker": "MGM",
-    "name": "MGM Resorts International",
-    "price": 35.64,
-    "changePercent": 0.2,
-    "score": 15,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.94,
-    "bb_confluence": 2.72,
-    "expected_rsi": 46.19
   },
   {
     "ticker": "ABBV",
@@ -3523,58 +2561,6 @@
     "expected_rsi": 49.7
   },
   {
-    "ticker": "CMCSA",
-    "name": "Comcast Corporation",
-    "price": 31.04,
-    "changePercent": -2.73,
-    "score": 14,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.26,
-    "bb_confluence": 2.62,
-    "expected_rsi": 42.95
-  },
-  {
-    "ticker": "GD",
-    "name": "General Dynamics Corporation",
-    "price": 361.98,
-    "changePercent": -0.42,
-    "score": 14,
-    "stars": 0.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 4.34,
-    "bb_confluence": 2.44,
-    "expected_rsi": 45.43
-  },
-  {
-    "ticker": "ICE",
-    "name": "Intercontinental Exchange Inc.",
-    "price": 165.8,
-    "changePercent": -0.23,
-    "score": 14,
-    "stars": 0.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 3.72,
-    "bb_confluence": 7.66,
-    "expected_rsi": 47.13
-  },
-  {
-    "ticker": "MGM",
-    "name": "MGM Resorts International",
-    "price": 35.64,
-    "changePercent": 0.2,
-    "score": 14,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.47,
-    "bb_confluence": 5.06,
-    "expected_rsi": 49.7
-  },
-  {
     "ticker": "PNC",
     "name": "PNC Financial Services Group, I",
     "price": 205.34,
@@ -3586,19 +2572,6 @@
     "ma_distance": 4.38,
     "bb_confluence": 2.57,
     "expected_rsi": 27.46
-  },
-  {
-    "ticker": "AWK",
-    "name": "American Water Works Company, I",
-    "price": 137.73,
-    "changePercent": 0.17,
-    "score": 12,
-    "stars": 0.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 2.17,
-    "bb_confluence": 8.33,
-    "expected_rsi": 58.32
   },
   {
     "ticker": "AWK",
@@ -3666,19 +2639,6 @@
     "expected_rsi": 47.26
   },
   {
-    "ticker": "MAR",
-    "name": "Marriott International",
-    "price": 328.86,
-    "changePercent": 1.56,
-    "score": 10,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.02,
-    "bb_confluence": 1.96,
-    "expected_rsi": 47.0
-  },
-  {
     "ticker": "SYK",
     "name": "Stryker Corporation",
     "price": 365.92,
@@ -3744,19 +2704,6 @@
     "expected_rsi": 53.38
   },
   {
-    "ticker": "EW",
-    "name": "Edwards Lifesciences Corporatio",
-    "price": 84.26,
-    "changePercent": 3.21,
-    "score": 9,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.75,
-    "bb_confluence": 10.18,
-    "expected_rsi": 52.27
-  },
-  {
     "ticker": "SYK",
     "name": "Stryker Corporation",
     "price": 365.92,
@@ -3796,19 +2743,6 @@
     "expected_rsi": 49.21
   },
   {
-    "ticker": "UDR",
-    "name": "UDR, Inc.",
-    "price": 37.21,
-    "changePercent": -0.11,
-    "score": 6,
-    "stars": 0.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 0.14,
-    "bb_confluence": 1.61,
-    "expected_rsi": 49.21
-  },
-  {
     "ticker": "VRSN",
     "name": "VeriSign, Inc.",
     "price": 242.38,
@@ -3820,32 +2754,6 @@
     "ma_distance": 0.17,
     "bb_confluence": 16.07,
     "expected_rsi": 64.2
-  },
-  {
-    "ticker": "ORLY",
-    "name": "O'Reilly Automotive, Inc.",
-    "price": 94.61,
-    "changePercent": 0.01,
-    "score": 6,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.03,
-    "bb_confluence": 3.37,
-    "expected_rsi": 52.78
-  },
-  {
-    "ticker": "MAR",
-    "name": "Marriott International",
-    "price": 328.86,
-    "changePercent": 1.56,
-    "score": 5,
-    "stars": 0.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.02,
-    "bb_confluence": 1.96,
-    "expected_rsi": 47.0
   },
   {
     "ticker": "FTNT",
@@ -3930,45 +2838,6 @@
     "name": "Essex Property Trust, Inc.",
     "price": 255.34,
     "changePercent": 0.08,
-    "score": 3,
-    "stars": 0.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.13,
-    "bb_confluence": 1.89,
-    "expected_rsi": 51.73
-  },
-  {
-    "ticker": "JKHY",
-    "name": "Jack Henry & Associates, Inc.",
-    "price": 171.59,
-    "changePercent": -0.14,
-    "score": 3,
-    "stars": 0.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.65,
-    "bb_confluence": 10.45,
-    "expected_rsi": 54.2
-  },
-  {
-    "ticker": "JKHY",
-    "name": "Jack Henry & Associates, Inc.",
-    "price": 171.59,
-    "changePercent": -0.14,
-    "score": 3,
-    "stars": 0.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.43,
-    "bb_confluence": 11.53,
-    "expected_rsi": 57.38
-  },
-  {
-    "ticker": "ESS",
-    "name": "Essex Property Trust, Inc.",
-    "price": 255.34,
-    "changePercent": 0.08,
     "score": 2,
     "stars": 0.0,
     "ma_label": "Daily 100MA",
@@ -3991,19 +2860,6 @@
     "expected_rsi": 57.52
   },
   {
-    "ticker": "ESS",
-    "name": "Essex Property Trust, Inc.",
-    "price": 255.34,
-    "changePercent": 0.08,
-    "score": 2,
-    "stars": 0.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 0.04,
-    "bb_confluence": 1.97,
-    "expected_rsi": 52.06
-  },
-  {
     "ticker": "ABNB",
     "name": "Airbnb, Inc.",
     "price": 134.03,
@@ -4015,19 +2871,6 @@
     "ma_distance": 4.29,
     "bb_confluence": 10.37,
     "expected_rsi": 49.04
-  },
-  {
-    "ticker": "KHC",
-    "name": "The Kraft Heinz Company",
-    "price": 24.44,
-    "changePercent": -0.41,
-    "score": 1,
-    "stars": 0.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.24,
-    "bb_confluence": 2.14,
-    "expected_rsi": 51.97
   },
   {
     "ticker": "KHC",
@@ -4106,32 +2949,6 @@
     "ma_distance": 0.87,
     "bb_confluence": 5.86,
     "expected_rsi": 54.09
-  },
-  {
-    "ticker": "GD",
-    "name": "General Dynamics Corporation",
-    "price": 361.98,
-    "changePercent": -0.42,
-    "score": 0,
-    "stars": 0.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.18,
-    "bb_confluence": 4.45,
-    "expected_rsi": 50.95
-  },
-  {
-    "ticker": "ICE",
-    "name": "Intercontinental Exchange Inc.",
-    "price": 165.8,
-    "changePercent": -0.23,
-    "score": 0,
-    "stars": 0.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 0.58,
-    "bb_confluence": 10.45,
-    "expected_rsi": 56.23
   },
   {
     "ticker": "MSCI",
