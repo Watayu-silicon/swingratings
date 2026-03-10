@@ -375,6 +375,45 @@ def analyze_and_export_to_json(ticker_symbol="NVDA", ma_col="MA200", ma_label="D
     proj_rsi = res_A.get('projected_rsi', 50)
     company_name = ticker.info.get('shortName', ticker_symbol)
 
+     # =========================================================
+    # サマリー文章の動的生成
+    # =========================================================
+    p_bounce_pct = res_B.get('p_bounce', 0.0) * 100
+    summary_parts = []
+
+    # 1. 現在の状況と勝率
+    summary_parts.append(f"The SwingRatings algorithm indicates that {ticker_symbol} is currently testing its {ma_label} support zone near ${round(target_ma_price, 2)}.")
+    summary_parts.append(f"Based on historical price action, bounces from this level have yielded a win rate of {p_bounce_pct:.1f}%.")
+
+    # 2. 直近のノック回数に基づく流動性評価
+    if k_knocks > 0:
+        summary_parts.append(f"The asset has recently tested this support {k_knocks} time(s), which may have partially consumed buy-side liquidity.")
+    else:
+        summary_parts.append("This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact.")
+
+    # 3. レジスタンスの記述（強い水平線とトレンドライン）
+    resistance_notes = []
+    if valid_horizontal:
+        top_h = valid_horizontal[0]
+        resistance_notes.append(f"a primary horizontal resistance at ${top_h['price']:.2f}")
+
+    if valid_trend_clusters:
+        top_t = valid_trend_clusters[0]
+        resistance_notes.append(f"a significant trendline confluence around ${top_t['price']:.2f} (formed by {top_t['count']} points)")
+
+    if resistance_notes:
+        overhead_text = " and ".join(resistance_notes)
+        summary_parts.append(f"In the event of a successful bounce, traders should monitor overhead supply, particularly {overhead_text}.")
+    else:
+        summary_parts.append("Currently, there are no major overhead resistance clusters detected within the immediate upside range.")
+
+    # 4. 結びの文
+    summary_parts.append("This setup presents a structured risk-reward profile for swing positioning.")
+
+    # リストを結合して1つの文章にする
+    final_summary = " ".join(summary_parts)
+
+
     json_data = {
         "meta": {
             "ticker": ticker_symbol,
@@ -408,7 +447,7 @@ def analyze_and_export_to_json(ticker_symbol="NVDA", ma_col="MA200", ma_label="D
             "horizontal": valid_horizontal,
             "trendline_clusters": valid_trend_clusters
         },
-        "summary": f"The SwingRatings algorithm detects that {ticker_symbol} is currently testing its {ma_label} near ${round(target_ma_price, 2)}. Historically, the win rate for bounces at this support level is {res_B.get('p_bounce',0)*100:.1f}%. In the event of a successful bounce, the primary overhead resistance is projected around ${round(top_resistance, 2)}.",
+        "summary": final_summary,
         "chartData": {
             "candles": [{"time": str(idx.date()), "open": row.Open, "high": row.High, "low": row.Low, "close": row.Close} for idx, row in chart_df.iterrows()],
             "ma_target": [{"time": str(idx.date()), "value": row[ma_col]} for idx, row in chart_df.iterrows()],
