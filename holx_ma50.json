@@ -3,9 +3,9 @@
     "ticker": "HOLX",
     "name": "Hologic, Inc.",
     "market": "NMS",
-    "price": 75.54,
-    "change": -0.05,
-    "changePercent": -0.07
+    "price": 75.41,
+    "change": -0.13,
+    "changePercent": -0.17
   },
   "score": {
     "total": 19,
@@ -14,33 +14,26 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 75.06,
-    "maDistance_pct": 0.63,
+    "targetMA_price": 75.08,
+    "maDistance_pct": 0.44,
     "bb2Confluence_pct": 0.23,
-    "bb3Confluence_pct": 0.54,
+    "bb3Confluence_pct": 0.53,
     "maKnock_count": 3,
-    "expectedRsi": 58.22
+    "expectedRsi": 57.25
   },
   "metrics": {
-    "maDistance": "+0.63%",
+    "maDistance": "+0.44%",
     "bbConfluence": "0.23%",
     "maKnock": "3 times recently",
-    "expectedRsi": "58.22"
+    "expectedRsi": "57.25"
   },
   "resistances": {
     "horizontal": [],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that HOLX is currently testing its Daily 50MA support zone near $75.06. Based on historical price action, bounces from this level have yielded a win rate of 7.1%. The asset has recently tested this support 3 time(s), which may have partially consumed buy-side liquidity. Currently, there are no major overhead resistance clusters detected within the immediate upside range. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that HOLX is currently testing its Daily 50MA support zone near $75.08. Based on historical price action, bounces from this level have yielded a win rate of 7.1%. The asset has recently tested this support 3 time(s), which may have partially consumed buy-side liquidity. Currently, there are no major overhead resistance clusters detected within the immediate upside range. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-05",
-        "open": 68.0,
-        "high": 68.12000274658203,
-        "low": 67.1500015258789,
-        "close": 67.81999969482422
-      },
       {
         "time": "2025-08-06",
         "open": 69.06999969482422,
@@ -1079,17 +1072,20 @@
       },
       {
         "time": "2026-03-10",
-        "open": 75.55000305175781,
-        "high": 75.56999969482422,
-        "low": 75.38500213623047,
+        "open": 75.52999877929688,
+        "high": 75.58000183105469,
+        "low": 75.38999938964844,
         "close": 75.54000091552734
+      },
+      {
+        "time": "2026-03-11",
+        "open": 75.5199966430664,
+        "high": 75.5199966430664,
+        "low": 75.36000061035156,
+        "close": 75.41000366210938
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-05",
-        "value": 64.55980041503906
-      },
       {
         "time": "2025-08-06",
         "value": 64.81200042724609
@@ -1685,13 +1681,13 @@
       {
         "time": "2026-03-10",
         "value": 75.06379974365234
+      },
+      {
+        "time": "2026-03-11",
+        "value": 75.08199981689454
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-05",
-        "value": 62.93247825362883
-      },
       {
         "time": "2025-08-06",
         "value": 62.928053028126456
@@ -2287,6 +2283,10 @@
       {
         "time": "2026-03-10",
         "value": 74.89036014256072
+      },
+      {
+        "time": "2026-03-11",
+        "value": 74.91224110595768
       }
     ],
     "supportLine": 74.46

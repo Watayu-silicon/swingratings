@@ -3,44 +3,37 @@
     "ticker": "HOLX",
     "name": "Hologic, Inc.",
     "market": "NMS",
-    "price": 75.54,
-    "change": -0.05,
-    "changePercent": -0.07
+    "price": 75.41,
+    "change": -0.13,
+    "changePercent": -0.17
   },
   "score": {
-    "total": 41,
+    "total": 40,
     "stars": 2.0,
     "note": "/ 100 (Win Rate: 50%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 74.57,
-    "maDistance_pct": 1.3,
-    "bb2Confluence_pct": 0.43,
-    "bb3Confluence_pct": 0.12,
+    "targetMA_price": 74.65,
+    "maDistance_pct": 1.01,
+    "bb2Confluence_pct": 0.35,
+    "bb3Confluence_pct": 0.04,
     "maKnock_count": 0,
-    "expectedRsi": 48.64
+    "expectedRsi": 48.98
   },
   "metrics": {
-    "maDistance": "+1.30%",
-    "bbConfluence": "0.43%",
+    "maDistance": "+1.01%",
+    "bbConfluence": "0.35%",
     "maKnock": "0 times recently",
-    "expectedRsi": "48.64"
+    "expectedRsi": "48.98"
   },
   "resistances": {
     "horizontal": [],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that HOLX is currently testing its Daily 100MA support zone near $74.57. Based on historical price action, bounces from this level have yielded a win rate of 50.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. Currently, there are no major overhead resistance clusters detected within the immediate upside range. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that HOLX is currently testing its Daily 100MA support zone near $74.65. Based on historical price action, bounces from this level have yielded a win rate of 50.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. Currently, there are no major overhead resistance clusters detected within the immediate upside range. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-05",
-        "open": 68.0,
-        "high": 68.12000274658203,
-        "low": 67.1500015258789,
-        "close": 67.81999969482422
-      },
       {
         "time": "2025-08-06",
         "open": 69.06999969482422,
@@ -1079,17 +1072,20 @@
       },
       {
         "time": "2026-03-10",
-        "open": 75.55000305175781,
-        "high": 75.56999969482422,
-        "low": 75.38500213623047,
+        "open": 75.52999877929688,
+        "high": 75.58000183105469,
+        "low": 75.38999938964844,
         "close": 75.54000091552734
+      },
+      {
+        "time": "2026-03-11",
+        "open": 75.5199966430664,
+        "high": 75.5199966430664,
+        "low": 75.36000061035156,
+        "close": 75.41000366210938
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-05",
-        "value": 61.519200286865235
-      },
       {
         "time": "2025-08-06",
         "value": 61.58110027313232
@@ -1685,13 +1681,13 @@
       {
         "time": "2026-03-10",
         "value": 74.57020011901855
+      },
+      {
+        "time": "2026-03-11",
+        "value": 74.65430015563965
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-05",
-        "value": 62.93247825362883
-      },
       {
         "time": "2025-08-06",
         "value": 62.928053028126456
@@ -2287,6 +2283,10 @@
       {
         "time": "2026-03-10",
         "value": 74.89036014256072
+      },
+      {
+        "time": "2026-03-11",
+        "value": 74.91224110595768
       }
     ],
     "supportLine": 74.46
