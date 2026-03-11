@@ -116,6 +116,21 @@
         .section-title { font-size: 20px; color: #fff; margin-bottom: 20px; padding-left: 12px; border-left: 4px solid var(--accent-blue); font-weight: 700; letter-spacing: 0.5px; }
 
         /* Highlight Cards */
+        /* Company Logo Styles */
+        .ticker-group { 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+        }
+        .company-logo { 
+            width: 32px; 
+            height: 32px; 
+            border-radius: 50%; 
+            object-fit: contain; /* 画像全体が収まるように調整 */
+            background-color: #fff; /* 背景が透過のロゴを考慮して白背景にする（お好みで変更可能） */
+            border: 1px solid var(--panel-border);
+            flex-shrink: 0;
+        }
         .top-picks-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 40px; }
         .highlight-card { background: linear-gradient(180deg, rgba(21,25,36,1) 0%, rgba(11,14,20,1) 100%); border: 1px solid var(--panel-border); border-radius: 12px; padding: 20px; cursor: pointer; transition: all 0.2s ease; position: relative; overflow: hidden; }
         .highlight-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); }
@@ -382,9 +397,12 @@
 
             card.innerHTML = `
                 <div class="card-header">
-                    <div>
-                        <div class="ticker">${item.ticker}</div>
-                        <div class="company-name">${item.name}</div>
+                    <div class="ticker-group">
+                        <img src="./ticker_logos/${item.ticker}.png" alt="${item.ticker}" class="company-logo" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${item.ticker}&background=151924&color=D1D4DC&rounded=true&font-size=0.45&bold=true'">
+                        <div>
+                            <div class="ticker">${item.ticker}</div>
+                            <div class="company-name">${item.name}</div>
+                        </div>
                     </div>
                     <div class="score-badge" style="color: ${theme.color}; background-color: ${theme.bg}; border-color: ${theme.border};">${item.score}</div>
                 </div>
@@ -441,9 +459,12 @@
             }
 
             row.innerHTML = `
-                <div>
-                    <div class="ticker">${item.ticker}</div>
-                    <div class="company-name">${item.name}</div>
+                <div class="ticker-group">
+                    <img src="./ticker_logos/${item.ticker}.png" alt="${item.ticker}" class="company-logo" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${item.ticker}&background=1E222D&color=D1D4DC&rounded=true&font-size=0.45&bold=true'">
+                    <div>
+                        <div class="ticker">${item.ticker}</div>
+                        <div class="company-name">${item.name}</div>
+                    </div>
                 </div>
                 <div class="price-row" style="margin-bottom: 0;">
                     <div class="price" style="font-size: 16px;">$${item.price.toFixed(2)}</div>
