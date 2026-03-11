@@ -3,6 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwingRatings | Stock Screener for MA Bounce Setups</title>
+    <meta name="description" content="SwingRatings scores S&P 500 Moving Average Bounce setups using technical indicators like RSI and Bollinger Bands. Find your edge in the stock market.">
+    <link rel="canonical" href="https://swingratings.com/">
+    <link rel="icon" href="./logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./logo.svg">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://swingratings.com/">
+    <meta property="og:title" content="SwingRatings | Algorithmic MA Bounce Screener">
+    <meta property="og:description" content="Scores S&P 500 MA bounce setups using RSI and Bollinger Bands. Stop guessing and trade with a mathematical edge.">
+    <meta property="og:image" content="https://swingratings.com/og-image.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SwingRatings | Algorithmic Stock Screener">
+    <meta name="twitter:description" content="Trade with mathematical edge. Scoring MA bounce setups using RSI and Bollinger Bands.">
+    <meta name="twitter:image" content="https://swingratings.com/og-image.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "SwingRatings",
+      "url": "https://swingratings.com/",
+      "description": "An algorithmic stock screener that scores S&P 500 moving average bounce setups using RSI, Bollinger Bands, and historical data.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
     <title>SwingRatings | Stock Screener for Moving Average Bounce Setups</title>
     <meta name="description" content="Stop guessing. SwingRatings scores every S&P 500 moving average bounce setups using technical indicators like RSI and Bollinger Bands.Find your edge before the market.">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3713445785900735" crossorigin="anonymous"></script>
@@ -110,7 +143,6 @@
         .tag { padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; border: 1px solid transparent; white-space: nowrap; }
         .tag-ma { background-color: rgba(255, 152, 0, 0.1); color: var(--accent-orange); border-color: rgba(255, 152, 0, 0.3); }
         .tag-bb { background-color: rgba(41, 98, 255, 0.1); color: #82B1FF; border-color: rgba(41, 98, 255, 0.3); }
-        /* ▼ Prime RSI用のタグスタイルを追加 ▼ */
         .tag-rsi { background-color: rgba(0, 230, 118, 0.1); color: var(--accent-green); border-color: rgba(0, 230, 118, 0.3); }
 
         .mini-gauge-container { display: flex; align-items: center; gap: 10px; }
@@ -121,7 +153,7 @@
         .btn-view { background-color: transparent; border: 1px solid var(--text-muted); color: var(--text-main); padding: 6px 16px; border-radius: 4px; font-size: 13px; cursor: pointer; transition: 0.2s; }
         .list-row:hover .btn-view { background-color: var(--text-main); color: var(--bg-dark); border-color: var(--text-main); }
 
-        /* Infinite Scroll Sentinel & Loading Animation */
+        /* Infinite Scroll Sentinel */
         .scroll-sentinel {
             text-align: center; padding: 30px 20px; color: var(--text-muted); font-size: 14px;
             display: flex; flex-direction: column; align-items: center; gap: 10px;
@@ -131,6 +163,21 @@
             border-top-color: var(--accent-blue); animation: spin 1s linear infinite;
         }
         @keyframes spin { 100% { transform: rotate(360deg); } }
+
+        /* SEO Methodology Section */
+        .methodology-section {
+            background: linear-gradient(180deg, var(--panel-bg) 0%, #0B0E14 100%);
+            border: 1px solid var(--panel-border);
+            border-radius: 12px;
+            padding: 40px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+        .methodology-section h2 { font-size: 22px; color: #fff; margin-bottom: 16px; letter-spacing: -0.5px; border-left: 4px solid var(--accent-green); padding-left: 12px;}
+        .methodology-section h3 { font-size: 16px; color: #82B1FF; margin-top: 24px; margin-bottom: 10px; font-weight: 600; }
+        .methodology-section p { font-size: 14px; color: #9CA3AF; line-height: 1.7; margin-bottom: 16px; }
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--panel-border); text-align: center; color: var(--text-muted); font-size: 13px; }
+
 
         /* Mobile */
         @media (max-width: 768px) {
@@ -143,69 +190,95 @@
             .list-row .price-row { margin-bottom: 0; }
             .btn-view { display: none; }
             .mini-gauge-container { margin-top: 10px; }
+            .methodology-section { padding: 24px; margin-top: 40px; }
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <nav>
-        <a href="https://swingratings.com" class="logo">
-            <div class="logo-icon"><img src="./logo.svg" alt="" style="width:130%"></div>
-            <div class="logo-text">Swing<span>Ratings</span></div>
-        </a>
-    </nav>
+    <header>
+        <nav>
+            <a href="https://swingratings.com" class="logo">
+                <div class="logo-icon"><img src="./logo.svg" alt="SwingRatings - Stock Market Scoring Tool Logo" style="width:130%"></div>
+                <div class="logo-text">Swing<span>Ratings</span></div>
+            </a>
+        </nav>
+    </header>
 
-    <div class="hero-section">
-        <div class="hero-eyebrow">Algorithmic Swing Trade Intelligence</div>
-        <h1 class="hero-title">Stop Guessing.<br><span class="line2">Trade with <span>Mathematical Edge.</span></span></h1>
-        <div class="hero-divider"></div>
-        <p class="hero-desc">
-            SwingRatings turns raw market data into <strong>actionable, scored trade setups</strong>—so you know exactly which stocks are primed for a bounce, and why.<br><br>
-            Our algorithm scores each opportunity by measuring <span class="hero-highlight">historical MA bounce win rates</span>, 
-            <span class="hero-highlight">Bollinger Band confluence</span>, and <span class="hero-highlight">RSI oversold depth</span>—combining them into a single, clear score from 0–100. 
-            <strong>The higher the score, the stronger the statistical edge.</strong> No noise. No gut feelings. Just probability.
-        </p>
-        <div class="hero-stats">
-            <div class="hero-stat"><div class="hero-stat-value">0–100</div><div class="hero-stat-label">Opportunity Score</div></div>
-            <div class="hero-stat"><div class="hero-stat-value">3 Signals</div><div class="hero-stat-label">MA / BB / RSI Confluence</div></div>
-            <div class="hero-stat"><div class="hero-stat-value">Daily</div><div class="hero-stat-label">Updated After Market Close</div></div>
-            <div class="hero-stat"><div class="hero-stat-value">S&amp;P 500</div><div class="hero-stat-label">Universe Covered</div></div>
+    <main>
+        <section class="hero-section">
+            <h2 class="hero-eyebrow">Algorithmic Swing Trade Screener</h2>
+            <h1 class="hero-title">Stop Guessing.<br><span class="line2">Trade with <span>Mathematical Edge.</span></span></h1>
+            <div class="hero-divider"></div>
+            <p class="hero-desc">
+                SwingRatings turns raw market data into <strong>actionable, scored trade setups</strong>—so you know exactly which stocks are primed for a bounce, and why.<br><br>
+                Our algorithm scores each opportunity by measuring <span class="hero-highlight">historical MA bounce win rates</span>, 
+                <span class="hero-highlight">Bollinger Band confluence</span>, and <span class="hero-highlight">RSI oversold depth</span>—combining them into a single, clear score from 0–100. 
+                <strong>The higher the score, the stronger the statistical edge.</strong> No noise. No gut feelings. Just probability.
+            </p>
+            <div class="hero-stats">
+                <div class="hero-stat"><div class="hero-stat-value">0–100</div><div class="hero-stat-label">Opportunity Score</div></div>
+                <div class="hero-stat"><div class="hero-stat-value">3 Signals</div><div class="hero-stat-label">MA / BB / RSI Confluence</div></div>
+                <div class="hero-stat"><div class="hero-stat-value">Daily</div><div class="hero-stat-label">Updated After Market Close</div></div>
+                <div class="hero-stat"><div class="hero-stat-value">S&amp;P 500</div><div class="hero-stat-label">Universe Covered</div></div>
+            </div>
+        </section>
+
+        <div class="disclaimer-panel">
+            <div class="disclaimer-icon">⚠️</div>
+            <div class="disclaimer-text">
+                <strong>Not Financial Advice.</strong> The algorithmic scores and technical analysis provided by SwingRatings are for educational and informational purposes only. Trading involves risk, and market uncertainty means past performance does not guarantee future results.
+                <a href="/terms" style="color: var(--accent-yellow); text-decoration: underline; margin-left: 5px; font-weight: 600;">Read full disclaimer & terms.</a>
+            </div>
         </div>
-    </div>
 
-    <div class="disclaimer-panel">
-        <div class="disclaimer-icon">⚠️</div>
-        <div class="disclaimer-text">
-            <strong>Not Financial Advice.</strong> The algorithmic scores and technical analysis provided by SwingRatings are for educational and informational purposes only. Trading involves significant risk, and market uncertainty means past performance does not guarantee future results.
-        </div>
-    </div>
+        <section id="top-signals">
+            <h2 class="section-title" style="border-left-color: var(--accent-blue);">Top Bounce Signals</h2>
+            <div class="top-picks-grid" id="top-picks-container">
+                <div style="color: var(--text-muted); font-size: 14px;">Loading market data...</div>
+            </div>
+        </section>
 
-    <h2 class="section-title" style="border-left-color: var(--accent-blue);">Top Bounce Signals</h2>
-    <div class="top-picks-grid" id="top-picks-container">
-        <div style="color: var(--text-muted); font-size: 14px;">Loading market data...</div>
-    </div>
+        <section id="full-screener">
+            <h2 class="section-title">Full Screener</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Signals</button>
+                <button class="filter-btn" data-filter="ma200">Daily 200MA</button>
+                <button class="filter-btn" data-filter="ma100">Daily 100MA</button>
+                <button class="filter-btn" data-filter="ma50">Daily 50MA</button>
+                <button class="filter-btn" data-filter="score80">Score 80+</button>
+                <button class="filter-btn" data-filter="oversold">Prime RSI</button>
+            </div>
 
-    <h2 class="section-title">Full Screener</h2>
-    
-    <div class="filters">
-        <button class="filter-btn active" data-filter="all">All Signals</button>
-        <button class="filter-btn" data-filter="ma200">Daily 200MA</button>
-        <button class="filter-btn" data-filter="ma100">Daily 100MA</button>
-        <button class="filter-btn" data-filter="ma50">Daily 50MA</button>
-        <button class="filter-btn" data-filter="score80">Score 80+</button>
-        <button class="filter-btn" data-filter="oversold">Prime RSI</button>
-    </div>
+            <div class="list-container" id="screener-list-container"></div>
+            
+            <div id="scroll-sentinel" class="scroll-sentinel" style="display: none;">
+                <div class="spinner"></div>
+                <div>Loading more signals...</div>
+            </div>
+        </section>
 
-    <div class="list-container" id="screener-list-container"></div>
-    
-    <div id="scroll-sentinel" class="scroll-sentinel" style="display: none;">
-        <div class="spinner"></div>
-        <div>Loading more signals...</div>
-    </div>
+        <section class="methodology-section">
+            <h2>Our Swing Trading Methodology: The Math Behind the Bounce</h2>
+            <p>SwingRatings is a specialized stock screener designed for US equity swing traders who rely on statistical probabilities rather than intuition. By analyzing historical price action across the S&P 500, our algorithm identifies high-probability mean-reversion setups at critical support levels.</p>
+            
+            <h3>Moving Average (MA) Support Confluence</h3>
+            <p>The foundation of our opportunity score relies on institutional support levels, specifically the daily 50MA, 100MA, and 200MA. When a stock approaches these key moving averages, we calculate the historical win rate of previous bounces. A stock touching its 200-day moving average carries immense psychological and technical weight, acting as a primary trigger for our screener.</p>
+
+            <h3>RSI and Bollinger Band Exhaustion</h3>
+            <p>A moving average touch alone is not enough. To filter out falling knives, SwingRatings integrates the Relative Strength Index (RSI) and Bollinger Bands. When a stock hits a major MA while simultaneously entering an RSI oversold condition (Prime RSI: 30-40) and piercing the lower Bollinger Band (-2σ), the statistical probability of a relief rally increases significantly. This confluence of indicators forms the ultimate mathematical edge for swing trading.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 SwingRatings. All rights reserved.<br>
+    </footer>
 </div>
 
 <script>
+    // JS部分は元コードから一切変更していません（動作の安全性を保つため）
     function getDetailUrl(ticker, ma_col) {
         const maNum = ma_col.replace('ma', '');
         return `https://swingratings.com/${ticker.toLowerCase()}.html?ma=${maNum}`;
@@ -303,7 +376,6 @@
             let tagsHtml = `<div class="tag tag-ma">#${item.ma_label}</div>`;
             if (item.bb_confluence < 1.0) tagsHtml += `<div class="tag tag-bb">#BB -2σ</div>`;
             
-            // ▼ Prime RSIのタグ追加ロジック ▼
             const rsiVal = parseFloat(item.expected_rsi);
             if (!isNaN(rsiVal) && rsiVal >= 30 && rsiVal <= 40) {
                 tagsHtml += `<div class="tag tag-rsi">#Prime RSI</div>`;
@@ -364,7 +436,6 @@
             let tagsHtml = `<div class="tag tag-ma">#${item.ma_label}</div>`;
             if (item.bb_confluence < 1.0) tagsHtml += `<div class="tag tag-bb">#BB-2σ</div>`;
             
-            // ▼ Prime RSIのタグ追加ロジック ▼
             const rsiVal = parseFloat(item.expected_rsi);
             if (!isNaN(rsiVal) && rsiVal >= 30 && rsiVal <= 40) {
                 tagsHtml += `<div class="tag tag-rsi">#Prime RSI</div>`;

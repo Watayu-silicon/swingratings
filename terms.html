@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service & Disclaimer | SwingRatings</title>
+    <link rel="canonical" href="https://swingratings.com/terms">
+    <link rel="icon" href="./logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./logo.svg">
+    <meta name="robots" content="noindex">
+    <style>
+        :root {
+            --bg-dark: #0B0E14;
+            --panel-bg: #151924;
+            --panel-border: #2A2E39;
+            --text-main: #D1D4DC;
+            --text-muted: #787B86;
+            --accent-green: #00E676;
+            --accent-blue: #2962FF;
+            --accent-yellow: #FFC107;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container { max-width: 800px; width: 100%; }
+        
+        /* Navigation / Header Design (Synced with index.html) */
+        header { margin-bottom: 40px; }
+        nav { 
+            display: flex; justify-content: flex-start; align-items: center; 
+            padding-bottom: 20px; border-bottom: 1px solid var(--panel-border);
+        }
+        .logo { text-decoration: none; display: flex; align-items: center; gap: 16px; transition: transform 0.2s ease; }
+        .logo:hover { transform: translateY(-1px); }
+        .logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--accent-blue), var(--accent-green)); border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .logo-text { font-size: 26px; font-weight: 800; color: #fff; letter-spacing: -0.8px; display: flex; align-items: center; }
+        .logo-text span { background: linear-gradient(135deg, var(--accent-blue), var(--accent-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-left: 3px; }
+
+        /* Typography & Layout */
+        h1 { font-size: 32px; color: #fff; margin-bottom: 24px; border-bottom: 2px solid var(--panel-border); padding-bottom: 10px; line-height: 1.2; }
+        h2 { font-size: 20px; color: #fff; margin-top: 32px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+        h2::before { content: ''; width: 4px; height: 18px; background: var(--accent-blue); display: inline-block; border-radius: 2px; }
+
+        p { margin-bottom: 16px; font-size: 15px; color: var(--text-main); }
+        ul { margin-bottom: 24px; padding-left: 20px; }
+        li { margin-bottom: 8px; font-size: 14px; color: var(--text-muted); }
+
+        .important-box {
+            background-color: rgba(255, 193, 7, 0.05);
+            border: 1px solid rgba(255, 193, 7, 0.2);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .important-box strong { color: var(--accent-yellow); }
+
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--panel-border); text-align: center; color: var(--text-muted); font-size: 13px; }
+        .back-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 20px; color: var(--text-main); text-decoration: none; font-weight: 600; font-size: 14px; transition: color 0.2s; }
+        .back-link:hover { color: var(--accent-blue); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <nav>
+            <a href="https://swingratings.com" class="logo">
+                <div class="logo-icon"><img src="./logo.svg" alt="SwingRatings Logo" style="width:130%"></div>
+                <div class="logo-text">Swing<span>Ratings</span></div>
+            </a>
+        </nav>
+    </header>
+
+    <h1>Terms of Service & Disclaimer</h1>
+
+    <div class="important-box">
+        <strong>ATTENTION:</strong> By using SwingRatings.com, you acknowledge that you have read, understood, and agreed to be bound by the following terms. If you do not agree, please discontinue use of this site immediately.
+    </div>
+
+    <section>
+        <h2>1. No Investment Advice</h2>
+        <p>SwingRatings is provided solely for informational and educational purposes. We provide algorithmic scoring based on historical price action and technical indicators. <strong>We do not provide personalized financial, investment, or legal advice.</strong></p>
+        <p>The "Bounce Probability Score" is a mathematical calculation and should not be interpreted as a "buy" or "sell" signal. You are solely responsible for your own investment decisions.</p>
+    </section>
+
+    <section>
+        <h2>2. Risk Disclosure</h2>
+        <p>Trading stocks involves significant risk of loss. Market volatility can cause prices to move rapidly against your positions. You should never invest money that you cannot afford to lose.</p>
+        <ul>
+            <li>Past performance is not indicative of future results.</li>
+            <li>Technical indicators can fail, and "bounces" are never guaranteed.</li>
+            <li>Market uncertainty, economic news, and black swan events can override technical setups.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Accuracy of Information</h2>
+        <p>While we strive for accuracy, all data provided by SwingRatings is on an "as-is" and "as-available" basis. We do not warrant that the information is accurate, complete, or timely.</p>
+        <ul>
+            <li>Market data may be delayed due to API limitations or technical issues.</li>
+            <li>Algorithm calculations may contain errors or bugs.</li>
+            <li>We reserve the right to modify or discontinue the service at any time without notice.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Limitation of Liability</h2>
+        <p>Under no circumstances shall SwingRatings, its creators, or affiliates be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the service. This includes, but is not limited to, <strong>trading losses, loss of profits, or data corruption.</strong></p>
+    </section>
+
+    <section>
+        <h2>5. Intellectual Property</h2>
+        <p>The SwingRatings algorithm, brand name, logo, and proprietary scoring system are the intellectual property of SwingRatings. Unauthorized reproduction, distribution, or reverse engineering of our scoring methodology is strictly prohibited.</p>
+    </section>
+
+    <section>
+        <h2>6. Third-Party Services</h2>
+        <p>Our site may display charts from TradingView or data from other third-party providers. We are not responsible for the content, accuracy, or privacy practices of these external services.</p>
+    </section>
+
+    <a href="swingratings.com" class="back-link">← Back to Dashboard</a>
+
+    <footer>
+        &copy; 2026 SwingRatings. All rights reserved.<br>
+        Last updated: March 11, 2026
+    </footer>
+</div>
+
+</body>
+</html>
