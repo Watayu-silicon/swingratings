@@ -3,8 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INTU Moving Average Bounce Setup | SwingRatings</title>
-    <meta name="description" content="Is INTU ready to bounce? SwingRatings scores INTU's moving average setup using technical indicators like RSI and Bollinger Bands—so you know the odds before you trade.">
+    <title>INTU Swing Trade Bounce Score & Analysis | SwingRatings</title>
+    <meta name="description" content="Is INTU ready to bounce? SwingRatings scores moving average setup using technical indicators like RSI and Bollinger Bands. Find the odds before you trade.">
+    <link rel="canonical" href="https://swingratings.com/nvda">
+    <link rel="icon" href="/fav_logo.png" sizes="48x48">
+    <link rel="icon" href="./logo.svg" type="image/svg+xml" sizes="48x48">
+    <link rel="apple-touch-icon" href="/logo.svg">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://swingratings.com/nvda">
+    <meta property="og:title" content="INTU Swing Trade Bounce Score | SwingRatings">
+    <meta property="og:description" content="Algorithmic technical analysis for INTU. Check the probability of a moving average bounce based on RSI and Bollinger Bands.">
+    <meta property="og:image" content="https://swingratings.com/og-image.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="INTU Swing Trade Analysis | SwingRatings">
+    <meta name="twitter:description" content="Algorithmic technical analysis for INTU. Check the probability of a moving average bounce.">
+    <meta name="twitter:image" content="https://swingratings.com/og-image.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "INTU Swing Trade Bounce Score & Technical Analysis",
+      "description": "Algorithmic swing trading analysis for INTU. We evaluate moving average bounce probability using RSI and Bollinger Bands.",
+      "author": {
+        "@type": "Organization",
+        "name": "SwingRatings",
+        "url": "https://swingratings.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SwingRatings",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://swingratings.com/logo.svg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://swingratings.com/nvda"
+      }
+    }
+    </script>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3713445785900735" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
     <style>
@@ -21,10 +63,46 @@
         .logo-text span { background: linear-gradient(135deg, var(--accent-blue), var(--accent-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-left: 3px; }
 
         header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 15px; margin-bottom: 15px; }
-        .ticker-info h1 { font-size: 28px; margin-bottom: 2px; color: #fff; }
-        .ticker-info span { color: var(--text-muted); font-size: 14px; display: block; margin-bottom: 5px; }
+        /* H1のフォントサイズを調整し、キーワードを含めても美しく見えるように */
+        .ticker-info h1 { 
+            display: flex; 
+            align-items: baseline; 
+            flex-wrap: wrap; /* スマホで画面が狭い場合は改行させる */
+            gap: 12px; 
+            margin-bottom: 2px; 
+        }
+        /* ティッカーシンボル（白くて大きい主役） */
+        .ticker-info h1 #ui-ticker { 
+            font-size: 36px; 
+            color: #fff; 
+            font-weight: 800; 
+            letter-spacing: -0.5px;
+        }
+        /* SEO用のさりげないテキスト（小さくてグレー） */
+        /* H1のフォントサイズを調整し、キーワードを含めても美しく見えるように */
+        .ticker-info h1 { 
+            display: flex; 
+            align-items: center; /* baselineからcenterに変更（画像とテキストの縦中央を揃える） */
+            flex-wrap: wrap; 
+            gap: 12px; 
+            margin-bottom: 2px; 
+        }
+
+        /* Company Logo Styles (Individual Page) */
+        .company-logo-large { 
+            width: 48px;  /* 個別ページ用に合わせて少し大きく */
+            height: 48px; 
+            border-radius: 50%; 
+            object-fit: contain; 
+            background-color: var(--panel-hover); /* お好みで #fff に変更してください */
+            border: 1px solid var(--panel-border);
+            flex-shrink: 0;
+            margin-right: 4px;
+        }
+        .ticker-info > span.company-name { color: var(--text-muted); font-size: 14px; display: block; margin-bottom: 15px; }
+        
         .price-info { text-align: right; }
-        .price-info h2 { font-size: 32px; color: #fff; }
+        .price-info h2 { font-size: 32px; color: #fff; line-height: 1.1; }
         .price-info .change { font-size: 16px; font-weight: bold; }
         
         .tags-container { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
@@ -61,6 +139,19 @@
         .rsi-marker { position: absolute; top: -33px; transform: translateX(-50%); text-align: center; }
         .rsi-marker::after { content: '▼'; display: block; color: #fff; font-size: 12px; }
 
+        /* SEO Methodology Section for Individual Pages */
+        .seo-content-box {
+            background: linear-gradient(180deg, var(--panel-bg) 0%, #0B0E14 100%);
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .seo-content-box h2 { font-size: 18px; color: #fff; margin-bottom: 12px; border-left: 3px solid var(--accent-blue); padding-left: 10px; }
+        .seo-content-box p { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px; }
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--panel-border); text-align: center; color: var(--text-muted); font-size: 13px; }
+
+
         @media (max-width: 768px) {
             .grid-layout { display: flex; flex-direction: column; }
             #chart-container { height: 400px !important; }
@@ -72,96 +163,115 @@
 <div class="container">
     <nav>
         <a href="https://swingratings.com" class="logo">
-            <div class="logo-icon"><img src="./logo.svg" alt="" style="width:130%"></div>
+            <div class="logo-icon"><img src="./logo.svg" alt="SwingRatings Logo" style="width:130%"></div>
             <div class="logo-text">Swing<span>Ratings</span></div>
         </a>
     </nav>
 
-    <header>
-        <div class="ticker-info">
-            <h1 id="ui-ticker">---</h1>
-            <span id="ui-name">Loading...</span>
-            <div class="tags-container">
-                <div id="ui-tag-ma" class="tag tag-ma">#---</div>
-                <div id="ui-tag-bb" class="tag tag-bb" style="display: none;">#BB -2σ Confluence</div>
-                <div id="ui-tag-rsi" class="tag tag-rsi" style="display: none;">#Prime RSI</div>
+    <main>
+        <header>
+            <div class="ticker-info">
+                <h1>
+                    <img id="ui-logo" src="./ticker_logos/INTU.png" alt="INTU" class="company-logo-large" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=NVDA&background=151924&color=D1D4DC&rounded=true&font-size=0.45&bold=true'">
+                    <span id="ui-ticker">INTU</span>
+                    <span class="seo-subtext">Moving Average Bounce Analysis</span>
+                </h1>
+                <span id="ui-name" class="company-name">Loading...</span>
+                <div class="tags-container">
+                    <div id="ui-tag-ma" class="tag tag-ma">#---</div>
+                    <div id="ui-tag-bb" class="tag tag-bb" style="display: none;">#BB -2σ Confluence</div>
+                    <div id="ui-tag-rsi" class="tag tag-rsi" style="display: none;">#Prime RSI</div>
+                </div>
             </div>
-        </div>
-        <div class="price-info">
-            <h2 id="ui-price">$---.--</h2>
-            <div id="ui-change" class="change">--- (---%)</div>
-        </div>
-    </header>
-
-    <div class="disclaimer-panel">
-        <div class="disclaimer-icon">⚠️</div>
-        <div class="disclaimer-text"><strong>Not Financial Advice.</strong> The algorithmic scores and technical analysis provided by SwingRatings are for educational and informational purposes only. Trading involves risk, and market uncertainty means past performance does not guarantee future results.</div>
-    </div>
-
-    <div class="grid-layout">
-        <div class="col-left">
-            <div class="panel panel-chart" style="padding: 0; overflow: hidden;">
-                <div id="chart-container" style="width: 100%; height: 500px;"></div>
+            <div class="price-info">
+                <h2 id="ui-price">$---.--</h2>
+                <div id="ui-change" class="change">--- (---%)</div>
             </div>
-            <div class="panel panel-summary">
-                <div class="panel-title">Algorithmic Insight</div>
-                <div id="ui-summary" class="auto-summary">Loading algorithm data...</div>
+        </header>
+
+        <div class="disclaimer-panel">
+            <div class="disclaimer-icon">⚠️</div>
+            <div class="disclaimer-text">
+                <strong>Not Financial Advice.</strong> The algorithmic scores and technical analysis provided by SwingRatings are for educational and informational purposes only. Trading involves risk, and market uncertainty means past performance does not guarantee future results.
+                <a href="/terms" style="color: var(--accent-yellow); text-decoration: underline; margin-left: 5px; font-weight: 600;">Read full disclaimer & terms.</a>
             </div>
         </div>
 
-        <div class="col-right">
-            <div class="panel panel-score">
-                <div class="panel-title">Bounce Probability Score</div>
-                <div class="score-container">
-                    <div id="ui-score" class="total-score">--</div>
-                    <div class="stars-container">
-                        <div class="stars-outer"><div id="ui-stars-inner" class="stars-inner" style="width: 0%;"></div></div>
-                        <div id="ui-stars-text" style="font-weight:bold; color:#fff;">--</div>
+        <section class="grid-layout">
+            <div class="col-left">
+                <div class="panel panel-chart" style="padding: 0; overflow: hidden;">
+                    <div id="chart-container" style="width: 100%; height: 500px;"></div>
+                </div>
+                <div class="panel panel-summary">
+                    <h2 class="panel-title">Algorithmic Insight</h2>
+                    <div id="ui-summary" class="auto-summary">Loading algorithm data...</div>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="panel panel-score">
+                    <h2 class="panel-title">Bounce Probability Score</h2>
+                    <div class="score-container">
+                        <div id="ui-score" class="total-score">--</div>
+                        <div class="stars-container">
+                            <div class="stars-outer"><div id="ui-stars-inner" class="stars-inner" style="width: 0%;"></div></div>
+                            <div id="ui-stars-text" style="font-weight:bold; color:#fff;">--</div>
+                        </div>
+                        <div id="ui-score-note" style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">--</div>
                     </div>
-                    <div id="ui-score-note" style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">--</div>
                 </div>
-            </div>
 
-            <div class="panel panel-breakdown">
-                <div class="panel-title">Technical Factors</div>
-                <div class="metric-row"><span>Target MA Distance</span><span id="ui-ma-dist" class="metric-val">--</span></div>
-                <div class="metric-row"><span>BB -2σ Confluence</span><span id="ui-bb-conf" class="metric-val">--</span></div>
-                <div class="metric-row"><span>BB -3σ Confluence</span><span id="ui-bb3-conf" class="metric-val">--</span></div>
-                <div class="metric-row" style="border-bottom: none;"><span>Recent MA Knocks</span><span id="ui-ma-knock" class="metric-val">--</span></div>
-                
-                <div style="margin-top: 25px; margin-bottom: 5px; font-size: 13px; color: var(--text-muted);">Projected RSI (at touch)</div>
-                <div class="rsi-gauge">
-                    <div id="ui-rsi-marker" class="rsi-marker" style="left: 0%;"><span id="ui-rsi-text" style="color:#fff; font-size: 12px; font-weight: bold;">--</span></div>
+                <div class="panel panel-breakdown">
+                    <h2 class="panel-title">Technical Factors</h2>
+                    <div class="metric-row"><span>Target MA Distance</span><span id="ui-ma-dist" class="metric-val">--</span></div>
+                    <div class="metric-row"><span>BB -2σ Confluence</span><span id="ui-bb-conf" class="metric-val">--</span></div>
+                    <div class="metric-row"><span>BB -3σ Confluence</span><span id="ui-bb3-conf" class="metric-val">--</span></div>
+                    <div class="metric-row" style="border-bottom: none;"><span>Recent MA Knocks</span><span id="ui-ma-knock" class="metric-val">--</span></div>
+                    
+                    <div style="margin-top: 25px; margin-bottom: 5px; font-size: 13px; color: var(--text-muted);">Projected RSI (at touch)</div>
+                    <div class="rsi-gauge">
+                        <div id="ui-rsi-marker" class="rsi-marker" style="left: 0%;"><span id="ui-rsi-text" style="color:#fff; font-size: 12px; font-weight: bold;">--</span></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted);">
+                        <span>Danger (<30)</span><span>Ideal (30-40)</span><span>Weak (>50)</span>
+                    </div>
                 </div>
-                <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted);">
-                    <span>Danger (<30)</span><span>Ideal (30-40)</span><span>Weak (>50)</span>
-                </div>
-            </div>
 
-            <div class="panel panel-resistances">
-                <div class="panel-title" style="color: var(--accent-red); border-bottom-color: rgba(255, 82, 82, 0.3);">
-                    Overhead Resistance Targets
-                </div>
-                <div id="ui-resistances-list">
-                    <div style="font-size: 13px; color: var(--text-muted);">Loading targets...</div>
+                <div class="panel panel-resistances">
+                    <h2 class="panel-title" style="color: var(--accent-red); border-bottom-color: rgba(255, 82, 82, 0.3);">
+                        Overhead Resistance Targets
+                    </h2>
+                    <div id="ui-resistances-list">
+                        <div style="font-size: 13px; color: var(--text-muted);">Loading targets...</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <article class="seo-content-box">
+            <h2>How to Use This Swing Trade Setup</h2>
+            <p>This page provides an algorithmic evaluation of the current moving average (MA) bounce setup for this specific stock. The Bounce Probability Score (0-100) is calculated by measuring the historical win rate of previous touches at key support levels (such as the 50-day, 100-day, or 200-day MA).</p>
+            <p>To establish a mathematical edge in your swing trading, look for high scores combined with confluence from other technical indicators. A prime setup typically occurs when the stock approaches the moving average while the Relative Strength Index (RSI) drops into the 30-40 range, and the price action approaches the lower Bollinger Band (-2σ or -3α). Always consider overhead resistance levels when planning your profit targets.</p>
+        </article>
+    </main>
+
+    <footer>
+        &copy; 2026 SwingRatings. All rights reserved.<br>
+    </footer>
 </div>
 
 <script>
     const urlParams = new URLSearchParams(window.location.search);
-    
+
     // JS内でティッカー名を固定（Colabで生成時に置換される）
     let ticker = "INTU";
-    
+
     // パスから取得するロジックはバックアップとして残す
     if (!ticker || ticker === 'INTU') {
          const pathName = window.location.pathname;
          ticker = pathName.substring(pathName.lastIndexOf('/') + 1).replace('.html', '').toUpperCase();
     }
-    
+
     if (!ticker || ticker === 'INDEX') ticker = 'INTU'; // デフォルト
 
     let maParam = urlParams.get('ma') || '200';
@@ -201,12 +311,12 @@
         .then(response => response.json())
         .then(data => {
             const raw = data.raw_metrics;
-            
+
             // --- 銘柄基本情報 ---
             document.getElementById('ui-ticker').textContent = data.meta.ticker;
             document.getElementById('ui-name').textContent = `${data.meta.name} • ${data.meta.market}`;
             document.getElementById('ui-price').textContent = `$${data.meta.price.toFixed(2)}`;
-            
+
             const changeEl = document.getElementById('ui-change');
             const sign = data.meta.change > 0 ? "+" : "";
             changeEl.textContent = `${sign}${data.meta.change.toFixed(2)} (${sign}${data.meta.changePercent.toFixed(2)}%)`;
@@ -218,9 +328,9 @@
             if(maLabelEn === "日足50MA") maLabelEn = "Daily 50MA";
             if(maLabelEn === "週足100MA") maLabelEn = "Weekly 100MA";
             if(!maLabelEn) maLabelEn = "Daily " + maParam + "MA";
-            
+
             document.getElementById('ui-tag-ma').textContent = `#${maLabelEn} Approaching`;
-            
+
             if (raw.bb2Confluence_pct !== undefined && raw.bb2Confluence_pct < 1.0) {
                 const bbTag = document.getElementById('ui-tag-bb');
                 bbTag.style.display = 'block';
@@ -231,11 +341,11 @@
             document.getElementById('ui-score').textContent = data.score.total;
             document.getElementById('ui-stars-inner').style.width = `${(data.score.stars / 5) * 100}%`;
             document.getElementById('ui-stars-text').textContent = data.score.stars.toFixed(1);
-            
+
             let note = data.score.note;
             if (note && note.includes("勝率")) note = note.replace("勝率", "Win Rate:");
             document.getElementById('ui-score-note').textContent = note;
-            
+
             document.getElementById('ui-summary').innerHTML = data.summary;
             document.getElementById('ui-ma-dist').textContent = data.metrics.maDistance;
             document.getElementById('ui-bb-conf').textContent = data.metrics.bbConfluence;
@@ -252,7 +362,7 @@
 
             // --- 抵抗線リスト生成 ---
             let resHtml = '';
-            
+
             if (data.resistances && data.resistances.horizontal.length > 0) {
                 let score = 0
                 data.resistances.horizontal.slice(0, 3).forEach((r, idx) => {
@@ -292,7 +402,7 @@
                         </div>`;
                 });
             }
-            
+
             if (resHtml === '') resHtml = '<div style="font-size: 13px; color: var(--text-muted);">No clear overhead resistance detected.</div>';
             document.getElementById('ui-resistances-list').innerHTML = resHtml;
         })
