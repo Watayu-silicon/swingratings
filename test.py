@@ -319,12 +319,24 @@ def analyze_and_export_to_json(ticker_symbol="NVDA", ma_col="MA200", ma_label="D
     current_price = df['Close'].iloc[-1]
     target_ma_price = df[ma_col].iloc[-1]
 
+    # 【追加】直近3日間の終値を取得
+    prev_close = df['Close'].iloc[-2]
+    prev_prev_close = df['Close'].iloc[-3]
+
+    # 【追加】プライスアクション確認: 2日連続で終値を切り下げているか（下落モメンタムの確認）
+    is_approaching = (current_price < prev_close) and (prev_close < prev_prev_close)
+
+
     # 🔴【改善ポイント】: 評価やファイル出力を始める前に、距離（0%〜+5%）をチェックし早期リターンする
     distance_pct = (current_price - target_ma_price) / target_ma_price * 100
 
     if distance_pct < 0 or distance_pct > 5.0:
         print(f"  -> ⏭️ Skipped: Price is {distance_pct:.2f}% away from {ma_col} (Out of 0% to +5% range).")
         return None # 範囲外ならここで処理を打ち切るため、無駄なファイル出力や重い計算が走らない
+
+    if not is_approaching:
+        print(f"  -> ⏭️ Skipped: Price is not approaching the MA (Requires 2 consecutive lower closes).")
+        return None
 
     # ▼ 以降は「指定MAの0%〜+5%以内にいる銘柄」のみ実行される ▼
 
