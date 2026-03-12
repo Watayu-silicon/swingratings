@@ -3,55 +3,53 @@
     "ticker": "INFO",
     "name": "Harbor PanAgora Dynamic Large C",
     "market": "NYQ",
-    "price": 24.21,
-    "change": -0.02,
-    "changePercent": -0.08
+    "price": 23.91,
+    "change": -0.3,
+    "changePercent": -1.24
   },
   "score": {
-    "total": 45,
+    "total": 46,
     "stars": 2.5,
     "note": "/ 100 (Win Rate: 0%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 23.43,
-    "maDistance_pct": 3.31,
-    "bb2Confluence_pct": 2.71,
-    "bb3Confluence_pct": 1.76,
+    "targetMA_price": 23.45,
+    "maDistance_pct": 1.95,
+    "bb2Confluence_pct": 2.23,
+    "bb3Confluence_pct": 1.19,
     "maKnock_count": 0,
-    "expectedRsi": 33.66
+    "expectedRsi": 33.63
   },
   "metrics": {
-    "maDistance": "+3.31%",
-    "bbConfluence": "2.71%",
+    "maDistance": "+1.95%",
+    "bbConfluence": "2.23%",
     "maKnock": "0 times recently",
-    "expectedRsi": "33.66"
+    "expectedRsi": "33.63"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 24.89,
         "touches": 11,
-        "strength_score": 7.096
+        "strength_score": 7.014
+      },
+      {
+        "price": 23.92,
+        "touches": 3,
+        "strength_score": 0.875
       }
     ],
     "trendline_clusters": [
       {
-        "price": 24.75,
+        "price": 24.74,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that INFO is currently testing its Daily 200MA support zone near $23.43. Based on historical price action, bounces from this level have yielded a win rate of 0.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $24.89 and a significant trendline confluence around $24.75 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that INFO is currently testing its Daily 200MA support zone near $23.45. Based on historical price action, bounces from this level have yielded a win rate of 0.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $24.89 and a significant trendline confluence around $24.74 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-06",
-        "open": 22.340699090487245,
-        "high": 22.46027547901518,
-        "low": 22.340699090487245,
-        "close": 22.440345764160156
-      },
       {
         "time": "2025-08-07",
         "open": 22.400487359727375,
@@ -1094,13 +1092,16 @@
         "high": 24.209999084472656,
         "low": 24.125999450683594,
         "close": 24.209999084472656
+      },
+      {
+        "time": "2026-03-12",
+        "open": 24.040000915527344,
+        "high": 24.030000686645508,
+        "low": 23.899999618530273,
+        "close": 23.90999984741211
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-06",
-        "value": 20.594028921127318
-      },
       {
         "time": "2025-08-07",
         "value": 20.60474898338318
@@ -1696,13 +1697,13 @@
       {
         "time": "2026-03-11",
         "value": 23.434103450775147
+      },
+      {
+        "time": "2026-03-12",
+        "value": 23.45164553642273
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-06",
-        "value": 21.879798603815026
-      },
       {
         "time": "2025-08-07",
         "value": 21.89533385207261
@@ -2298,6 +2299,10 @@
       {
         "time": "2026-03-11",
         "value": 24.06941537935619
+      },
+      {
+        "time": "2026-03-12",
+        "value": 23.97551001676517
       }
     ],
     "supportLine": 23.91
