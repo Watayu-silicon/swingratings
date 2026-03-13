@@ -3,143 +3,96 @@
     "ticker": "AMD",
     "name": "Advanced Micro Devices, Inc.",
     "market": "NMS",
-    "price": 192.43,
-    "change": -7.02,
-    "changePercent": -3.52
+    "price": 193.39,
+    "change": -4.35,
+    "changePercent": -2.2
   },
   "score": {
-    "total": 82,
+    "total": 84,
     "stars": 4.0,
     "note": "/ 100 (Win Rate: 100%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 188.61,
-    "maDistance_pct": 2.02,
-    "bb2Confluence_pct": 0.8,
-    "bb3Confluence_pct": 2.88,
+    "targetMA_price": 190.82,
+    "maDistance_pct": 1.35,
+    "bb2Confluence_pct": 0.35,
+    "bb3Confluence_pct": 3.26,
     "maKnock_count": 1,
-    "expectedRsi": 39.16
+    "expectedRsi": 41.25
   },
   "metrics": {
-    "maDistance": "+2.02%",
-    "bbConfluence": "0.80%",
+    "maDistance": "+1.35%",
+    "bbConfluence": "0.35%",
     "maKnock": "1 time recently",
-    "expectedRsi": "39.16"
+    "expectedRsi": "41.25"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 219.91,
         "touches": 2,
-        "strength_score": 1.392
+        "strength_score": 1.314
       },
       {
         "price": 267.02,
         "touches": 2,
-        "strength_score": 1.081
+        "strength_score": 1.021
       },
       {
-        "price": 203.79,
+        "price": 209.21,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.977
       },
       {
         "price": 225.41,
         "touches": 2,
-        "strength_score": 0.983
+        "strength_score": 0.928
       },
       {
         "price": 216.71,
         "touches": 1,
-        "strength_score": 0.912
+        "strength_score": 0.861
       },
       {
         "price": 260.53,
         "touches": 1,
-        "strength_score": 0.749
+        "strength_score": 0.707
       },
       {
         "price": 241.49,
         "touches": 2,
-        "strength_score": 0.649
+        "strength_score": 0.613
       },
       {
         "price": 234.02,
         "touches": 1,
-        "strength_score": 0.616
+        "strength_score": 0.581
       },
       {
         "price": 263.51,
         "touches": 1,
-        "strength_score": 0.411
+        "strength_score": 0.388
       }
     ],
     "trendline_clusters": [
       {
-        "price": 203.07,
-        "count": 7
+        "price": 207.4,
+        "count": 6
       },
       {
-        "price": 193.87,
+        "price": 214.42,
         "count": 3
       },
       {
-        "price": 215.24,
-        "count": 3
-      },
-      {
-        "price": 200.24,
-        "count": 2
-      },
-      {
-        "price": 202.27,
-        "count": 2
-      },
-      {
-        "price": 214.21,
+        "price": 198.29,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm detects that AMD is currently testing its Daily 200MA near $188.61. Historically, the win rate for bounces at this support level is 100.0%. In the event of a successful bounce, the primary overhead resistance is projected around $219.91.",
+  "summary": "The SwingRatings algorithm indicates that AMD is currently testing its Daily 200MA support zone near $190.82. Based on historical price action, bounces from this level have yielded a win rate of 100.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $219.91 and a significant trendline confluence around $207.40 (formed by 6 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-01",
-        "open": 170.16000366210938,
-        "high": 174.39999389648438,
-        "low": 166.82000732421875,
-        "close": 171.6999969482422
-      },
-      {
-        "time": "2025-08-04",
-        "open": 174.61000061035156,
-        "high": 177.86000061035156,
-        "low": 173.55999755859375,
-        "close": 176.77999877929688
-      },
-      {
-        "time": "2025-08-05",
-        "open": 177.57000732421875,
-        "high": 177.99000549316406,
-        "low": 171.8000030517578,
-        "close": 174.30999755859375
-      },
-      {
-        "time": "2025-08-06",
-        "open": 165.0500030517578,
-        "high": 166.17999267578125,
-        "low": 157.8000030517578,
-        "close": 163.1199951171875
-      },
-      {
-        "time": "2025-08-07",
-        "open": 166.83999633789062,
-        "high": 175.75,
-        "low": 166.6999969482422,
-        "close": 172.39999389648438
-      },
       {
         "time": "2025-08-08",
         "open": 174.0399932861328,
@@ -1154,29 +1107,44 @@
         "high": 200.24000549316406,
         "low": 191.25,
         "close": 192.42999267578125
+      },
+      {
+        "time": "2026-03-09",
+        "open": 189.36000061035156,
+        "high": 202.97000122070312,
+        "low": 189.02000427246094,
+        "close": 202.67999267578125
+      },
+      {
+        "time": "2026-03-10",
+        "open": 202.50999450683594,
+        "high": 206.58999633789062,
+        "low": 202.1999969482422,
+        "close": 203.22999572753906
+      },
+      {
+        "time": "2026-03-11",
+        "open": 205.11000061035156,
+        "high": 209.2100067138672,
+        "low": 203.6300048828125,
+        "close": 204.8300018310547
+      },
+      {
+        "time": "2026-03-12",
+        "open": 202.8300018310547,
+        "high": 203.6199951171875,
+        "low": 196.6699981689453,
+        "close": 197.74000549316406
+      },
+      {
+        "time": "2026-03-13",
+        "open": 198.11500549316406,
+        "high": 199.67999267578125,
+        "low": 192.27000427246094,
+        "close": 193.38999938964844
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-01",
-        "value": 123.5056001663208
-      },
-      {
-        "time": "2025-08-04",
-        "value": 123.56315013885498
-      },
-      {
-        "time": "2025-08-05",
-        "value": 123.65150012969971
-      },
-      {
-        "time": "2025-08-06",
-        "value": 123.68645008087158
-      },
-      {
-        "time": "2025-08-07",
-        "value": 123.767200050354
-      },
       {
         "time": "2025-08-08",
         "value": 123.85115001678467
@@ -1756,52 +1724,52 @@
       {
         "time": "2026-03-06",
         "value": 188.61439979553222
+      },
+      {
+        "time": "2026-03-09",
+        "value": 189.06024974822998
+      },
+      {
+        "time": "2026-03-10",
+        "value": 189.51609973907472
+      },
+      {
+        "time": "2026-03-11",
+        "value": 189.98669975280762
+      },
+      {
+        "time": "2026-03-12",
+        "value": 190.42384979248047
+      },
+      {
+        "time": "2026-03-13",
+        "value": 190.81799980163575
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-01",
-        "value": 131.3944805147387
-      },
-      {
-        "time": "2025-08-04",
-        "value": 134.52145849468135
-      },
-      {
-        "time": "2025-08-05",
-        "value": 137.7805294964253
-      },
-      {
-        "time": "2025-08-06",
-        "value": 141.5524582258252
-      },
-      {
-        "time": "2025-08-07",
-        "value": 144.4620772253888
-      },
       {
         "time": "2025-08-08",
         "value": 147.3002212203915
       },
       {
         "time": "2025-08-11",
-        "value": 150.75406906045387
+        "value": 150.7540690604539
       },
       {
         "time": "2025-08-12",
-        "value": 152.2789138132549
+        "value": 152.27891381325492
       },
       {
         "time": "2025-08-13",
-        "value": 152.43540056882225
+        "value": 152.43540056882227
       },
       {
         "time": "2025-08-14",
-        "value": 153.25263605361312
+        "value": 153.25263605361314
       },
       {
         "time": "2025-08-15",
-        "value": 155.16450927445095
+        "value": 155.16450927445098
       },
       {
         "time": "2025-08-18",
@@ -1809,19 +1777,19 @@
       },
       {
         "time": "2025-08-19",
-        "value": 160.05083419981318
+        "value": 160.0508341998132
       },
       {
         "time": "2025-08-20",
-        "value": 161.569148898134
+        "value": 161.56914889813402
       },
       {
         "time": "2025-08-21",
-        "value": 161.9345349025046
+        "value": 161.93453490250462
       },
       {
         "time": "2025-08-22",
-        "value": 162.14114268881963
+        "value": 162.14114268881966
       },
       {
         "time": "2025-08-25",
@@ -1829,15 +1797,15 @@
       },
       {
         "time": "2025-08-26",
-        "value": 160.1703074334769
+        "value": 160.17030743347692
       },
       {
         "time": "2025-08-27",
-        "value": 159.82186331134596
+        "value": 159.821863311346
       },
       {
         "time": "2025-08-28",
-        "value": 159.55839994141147
+        "value": 159.5583999414115
       },
       {
         "time": "2025-08-29",
@@ -1849,7 +1817,7 @@
       },
       {
         "time": "2025-09-03",
-        "value": 156.65444080017912
+        "value": 156.65444080017915
       },
       {
         "time": "2025-09-04",
@@ -1857,11 +1825,11 @@
       },
       {
         "time": "2025-09-05",
-        "value": 153.2211000162063
+        "value": 153.22110001620632
       },
       {
         "time": "2025-09-08",
-        "value": 150.6067178298402
+        "value": 150.60671782984022
       },
       {
         "time": "2025-09-09",
@@ -1881,11 +1849,11 @@
       },
       {
         "time": "2025-09-15",
-        "value": 150.66014517432134
+        "value": 150.66014517432137
       },
       {
         "time": "2025-09-16",
-        "value": 151.71764122045587
+        "value": 151.7176412204559
       },
       {
         "time": "2025-09-17",
@@ -1897,15 +1865,15 @@
       },
       {
         "time": "2025-09-19",
-        "value": 150.9528647560709
+        "value": 150.95286475607094
       },
       {
         "time": "2025-09-22",
-        "value": 151.14637165562254
+        "value": 151.14637165562257
       },
       {
         "time": "2025-09-23",
-        "value": 151.13702473746028
+        "value": 151.1370247374603
       },
       {
         "time": "2025-09-24",
@@ -1913,31 +1881,31 @@
       },
       {
         "time": "2025-09-25",
-        "value": 151.75203868472167
+        "value": 151.7520386847217
       },
       {
         "time": "2025-09-26",
-        "value": 152.5433291904036
+        "value": 152.54332919040363
       },
       {
         "time": "2025-09-29",
-        "value": 152.60176828959055
+        "value": 152.60176828959058
       },
       {
         "time": "2025-09-30",
-        "value": 152.6286400139837
+        "value": 152.62864001398373
       },
       {
         "time": "2025-10-01",
-        "value": 152.47827788146506
+        "value": 152.4782778814651
       },
       {
         "time": "2025-10-02",
-        "value": 151.42661491599404
+        "value": 151.42661491599407
       },
       {
         "time": "2025-10-03",
-        "value": 152.7436255784102
+        "value": 152.74362557841022
       },
       {
         "time": "2025-10-06",
@@ -1949,7 +1917,7 @@
       },
       {
         "time": "2025-10-08",
-        "value": 127.44465828522839
+        "value": 127.4446582852284
       },
       {
         "time": "2025-10-09",
@@ -2358,6 +2326,26 @@
       {
         "time": "2026-03-06",
         "value": 190.13143156203958
+      },
+      {
+        "time": "2026-03-09",
+        "value": 189.9843858969438
+      },
+      {
+        "time": "2026-03-10",
+        "value": 190.55273960590338
+      },
+      {
+        "time": "2026-03-11",
+        "value": 191.03210880071347
+      },
+      {
+        "time": "2026-03-12",
+        "value": 191.2090992684963
+      },
+      {
+        "time": "2026-03-13",
+        "value": 190.14740500150128
       }
     ],
     "supportLine": 196.12

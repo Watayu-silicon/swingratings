@@ -3,9 +3,9 @@
     "ticker": "ANET",
     "name": "Arista Networks, Inc.",
     "market": "NYQ",
-    "price": 134.03,
-    "change": -4.2,
-    "changePercent": -3.04
+    "price": 133.57,
+    "change": -0.46,
+    "changePercent": -0.34
   },
   "score": {
     "total": 43,
@@ -14,64 +14,57 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 128.86,
-    "maDistance_pct": 4.01,
-    "bb2Confluence_pct": 2.96,
-    "bb3Confluence_pct": 6.67,
+    "targetMA_price": 129.07,
+    "maDistance_pct": 3.49,
+    "bb2Confluence_pct": 3.18,
+    "bb3Confluence_pct": 6.88,
     "maKnock_count": 1,
-    "expectedRsi": 45.46
+    "expectedRsi": 45.41
   },
   "metrics": {
-    "maDistance": "+4.01%",
-    "bbConfluence": "2.96%",
+    "maDistance": "+3.49%",
+    "bbConfluence": "3.18%",
     "maKnock": "1 time recently",
-    "expectedRsi": "45.46"
+    "expectedRsi": "45.41"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 141.59,
         "touches": 2,
-        "strength_score": 1.565
+        "strength_score": 1.547
       },
       {
         "price": 148.77,
         "touches": 1,
-        "strength_score": 0.812
+        "strength_score": 0.803
       },
       {
         "price": 151.8,
         "touches": 1,
-        "strength_score": 0.707
+        "strength_score": 0.699
       },
       {
         "price": 136.4,
         "touches": 1,
-        "strength_score": 0.494
+        "strength_score": 0.489
       },
       {
         "price": 164.94,
         "touches": 1,
-        "strength_score": 0.354
+        "strength_score": 0.349
       },
       {
         "price": 162.68,
         "touches": 1,
-        "strength_score": 0.301
+        "strength_score": 0.297
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that ANET is currently testing its Daily 200MA support zone near $128.86. Based on historical price action, bounces from this level have yielded a win rate of 75.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $141.59. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that ANET is currently testing its Daily 200MA support zone near $129.07. Based on historical price action, bounces from this level have yielded a win rate of 75.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $141.59. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-07",
-        "open": 139.0800018310547,
-        "high": 141.00999450683594,
-        "low": 135.5399932861328,
-        "close": 139.27999877929688
-      },
       {
         "time": "2025-08-08",
         "open": 139.60000610351562,
@@ -1111,16 +1104,19 @@
       {
         "time": "2026-03-12",
         "open": 137.74000549316406,
-        "high": 137.75,
+        "high": 137.77999877929688,
         "low": 133.69000244140625,
         "close": 134.02999877929688
+      },
+      {
+        "time": "2026-03-13",
+        "open": 134.82000732421875,
+        "high": 137.59500122070312,
+        "low": 130.50999450683594,
+        "close": 133.57000732421875
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-07",
-        "value": 98.91689975738525
-      },
       {
         "time": "2025-08-08",
         "value": 99.11029972076416
@@ -1716,13 +1712,13 @@
       {
         "time": "2026-03-12",
         "value": 128.86419933319092
+      },
+      {
+        "time": "2026-03-13",
+        "value": 129.06959938049317
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-07",
-        "value": 99.24713727350533
-      },
       {
         "time": "2025-08-08",
         "value": 98.67270226731573
@@ -2318,6 +2314,10 @@
       {
         "time": "2026-03-12",
         "value": 125.04574657920777
+      },
+      {
+        "time": "2026-03-13",
+        "value": 124.96161414703839
       }
     ],
     "supportLine": 123.22

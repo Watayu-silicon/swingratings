@@ -3,101 +3,83 @@
     "ticker": "DDOG",
     "name": "Datadog, Inc.",
     "market": "NMS",
-    "price": 128.56,
-    "change": 2.81,
-    "changePercent": 2.23
+    "price": 124.52,
+    "change": -2.64,
+    "changePercent": -2.08
   },
   "score": {
-    "total": 15,
+    "total": 20,
     "stars": 1.0,
-    "note": "/ 100 (Win Rate: 50%)"
+    "note": "/ 100 (Win Rate: 56%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 124.57,
-    "maDistance_pct": 3.2,
-    "bb2Confluence_pct": 17.43,
-    "bb3Confluence_pct": 23.64,
-    "maKnock_count": 0,
-    "expectedRsi": 54.61
+    "targetMA_price": 123.58,
+    "maDistance_pct": 0.76,
+    "bb2Confluence_pct": 16.21,
+    "bb3Confluence_pct": 22.29,
+    "maKnock_count": 1,
+    "expectedRsi": 52.74
   },
   "metrics": {
-    "maDistance": "+3.20%",
-    "bbConfluence": "17.43%",
-    "maKnock": "0 times recently",
-    "expectedRsi": "54.61"
+    "maDistance": "+0.76%",
+    "bbConfluence": "16.21%",
+    "maKnock": "1 time recently",
+    "expectedRsi": "52.74"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 143.4,
         "touches": 2,
-        "strength_score": 1.287
+        "strength_score": 1.229
+      },
+      {
+        "price": 131.33,
+        "touches": 1,
+        "strength_score": 0.989
       },
       {
         "price": 133.44,
         "touches": 1,
-        "strength_score": 0.812
+        "strength_score": 0.776
       },
       {
         "price": 145.9,
         "touches": 1,
-        "strength_score": 0.623
+        "strength_score": 0.595
       },
       {
         "price": 163.43,
         "touches": 1,
-        "strength_score": 0.472
+        "strength_score": 0.451
       },
       {
         "price": 201.69,
         "touches": 1,
-        "strength_score": 0.401
+        "strength_score": 0.383
       },
       {
         "price": 160.2,
         "touches": 1,
-        "strength_score": 0.349
+        "strength_score": 0.334
       },
       {
         "price": 166.89,
         "touches": 1,
-        "strength_score": 0.311
+        "strength_score": 0.297
       }
     ],
-    "trendline_clusters": []
+    "trendline_clusters": [
+      {
+        "price": 130.68,
+        "count": 2
+      }
+    ]
   },
-  "summary": "The SwingRatings algorithm detects that DDOG is currently testing its Daily 50MA near $124.57. Historically, the win rate for bounces at this support level is 50.0%. In the event of a successful bounce, the primary overhead resistance is projected around $143.4.",
+  "summary": "The SwingRatings algorithm indicates that DDOG is currently testing its Daily 50MA support zone near $123.58. Based on historical price action, bounces from this level have yielded a win rate of 55.6%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $143.40 and a significant trendline confluence around $130.68 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-04",
-        "open": 137.1999969482422,
-        "high": 139.13999938964844,
-        "low": 136.14999389648438,
-        "close": 139.1300048828125
-      },
-      {
-        "time": "2025-08-05",
-        "open": 139.66000366210938,
-        "high": 139.99000549316406,
-        "low": 132.72000122070312,
-        "close": 132.94000244140625
-      },
-      {
-        "time": "2025-08-06",
-        "open": 133.10000610351562,
-        "high": 137.3300018310547,
-        "low": 133.10000610351562,
-        "close": 136.9600067138672
-      },
-      {
-        "time": "2025-08-07",
-        "open": 147.75,
-        "high": 149.0,
-        "low": 131.1999969482422,
-        "close": 136.3800048828125
-      },
       {
         "time": "2025-08-08",
         "open": 136.58999633789062,
@@ -1119,25 +1101,37 @@
         "high": 128.69000244140625,
         "low": 124.08000183105469,
         "close": 128.55999755859375
+      },
+      {
+        "time": "2026-03-10",
+        "open": 128.88999938964844,
+        "high": 129.39999389648438,
+        "low": 121.94999694824219,
+        "close": 123.08000183105469
+      },
+      {
+        "time": "2026-03-11",
+        "open": 124.3499984741211,
+        "high": 127.7300033569336,
+        "low": 123.25,
+        "close": 127.48999786376953
+      },
+      {
+        "time": "2026-03-12",
+        "open": 126.44999694824219,
+        "high": 131.3300018310547,
+        "low": 126.44999694824219,
+        "close": 127.16000366210938
+      },
+      {
+        "time": "2026-03-13",
+        "open": 127.23999786376953,
+        "high": 129.77999877929688,
+        "low": 123.24009704589844,
+        "close": 124.5199966430664
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-04",
-        "value": 132.69440017700197
-      },
-      {
-        "time": "2025-08-05",
-        "value": 133.03980026245117
-      },
-      {
-        "time": "2025-08-06",
-        "value": 133.48980041503907
-      },
-      {
-        "time": "2025-08-07",
-        "value": 133.8654005432129
-      },
       {
         "time": "2025-08-08",
         "value": 134.15760055541992
@@ -1721,25 +1715,25 @@
       {
         "time": "2026-03-09",
         "value": 124.56910034179687
+      },
+      {
+        "time": "2026-03-10",
+        "value": 124.26990051269532
+      },
+      {
+        "time": "2026-03-11",
+        "value": 124.05340042114258
+      },
+      {
+        "time": "2026-03-12",
+        "value": 123.83780044555664
+      },
+      {
+        "time": "2026-03-13",
+        "value": 123.57860046386719
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-04",
-        "value": 134.27077314574439
-      },
-      {
-        "time": "2025-08-05",
-        "value": 132.65758456806006
-      },
-      {
-        "time": "2025-08-06",
-        "value": 132.06707409187072
-      },
-      {
-        "time": "2025-08-07",
-        "value": 131.89600004376138
-      },
       {
         "time": "2025-08-08",
         "value": 130.62349579426026
@@ -2323,8 +2317,24 @@
       {
         "time": "2026-03-09",
         "value": 102.85348114131924
+      },
+      {
+        "time": "2026-03-10",
+        "value": 103.30844595652334
+      },
+      {
+        "time": "2026-03-11",
+        "value": 103.47949095165458
+      },
+      {
+        "time": "2026-03-12",
+        "value": 103.4901870057843
+      },
+      {
+        "time": "2026-03-13",
+        "value": 103.55248030780527
       }
     ],
-    "supportLine": 151.75
+    "supportLine": 105.42
   }
 }

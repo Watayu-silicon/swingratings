@@ -3,98 +3,81 @@
     "ticker": "PENN",
     "name": "PENN Entertainment, Inc.",
     "market": "NMS",
-    "price": 14.33,
-    "change": -0.37,
-    "changePercent": -2.52
+    "price": 14.31,
+    "change": -0.22,
+    "changePercent": -1.51
   },
   "score": {
-    "total": 31,
+    "total": 32,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 62%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 13.87,
-    "maDistance_pct": 3.28,
-    "bb2Confluence_pct": 18.36,
-    "bb3Confluence_pct": 27.07,
+    "targetMA_price": 13.85,
+    "maDistance_pct": 3.3,
+    "bb2Confluence_pct": 16.61,
+    "bb3Confluence_pct": 25.25,
     "maKnock_count": 0,
-    "expectedRsi": 49.83
+    "expectedRsi": 48.83
   },
   "metrics": {
-    "maDistance": "+3.28%",
-    "bbConfluence": "18.36%",
+    "maDistance": "+3.30%",
+    "bbConfluence": "16.61%",
     "maKnock": "0 times recently",
-    "expectedRsi": "49.83"
+    "expectedRsi": "48.83"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 15.03,
-        "touches": 5,
-        "strength_score": 2.913
+        "touches": 6,
+        "strength_score": 3.802
       },
       {
         "price": 15.66,
         "touches": 3,
-        "strength_score": 2.49
+        "strength_score": 2.405
       },
       {
         "price": 17.88,
         "touches": 1,
-        "strength_score": 0.383
+        "strength_score": 0.37
       },
       {
         "price": 18.28,
         "touches": 1,
-        "strength_score": 0.345
+        "strength_score": 0.334
       },
       {
         "price": 17.48,
         "touches": 1,
-        "strength_score": 0.319
+        "strength_score": 0.308
       },
       {
         "price": 20.04,
         "touches": 1,
-        "strength_score": 0.274
+        "strength_score": 0.265
       }
     ],
     "trendline_clusters": [
       {
-        "price": 14.61,
+        "price": 15.02,
+        "count": 6
+      },
+      {
+        "price": 14.58,
         "count": 3
       },
       {
-        "price": 14.77,
+        "price": 14.76,
         "count": 3
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that PENN is currently testing its Daily 50MA support zone near $13.87. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $15.03 and a significant trendline confluence around $14.61 (formed by 3 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that PENN is currently testing its Daily 50MA support zone near $13.85. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $15.03 and a significant trendline confluence around $15.02 (formed by 6 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-05",
-        "open": 17.65999984741211,
-        "high": 17.65999984741211,
-        "low": 17.209999084472656,
-        "close": 17.389999389648438
-      },
-      {
-        "time": "2025-08-06",
-        "open": 17.520000457763672,
-        "high": 17.520000457763672,
-        "low": 16.979999542236328,
-        "close": 17.020000457763672
-      },
-      {
-        "time": "2025-08-07",
-        "open": 17.239999771118164,
-        "high": 17.889999389648438,
-        "low": 16.68000030517578,
-        "close": 16.920000076293945
-      },
       {
         "time": "2025-08-08",
         "open": 16.780000686645508,
@@ -1120,24 +1103,33 @@
       {
         "time": "2026-03-10",
         "open": 14.600000381469727,
-        "high": 14.71500015258789,
-        "low": 14.145000457763672,
+        "high": 14.720000267028809,
+        "low": 14.149999618530273,
         "close": 14.329999923706055
+      },
+      {
+        "time": "2026-03-11",
+        "open": 14.539999961853027,
+        "high": 14.920000076293945,
+        "low": 13.90999984741211,
+        "close": 14.869999885559082
+      },
+      {
+        "time": "2026-03-12",
+        "open": 14.800000190734863,
+        "high": 15.020000457763672,
+        "low": 14.449999809265137,
+        "close": 14.529999732971191
+      },
+      {
+        "time": "2026-03-13",
+        "open": 14.75,
+        "high": 15.0,
+        "low": 14.300000190734863,
+        "close": 14.3100004196167
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-05",
-        "value": 17.28479986190796
-      },
-      {
-        "time": "2025-08-06",
-        "value": 17.32359987258911
-      },
-      {
-        "time": "2025-08-07",
-        "value": 17.35439987182617
-      },
       {
         "time": "2025-08-08",
         "value": 17.390199851989745
@@ -1725,21 +1717,21 @@
       {
         "time": "2026-03-10",
         "value": 13.874600105285644
+      },
+      {
+        "time": "2026-03-11",
+        "value": 13.870000095367432
+      },
+      {
+        "time": "2026-03-12",
+        "value": 13.862800083160401
+      },
+      {
+        "time": "2026-03-13",
+        "value": 13.85340009689331
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-05",
-        "value": 17.12512149168838
-      },
-      {
-        "time": "2025-08-06",
-        "value": 16.94533927631835
-      },
-      {
-        "time": "2025-08-07",
-        "value": 16.84422145306345
-      },
       {
         "time": "2025-08-08",
         "value": 16.71555266074616
@@ -2327,6 +2319,18 @@
       {
         "time": "2026-03-10",
         "value": 11.326603706875542
+      },
+      {
+        "time": "2026-03-11",
+        "value": 11.326797407515478
+      },
+      {
+        "time": "2026-03-12",
+        "value": 11.37357880845865
+      },
+      {
+        "time": "2026-03-13",
+        "value": 11.552539839828551
       }
     ],
     "supportLine": 13.36
