@@ -260,19 +260,6 @@
     "expected_rsi": 38.98
   },
   {
-    "ticker": "GILD",
-    "name": "Gilead Sciences, Inc.",
-    "price": 144.99,
-    "changePercent": -0.15,
-    "score": 53,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 3.64,
-    "bb_confluence": 1.42,
-    "expected_rsi": 42.32
-  },
-  {
     "ticker": "INFO",
     "name": "Harbor PanAgora Dynamic Large C",
     "price": 23.72,
@@ -297,19 +284,6 @@
     "ma_distance": 2.44,
     "bb_confluence": 2.09,
     "expected_rsi": 37.84
-  },
-  {
-    "ticker": "HST",
-    "name": "Host Hotels & Resorts, Inc.",
-    "price": 18.51,
-    "changePercent": -1.02,
-    "score": 48,
-    "stars": 2.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.29,
-    "bb_confluence": 3.09,
-    "expected_rsi": 35.85
   },
   {
     "ticker": "MAR",
@@ -390,6 +364,19 @@
     "expected_rsi": 45.41
   },
   {
+    "ticker": "HST",
+    "name": "Host Hotels & Resorts, Inc.",
+    "price": 18.51,
+    "changePercent": -1.02,
+    "score": 43,
+    "stars": 2.0,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 2.29,
+    "bb_confluence": 3.09,
+    "expected_rsi": 35.85
+  },
+  {
     "ticker": "LYV",
     "name": "Live Nation Entertainment, Inc.",
     "price": 153.97,
@@ -466,19 +453,6 @@
     "ma_distance": 0.46,
     "bb_confluence": 0.27,
     "expected_rsi": 49.51
-  },
-  {
-    "ticker": "KO",
-    "name": "Coca-Cola Company (The)",
-    "price": 77.34,
-    "changePercent": -0.35,
-    "score": 38,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 2.52,
-    "bb_confluence": 1.13,
-    "expected_rsi": 40.45
   },
   {
     "ticker": "TJX",
@@ -598,19 +572,6 @@
     "expected_rsi": 45.05
   },
   {
-    "ticker": "KEY",
-    "name": "KeyCorp",
-    "price": 18.9,
-    "changePercent": -1.66,
-    "score": 33,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.58,
-    "bb_confluence": 1.53,
-    "expected_rsi": 28.47
-  },
-  {
     "ticker": "MTB",
     "name": "M&T Bank Corporation",
     "price": 196.26,
@@ -679,14 +640,14 @@
     "ticker": "FTV",
     "name": "Fortive Corporation",
     "price": 54.27,
-    "changePercent": -1.13,
+    "changePercent": -1.02,
     "score": 31,
     "stars": 1.5,
     "ma_label": "Daily 200MA",
     "ma_col": "ma200",
-    "ma_distance": 3.81,
-    "bb_confluence": 4.68,
-    "expected_rsi": 32.52
+    "ma_distance": 3.93,
+    "bb_confluence": 4.71,
+    "expected_rsi": 32.51
   },
   {
     "ticker": "OMC",
@@ -819,6 +780,19 @@
     "expected_rsi": 42.71
   },
   {
+    "ticker": "PCAR",
+    "name": "PACCAR Inc.",
+    "price": 115.34,
+    "changePercent": -1.27,
+    "score": 27,
+    "stars": 1.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 2.7,
+    "bb_confluence": 3.29,
+    "expected_rsi": 31.33
+  },
+  {
     "ticker": "AME",
     "name": "AMETEK, Inc.",
     "price": 214.49,
@@ -843,6 +817,19 @@
     "ma_distance": 4.42,
     "bb_confluence": 3.68,
     "expected_rsi": 37.74
+  },
+  {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "price": 18.9,
+    "changePercent": -1.66,
+    "score": 25,
+    "stars": 1.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 1.58,
+    "bb_confluence": 1.53,
+    "expected_rsi": 28.47
   },
   {
     "ticker": "BC",
@@ -921,19 +908,6 @@
     "ma_distance": 0.1,
     "bb_confluence": 0.71,
     "expected_rsi": 48.35
-  },
-  {
-    "ticker": "PCAR",
-    "name": "PACCAR Inc.",
-    "price": 115.34,
-    "changePercent": -1.27,
-    "score": 23,
-    "stars": 1.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.7,
-    "bb_confluence": 3.29,
-    "expected_rsi": 31.33
   },
   {
     "ticker": "GWW",
