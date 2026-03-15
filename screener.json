@@ -260,6 +260,19 @@
     "expected_rsi": 38.98
   },
   {
+    "ticker": "HST",
+    "name": "Host Hotels & Resorts, Inc.",
+    "price": 18.51,
+    "changePercent": -1.02,
+    "score": 51,
+    "stars": 2.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 2.29,
+    "bb_confluence": 3.09,
+    "expected_rsi": 35.85
+  },
+  {
     "ticker": "INFO",
     "name": "Harbor PanAgora Dynamic Large C",
     "price": 23.72,
@@ -362,19 +375,6 @@
     "ma_distance": 3.49,
     "bb_confluence": 3.18,
     "expected_rsi": 45.41
-  },
-  {
-    "ticker": "HST",
-    "name": "Host Hotels & Resorts, Inc.",
-    "price": 18.51,
-    "changePercent": -1.02,
-    "score": 43,
-    "stars": 2.0,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.29,
-    "bb_confluence": 3.09,
-    "expected_rsi": 35.85
   },
   {
     "ticker": "LYV",
@@ -572,6 +572,19 @@
     "expected_rsi": 45.05
   },
   {
+    "ticker": "KEY",
+    "name": "KeyCorp",
+    "price": 18.9,
+    "changePercent": -1.66,
+    "score": 33,
+    "stars": 1.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 1.58,
+    "bb_confluence": 1.53,
+    "expected_rsi": 28.47
+  },
+  {
     "ticker": "MTB",
     "name": "M&T Bank Corporation",
     "price": 196.26,
@@ -754,6 +767,19 @@
     "expected_rsi": 38.5
   },
   {
+    "ticker": "PCAR",
+    "name": "PACCAR Inc.",
+    "price": 115.34,
+    "changePercent": -1.27,
+    "score": 27,
+    "stars": 1.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 2.7,
+    "bb_confluence": 3.29,
+    "expected_rsi": 31.33
+  },
+  {
     "ticker": "AL",
     "name": "Air Lease Corporation",
     "price": 64.52,
@@ -780,19 +806,6 @@
     "expected_rsi": 42.71
   },
   {
-    "ticker": "PCAR",
-    "name": "PACCAR Inc.",
-    "price": 115.34,
-    "changePercent": -1.27,
-    "score": 27,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 2.7,
-    "bb_confluence": 3.29,
-    "expected_rsi": 31.33
-  },
-  {
     "ticker": "AME",
     "name": "AMETEK, Inc.",
     "price": 214.49,
@@ -817,19 +830,6 @@
     "ma_distance": 4.42,
     "bb_confluence": 3.68,
     "expected_rsi": 37.74
-  },
-  {
-    "ticker": "KEY",
-    "name": "KeyCorp",
-    "price": 18.9,
-    "changePercent": -1.66,
-    "score": 25,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 1.58,
-    "bb_confluence": 1.53,
-    "expected_rsi": 28.47
   },
   {
     "ticker": "BC",
