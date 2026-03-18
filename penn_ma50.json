@@ -3,9 +3,9 @@
     "ticker": "PENN",
     "name": "PENN Entertainment, Inc.",
     "market": "NMS",
-    "price": 13.97,
-    "change": -0.01,
-    "changePercent": -0.07
+    "price": 13.84,
+    "change": -0.13,
+    "changePercent": -0.93
   },
   "score": {
     "total": 34,
@@ -14,60 +14,60 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 13.82,
-    "maDistance_pct": 1.08,
-    "bb2Confluence_pct": 11.85,
-    "bb3Confluence_pct": 18.98,
+    "targetMA_price": 13.79,
+    "maDistance_pct": 0.33,
+    "bb2Confluence_pct": 11.08,
+    "bb3Confluence_pct": 18.04,
     "maKnock_count": 0,
-    "expectedRsi": 48.53
+    "expectedRsi": 48.36
   },
   "metrics": {
-    "maDistance": "+1.08%",
-    "bbConfluence": "11.85%",
+    "maDistance": "+0.33%",
+    "bbConfluence": "11.08%",
     "maKnock": "0 times recently",
-    "expectedRsi": "48.53"
+    "expectedRsi": "48.36"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 15.03,
         "touches": 6,
-        "strength_score": 3.715
+        "strength_score": 3.673
       },
       {
         "price": 15.74,
         "touches": 2,
-        "strength_score": 1.782
+        "strength_score": 1.762
       },
       {
         "price": 14.0,
         "touches": 1,
-        "strength_score": 0.758
+        "strength_score": 0.749
       },
       {
         "price": 15.48,
         "touches": 1,
-        "strength_score": 0.568
+        "strength_score": 0.561
       },
       {
         "price": 17.88,
         "touches": 1,
-        "strength_score": 0.362
+        "strength_score": 0.358
       },
       {
         "price": 18.28,
         "touches": 1,
-        "strength_score": 0.326
+        "strength_score": 0.322
       },
       {
         "price": 17.48,
         "touches": 1,
-        "strength_score": 0.301
+        "strength_score": 0.297
       },
       {
         "price": 20.04,
         "touches": 1,
-        "strength_score": 0.259
+        "strength_score": 0.256
       }
     ],
     "trendline_clusters": [
@@ -76,25 +76,18 @@
         "count": 4
       },
       {
-        "price": 14.57,
+        "price": 14.56,
         "count": 3
       },
       {
-        "price": 14.75,
+        "price": 14.74,
         "count": 3
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that PENN is currently testing its Daily 50MA support zone near $13.82. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $15.03 and a significant trendline confluence around $15.01 (formed by 4 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that PENN is currently testing its Daily 50MA support zone near $13.79. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $15.03 and a significant trendline confluence around $15.01 (formed by 4 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-12",
-        "open": 16.899999618530273,
-        "high": 17.170000076293945,
-        "low": 16.65999984741211,
-        "close": 17.09000015258789
-      },
       {
         "time": "2025-08-13",
         "open": 17.459999084472656,
@@ -1133,17 +1126,20 @@
       },
       {
         "time": "2026-03-17",
-        "open": 14.114999771118164,
+        "open": 14.119999885559082,
         "high": 14.529999732971191,
-        "low": 13.914999961853027,
+        "low": 13.920000076293945,
         "close": 13.970000267028809
+      },
+      {
+        "time": "2026-03-18",
+        "open": 13.869999885559082,
+        "high": 14.140000343322754,
+        "low": 13.805000305175781,
+        "close": 13.84000015258789
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-12",
-        "value": 17.469199848175048
-      },
       {
         "time": "2025-08-13",
         "value": 17.529599838256836
@@ -1739,13 +1735,13 @@
       {
         "time": "2026-03-17",
         "value": 13.820400085449219
+      },
+      {
+        "time": "2026-03-18",
+        "value": 13.794400081634521
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-12",
-        "value": 16.532611278454386
-      },
       {
         "time": "2025-08-13",
         "value": 16.551642589943974
@@ -2341,6 +2337,10 @@
       {
         "time": "2026-03-17",
         "value": 12.18238459942496
+      },
+      {
+        "time": "2026-03-18",
+        "value": 12.266314214325769
       }
     ],
     "supportLine": 13.36

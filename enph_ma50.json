@@ -3,86 +3,53 @@
     "ticker": "ENPH",
     "name": "Enphase Energy, Inc.",
     "market": "NGM",
-    "price": 42.6,
-    "change": -0.74,
-    "changePercent": -1.71
+    "price": 43.28,
+    "change": -1.42,
+    "changePercent": -3.18
   },
   "score": {
-    "total": 38,
+    "total": 40,
     "stars": 2.0,
     "note": "/ 100 (Win Rate: 78%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 41.09,
-    "maDistance_pct": 3.68,
-    "bb2Confluence_pct": 4.11,
-    "bb3Confluence_pct": 10.08,
+    "targetMA_price": 42.01,
+    "maDistance_pct": 3.03,
+    "bb2Confluence_pct": 6.28,
+    "bb3Confluence_pct": 12.08,
     "maKnock_count": 1,
-    "expectedRsi": 46.12
+    "expectedRsi": 47.37
   },
   "metrics": {
-    "maDistance": "+3.68%",
-    "bbConfluence": "4.11%",
+    "maDistance": "+3.03%",
+    "bbConfluence": "6.28%",
     "maKnock": "1 time recently",
-    "expectedRsi": "46.12"
+    "expectedRsi": "47.37"
   },
   "resistances": {
     "horizontal": [
       {
-        "price": 44.64,
+        "price": 46.4,
         "touches": 1,
         "strength_score": 0.989
       },
       {
         "price": 50.83,
         "touches": 1,
-        "strength_score": 0.881
+        "strength_score": 0.841
       },
       {
         "price": 52.93,
         "touches": 1,
-        "strength_score": 0.749
-      },
-      {
-        "price": 42.63,
-        "touches": 1,
-        "strength_score": 0.683
+        "strength_score": 0.715
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that ENPH is currently testing its Daily 50MA support zone near $41.09. Based on historical price action, bounces from this level have yielded a win rate of 77.8%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $44.64. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that ENPH is currently testing its Daily 50MA support zone near $42.01. Based on historical price action, bounces from this level have yielded a win rate of 77.8%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $46.40. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-07",
-        "open": 31.1299991607666,
-        "high": 32.18000030517578,
-        "low": 30.649999618530273,
-        "close": 31.790000915527344
-      },
-      {
-        "time": "2025-08-08",
-        "open": 32.08000183105469,
-        "high": 32.540000915527344,
-        "low": 31.579999923706055,
-        "close": 32.439998626708984
-      },
-      {
-        "time": "2025-08-11",
-        "open": 33.439998626708984,
-        "high": 34.29999923706055,
-        "low": 32.349998474121094,
-        "close": 32.56999969482422
-      },
-      {
-        "time": "2025-08-12",
-        "open": 32.869998931884766,
-        "high": 33.70000076293945,
-        "low": 32.18000030517578,
-        "close": 33.560001373291016
-      },
       {
         "time": "2025-08-13",
         "open": 33.25,
@@ -1100,29 +1067,41 @@
       },
       {
         "time": "2026-03-12",
-        "open": 42.75,
+        "open": 42.7599983215332,
         "high": 42.7599983215332,
         "low": 41.56999969482422,
         "close": 42.599998474121094
+      },
+      {
+        "time": "2026-03-13",
+        "open": 43.470001220703125,
+        "high": 45.529998779296875,
+        "low": 43.099998474121094,
+        "close": 44.06999969482422
+      },
+      {
+        "time": "2026-03-16",
+        "open": 44.75,
+        "high": 46.18000030517578,
+        "low": 44.7400016784668,
+        "close": 45.88999938964844
+      },
+      {
+        "time": "2026-03-17",
+        "open": 46.11000061035156,
+        "high": 46.400001525878906,
+        "low": 43.90999984741211,
+        "close": 44.70000076293945
+      },
+      {
+        "time": "2026-03-18",
+        "open": 44.02000045776367,
+        "high": 44.36000061035156,
+        "low": 42.52000045776367,
+        "close": 43.279998779296875
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-07",
-        "value": 39.15360012054443
-      },
-      {
-        "time": "2025-08-08",
-        "value": 39.02320011138916
-      },
-      {
-        "time": "2025-08-11",
-        "value": 38.88980007171631
-      },
-      {
-        "time": "2025-08-12",
-        "value": 38.73320011138916
-      },
       {
         "time": "2025-08-13",
         "value": 38.59120014190674
@@ -1706,25 +1685,25 @@
       {
         "time": "2026-03-12",
         "value": 41.08960006713867
+      },
+      {
+        "time": "2026-03-13",
+        "value": 41.32720008850097
+      },
+      {
+        "time": "2026-03-16",
+        "value": 41.604000091552734
+      },
+      {
+        "time": "2026-03-17",
+        "value": 41.82300010681152
+      },
+      {
+        "time": "2026-03-18",
+        "value": 42.008600082397464
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-07",
-        "value": 28.232964467852174
-      },
-      {
-        "time": "2025-08-08",
-        "value": 28.074197664895813
-      },
-      {
-        "time": "2025-08-11",
-        "value": 28.08568247669876
-      },
-      {
-        "time": "2025-08-12",
-        "value": 28.1213320319477
-      },
       {
         "time": "2025-08-13",
         "value": 28.161239852968244
@@ -2308,6 +2287,22 @@
       {
         "time": "2026-03-12",
         "value": 39.400176066069974
+      },
+      {
+        "time": "2026-03-13",
+        "value": 39.39610613572738
+      },
+      {
+        "time": "2026-03-16",
+        "value": 39.48422197977586
+      },
+      {
+        "time": "2026-03-17",
+        "value": 39.466639531232936
+      },
+      {
+        "time": "2026-03-18",
+        "value": 39.36849185861301
       }
     ],
     "supportLine": 31.46
