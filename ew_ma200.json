@@ -3,113 +3,85 @@
     "ticker": "EW",
     "name": "Edwards Lifesciences Corporatio",
     "market": "NYQ",
-    "price": 81.81,
-    "change": -2.8,
-    "changePercent": -3.31
+    "price": 82.46,
+    "change": -0.15,
+    "changePercent": -0.18
   },
   "score": {
-    "total": 20,
-    "stars": 1.0,
+    "total": 34,
+    "stars": 1.5,
     "note": "/ 100 (Win Rate: 25%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 80.28,
-    "maDistance_pct": 1.9,
-    "bb2Confluence_pct": 4.33,
-    "bb3Confluence_pct": 8.1,
+    "targetMA_price": 80.4,
+    "maDistance_pct": 2.57,
+    "bb2Confluence_pct": 0.15,
+    "bb3Confluence_pct": 2.4,
     "maKnock_count": 0,
-    "expectedRsi": 44.14
+    "expectedRsi": 44.2
   },
   "metrics": {
-    "maDistance": "+1.90%",
-    "bbConfluence": "4.33%",
+    "maDistance": "+2.57%",
+    "bbConfluence": "0.15%",
     "maKnock": "0 times recently",
-    "expectedRsi": "44.14"
+    "expectedRsi": "44.2"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 87.05,
         "touches": 10,
-        "strength_score": 5.861
+        "strength_score": 5.597
       },
       {
         "price": 83.77,
         "touches": 1,
-        "strength_score": 0.732
+        "strength_score": 0.699
       }
     ],
     "trendline_clusters": [
       {
-        "price": 86.28,
+        "price": 86.22,
         "count": 25
       },
       {
-        "price": 86.38,
+        "price": 86.34,
         "count": 9
       },
       {
-        "price": 84.94,
+        "price": 85.46,
+        "count": 8
+      },
+      {
+        "price": 84.99,
         "count": 7
       },
       {
-        "price": 85.32,
-        "count": 6
+        "price": 85.76,
+        "count": 5
       },
       {
-        "price": 85.6,
-        "count": 6
-      },
-      {
-        "price": 85.84,
+        "price": 86.89,
         "count": 4
       },
       {
-        "price": 86.74,
-        "count": 4
-      },
-      {
-        "price": 84.24,
+        "price": 84.02,
         "count": 3
       },
       {
-        "price": 83.77,
+        "price": 84.66,
+        "count": 3
+      },
+      {
+        "price": 83.53,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that EW is currently testing its Daily 200MA support zone near $80.28. Based on historical price action, bounces from this level have yielded a win rate of 25.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $87.05 and a significant trendline confluence around $86.28 (formed by 25 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that EW is currently testing its Daily 200MA support zone near $80.4. Based on historical price action, bounces from this level have yielded a win rate of 25.0%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $87.05 and a significant trendline confluence around $86.22 (formed by 25 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-08",
-        "open": 77.81999969482422,
-        "high": 78.55999755859375,
-        "low": 77.41000366210938,
-        "close": 78.3499984741211
-      },
-      {
-        "time": "2025-08-11",
-        "open": 78.0199966430664,
-        "high": 78.41000366210938,
-        "low": 77.55000305175781,
-        "close": 78.16000366210938
-      },
-      {
-        "time": "2025-08-12",
-        "open": 77.73999786376953,
-        "high": 78.04000091552734,
-        "low": 76.06999969482422,
-        "close": 76.93000030517578
-      },
-      {
-        "time": "2025-08-13",
-        "open": 77.19999694824219,
-        "high": 78.0199966430664,
-        "low": 76.62000274658203,
-        "close": 77.68000030517578
-      },
       {
         "time": "2025-08-14",
         "open": 77.52999877929688,
@@ -1129,27 +1101,39 @@
         "time": "2026-03-13",
         "open": 85.12999725341797,
         "high": 85.33000183105469,
-        "low": 81.34500122070312,
+        "low": 81.3499984741211,
         "close": 81.80999755859375
+      },
+      {
+        "time": "2026-03-16",
+        "open": 82.12999725341797,
+        "high": 84.25,
+        "low": 81.88999938964844,
+        "close": 83.55999755859375
+      },
+      {
+        "time": "2026-03-17",
+        "open": 83.6500015258789,
+        "high": 85.13999938964844,
+        "low": 83.33999633789062,
+        "close": 84.2699966430664
+      },
+      {
+        "time": "2026-03-18",
+        "open": 83.44999694824219,
+        "high": 84.02999877929688,
+        "low": 82.5999984741211,
+        "close": 82.61000061035156
+      },
+      {
+        "time": "2026-03-19",
+        "open": 82.43000030517578,
+        "high": 83.62000274658203,
+        "low": 81.7300033569336,
+        "close": 82.45999908447266
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-08",
-        "value": 73.17109985351563
-      },
-      {
-        "time": "2025-08-11",
-        "value": 73.21164985656738
-      },
-      {
-        "time": "2025-08-12",
-        "value": 73.25009986877441
-      },
-      {
-        "time": "2025-08-13",
-        "value": 73.28544986724853
-      },
       {
         "time": "2025-08-14",
         "value": 73.32459987640381
@@ -1733,25 +1717,25 @@
       {
         "time": "2026-03-13",
         "value": 80.28450008392333
+      },
+      {
+        "time": "2026-03-16",
+        "value": 80.31900005340576
+      },
+      {
+        "time": "2026-03-17",
+        "value": 80.35170001983643
+      },
+      {
+        "time": "2026-03-18",
+        "value": 80.37365001678467
+      },
+      {
+        "time": "2026-03-19",
+        "value": 80.39545001983643
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-08",
-        "value": 74.91454198255013
-      },
-      {
-        "time": "2025-08-11",
-        "value": 74.90929417378524
-      },
-      {
-        "time": "2025-08-12",
-        "value": 74.92465839926302
-      },
-      {
-        "time": "2025-08-13",
-        "value": 75.12450829742555
-      },
       {
         "time": "2025-08-14",
         "value": 75.36692876070339
@@ -2335,8 +2319,24 @@
       {
         "time": "2026-03-13",
         "value": 76.80902081712165
+      },
+      {
+        "time": "2026-03-16",
+        "value": 78.11239971637278
+      },
+      {
+        "time": "2026-03-17",
+        "value": 78.8878066630642
+      },
+      {
+        "time": "2026-03-18",
+        "value": 79.53541328097626
+      },
+      {
+        "time": "2026-03-19",
+        "value": 80.27851885517244
       }
     ],
-    "supportLine": 80.86
+    "supportLine": 80.94
   }
 }

@@ -3,102 +3,58 @@
     "ticker": "ABNB",
     "name": "Airbnb, Inc.",
     "market": "NMS",
-    "price": 132.44,
-    "change": -1.59,
-    "changePercent": -1.19
+    "price": 130.79,
+    "change": -0.34,
+    "changePercent": -0.26
   },
   "score": {
-    "total": 24,
+    "total": 18,
     "stars": 1.0,
-    "note": "/ 100 (Win Rate: 67%)"
+    "note": "/ 100 (Win Rate: 62%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 130.87,
-    "maDistance_pct": 1.2,
-    "bb2Confluence_pct": 11.38,
-    "bb3Confluence_pct": 16.15,
+    "targetMA_price": 130.0,
+    "maDistance_pct": 0.61,
+    "bb2Confluence_pct": 4.59,
+    "bb3Confluence_pct": 7.42,
     "maKnock_count": 2,
-    "expectedRsi": 52.66
+    "expectedRsi": 51.38
   },
   "metrics": {
-    "maDistance": "+1.20%",
-    "bbConfluence": "11.38%",
+    "maDistance": "+0.61%",
+    "bbConfluence": "4.59%",
     "maKnock": "2 times recently",
-    "expectedRsi": "52.66"
+    "expectedRsi": "51.38"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 138.05,
         "touches": 4,
-        "strength_score": 3.117
+        "strength_score": 2.875
+      },
+      {
+        "price": 134.0,
+        "touches": 1,
+        "strength_score": 0.989
       },
       {
         "price": 141.4,
         "touches": 1,
-        "strength_score": 0.63
+        "strength_score": 0.581
       }
     ],
     "trendline_clusters": [
       {
-        "price": 137.36,
+        "price": 133.76,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that ABNB is currently testing its Daily 50MA support zone near $130.87. Based on historical price action, bounces from this level have yielded a win rate of 66.7%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $138.05 and a significant trendline confluence around $137.36 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that ABNB is currently testing its Daily 50MA support zone near $130.0. Based on historical price action, bounces from this level have yielded a win rate of 61.5%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $138.05 and a significant trendline confluence around $133.76 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-05",
-        "open": 131.1199951171875,
-        "high": 132.16000366210938,
-        "low": 129.27999877929688,
-        "close": 129.9600067138672
-      },
-      {
-        "time": "2025-08-06",
-        "open": 130.6750030517578,
-        "high": 131.2899932861328,
-        "low": 128.3000030517578,
-        "close": 130.5
-      },
-      {
-        "time": "2025-08-07",
-        "open": 120.37999725341797,
-        "high": 123.38999938964844,
-        "low": 117.27999877929688,
-        "close": 120.02999877929688
-      },
-      {
-        "time": "2025-08-08",
-        "open": 120.56999969482422,
-        "high": 122.0,
-        "low": 119.30000305175781,
-        "close": 121.0199966430664
-      },
-      {
-        "time": "2025-08-11",
-        "open": 120.01000213623047,
-        "high": 121.30000305175781,
-        "low": 118.13999938964844,
-        "close": 118.30000305175781
-      },
-      {
-        "time": "2025-08-12",
-        "open": 118.95999908447266,
-        "high": 122.19000244140625,
-        "low": 118.1500015258789,
-        "close": 121.61000061035156
-      },
-      {
-        "time": "2025-08-13",
-        "open": 122.30000305175781,
-        "high": 124.76799774169922,
-        "low": 121.69999694824219,
-        "close": 124.55000305175781
-      },
       {
         "time": "2025-08-14",
         "open": 123.49500274658203,
@@ -1095,41 +1051,62 @@
       },
       {
         "time": "2026-03-10",
-        "open": 133.61000061035156,
+        "open": 132.80499267578125,
         "high": 134.5800018310547,
         "low": 130.0749969482422,
         "close": 132.44000244140625
+      },
+      {
+        "time": "2026-03-11",
+        "open": 132.8699951171875,
+        "high": 134.39999389648438,
+        "low": 131.52000427246094,
+        "close": 133.38999938964844
+      },
+      {
+        "time": "2026-03-12",
+        "open": 132.4499969482422,
+        "high": 133.24000549316406,
+        "low": 126.11499786376953,
+        "close": 127.69999694824219
+      },
+      {
+        "time": "2026-03-13",
+        "open": 127.2300033569336,
+        "high": 129.47000122070312,
+        "low": 125.62000274658203,
+        "close": 126.30000305175781
+      },
+      {
+        "time": "2026-03-16",
+        "open": 127.27999877929688,
+        "high": 129.23500061035156,
+        "low": 126.91000366210938,
+        "close": 128.32000732421875
+      },
+      {
+        "time": "2026-03-17",
+        "open": 129.60000610351562,
+        "high": 133.5399932861328,
+        "low": 129.5500030517578,
+        "close": 131.9499969482422
+      },
+      {
+        "time": "2026-03-18",
+        "open": 131.1999969482422,
+        "high": 134.0,
+        "low": 130.99000549316406,
+        "close": 131.1300048828125
+      },
+      {
+        "time": "2026-03-19",
+        "open": 129.9499969482422,
+        "high": 131.39999389648438,
+        "low": 128.75999450683594,
+        "close": 130.7899932861328
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-05",
-        "value": 134.99599975585937
-      },
-      {
-        "time": "2025-08-06",
-        "value": 135.0715997314453
-      },
-      {
-        "time": "2025-08-07",
-        "value": 134.88419982910156
-      },
-      {
-        "time": "2025-08-08",
-        "value": 134.731199798584
-      },
-      {
-        "time": "2025-08-11",
-        "value": 134.5299998474121
-      },
-      {
-        "time": "2025-08-12",
-        "value": 134.38219985961913
-      },
-      {
-        "time": "2025-08-13",
-        "value": 134.28080001831054
-      },
       {
         "time": "2025-08-14",
         "value": 134.11560012817384
@@ -1701,37 +1678,37 @@
       {
         "time": "2026-03-10",
         "value": 130.86769958496095
+      },
+      {
+        "time": "2026-03-11",
+        "value": 130.79909942626952
+      },
+      {
+        "time": "2026-03-12",
+        "value": 130.62069946289063
+      },
+      {
+        "time": "2026-03-13",
+        "value": 130.4084994506836
+      },
+      {
+        "time": "2026-03-16",
+        "value": 130.2604995727539
+      },
+      {
+        "time": "2026-03-17",
+        "value": 130.23929962158203
+      },
+      {
+        "time": "2026-03-18",
+        "value": 130.14449981689452
+      },
+      {
+        "time": "2026-03-19",
+        "value": 129.99989959716797
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-05",
-        "value": 129.1421191041654
-      },
-      {
-        "time": "2025-08-06",
-        "value": 128.35235588683028
-      },
-      {
-        "time": "2025-08-07",
-        "value": 124.80650891417432
-      },
-      {
-        "time": "2025-08-08",
-        "value": 122.35693681008378
-      },
-      {
-        "time": "2025-08-11",
-        "value": 119.55138927271723
-      },
-      {
-        "time": "2025-08-12",
-        "value": 117.91276411812706
-      },
-      {
-        "time": "2025-08-13",
-        "value": 116.96064330603507
-      },
       {
         "time": "2025-08-14",
         "value": 116.1967310606455
@@ -2303,8 +2280,36 @@
       {
         "time": "2026-03-10",
         "value": 115.97633005628964
+      },
+      {
+        "time": "2026-03-11",
+        "value": 117.04374340956609
+      },
+      {
+        "time": "2026-03-12",
+        "value": 118.24721959494619
+      },
+      {
+        "time": "2026-03-13",
+        "value": 120.48218351981245
+      },
+      {
+        "time": "2026-03-16",
+        "value": 121.65121486741657
+      },
+      {
+        "time": "2026-03-17",
+        "value": 122.49083215369556
+      },
+      {
+        "time": "2026-03-18",
+        "value": 123.391456070968
+      },
+      {
+        "time": "2026-03-19",
+        "value": 124.03055135304567
       }
     ],
-    "supportLine": 128.1
+    "supportLine": 116.33
   }
 }
