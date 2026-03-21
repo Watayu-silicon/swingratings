@@ -195,19 +195,6 @@
     "expected_rsi": 42.29
   },
   {
-    "ticker": "CBOE",
-    "name": "Cboe Global Markets, Inc.",
-    "price": 283.95,
-    "changePercent": -0.16,
-    "score": 46,
-    "stars": 2.5,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.43,
-    "bb_confluence": 0.18,
-    "expected_rsi": 44.72
-  },
-  {
     "ticker": "LYV",
     "name": "Live Nation Entertainment, Inc.",
     "price": 148.85,
@@ -297,6 +284,19 @@
     "ma_distance": 1.24,
     "bb_confluence": 0.78,
     "expected_rsi": 33.84
+  },
+  {
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets, Inc.",
+    "price": 283.95,
+    "changePercent": -0.16,
+    "score": 42,
+    "stars": 2.0,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 1.43,
+    "bb_confluence": 0.18,
+    "expected_rsi": 44.72
   },
   {
     "ticker": "OMC",
@@ -692,14 +692,14 @@
     "ticker": "WMT",
     "name": "Walmart Inc.",
     "price": 119.02,
-    "changePercent": -1.71,
+    "changePercent": -1.51,
     "score": 27,
     "stars": 1.5,
     "ma_label": "Daily 100MA",
     "ma_col": "ma100",
-    "ma_distance": 2.51,
-    "bb_confluence": 3.66,
-    "expected_rsi": 34.35
+    "ma_distance": 2.71,
+    "bb_confluence": 3.72,
+    "expected_rsi": 34.32
   },
   {
     "ticker": "KO",
@@ -744,14 +744,14 @@
     "ticker": "MSI",
     "name": "Motorola Solutions, Inc.",
     "price": 452.35,
-    "changePercent": -1.48,
+    "changePercent": -1.22,
     "score": 26,
     "stars": 1.5,
     "ma_label": "Daily 50MA",
     "ma_col": "ma50",
-    "ma_distance": 3.87,
-    "bb_confluence": 3.76,
-    "expected_rsi": 38.26
+    "ma_distance": 4.14,
+    "bb_confluence": 3.82,
+    "expected_rsi": 38.23
   },
   {
     "ticker": "ED",
