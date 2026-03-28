@@ -507,6 +507,19 @@
     "expected_rsi": 40.47
   },
   {
+    "ticker": "TJX",
+    "name": "TJX Companies, Inc. (The)",
+    "price": 155.12,
+    "changePercent": -1.55,
+    "score": 37,
+    "stars": 2.0,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 1.12,
+    "bb_confluence": 0.41,
+    "expected_rsi": 45.02
+  },
+  {
     "ticker": "EIX",
     "name": "Edison International",
     "price": 70.3,
@@ -661,19 +674,6 @@
     "ma_distance": 1.82,
     "bb_confluence": 4.04,
     "expected_rsi": 38.09
-  },
-  {
-    "ticker": "TJX",
-    "name": "TJX Companies, Inc. (The)",
-    "price": 155.12,
-    "changePercent": -1.55,
-    "score": 33,
-    "stars": 1.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 1.12,
-    "bb_confluence": 0.41,
-    "expected_rsi": 45.02
   },
   {
     "ticker": "BDX",
@@ -845,19 +845,6 @@
     "expected_rsi": 44.56
   },
   {
-    "ticker": "IRM",
-    "name": "Iron Mountain Incorporated (Del",
-    "price": 98.3,
-    "changePercent": -1.91,
-    "score": 26,
-    "stars": 1.5,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 3.33,
-    "bb_confluence": 3.42,
-    "expected_rsi": 33.85
-  },
-  {
     "ticker": "BNS",
     "name": "Bank Nova Scotia Halifax Pfd 3",
     "price": 67.71,
@@ -869,6 +856,19 @@
     "ma_distance": 2.92,
     "bb_confluence": 1.03,
     "expected_rsi": 29.72
+  },
+  {
+    "ticker": "IRM",
+    "name": "Iron Mountain Incorporated (Del",
+    "price": 98.3,
+    "changePercent": -1.91,
+    "score": 26,
+    "stars": 1.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 3.33,
+    "bb_confluence": 3.42,
+    "expected_rsi": 33.85
   },
   {
     "ticker": "NTAP",
