@@ -3,60 +3,53 @@
     "ticker": "FFIV",
     "name": "F5, Inc.",
     "market": "NMS",
-    "price": 281.98,
-    "change": -11.17,
-    "changePercent": -3.81
+    "price": 279.73,
+    "change": -2.25,
+    "changePercent": -0.8
   },
   "score": {
-    "total": 45,
-    "stars": 2.5,
+    "total": 57,
+    "stars": 3.0,
     "note": "/ 100 (Win Rate: 78%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 278.68,
-    "maDistance_pct": 1.18,
-    "bb2Confluence_pct": 0.44,
-    "bb3Confluence_pct": 2.03,
-    "maKnock_count": 2,
-    "expectedRsi": 47.66
+    "targetMA_price": 278.8,
+    "maDistance_pct": 0.34,
+    "bb2Confluence_pct": 0.34,
+    "bb3Confluence_pct": 1.88,
+    "maKnock_count": 1,
+    "expectedRsi": 47.83
   },
   "metrics": {
-    "maDistance": "+1.18%",
-    "bbConfluence": "0.44%",
-    "maKnock": "2 times recently",
-    "expectedRsi": "47.66"
+    "maDistance": "+0.34%",
+    "bbConfluence": "0.34%",
+    "maKnock": "1 time recently",
+    "expectedRsi": "47.83"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 284.21,
         "touches": 4,
-        "strength_score": 2.8
+        "strength_score": 2.768
       },
       {
         "price": 304.44,
         "touches": 3,
-        "strength_score": 1.909
+        "strength_score": 1.887
       },
       {
         "price": 346.0,
         "touches": 1,
-        "strength_score": 0.265
+        "strength_score": 0.262
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that FFIV is currently testing its Daily 50MA support zone near $278.68. Based on historical price action, bounces from this level have yielded a win rate of 77.8%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $284.21. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that FFIV is currently testing its Daily 50MA support zone near $278.8. Based on historical price action, bounces from this level have yielded a win rate of 77.8%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $284.21. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-08-22",
-        "open": 316.0199890136719,
-        "high": 322.4200134277344,
-        "low": 315.5799865722656,
-        "close": 317.2300109863281
-      },
       {
         "time": "2025-08-25",
         "open": 317.4100036621094,
@@ -1099,13 +1092,16 @@
         "high": 291.4100036621094,
         "low": 278.3500061035156,
         "close": 281.9800109863281
+      },
+      {
+        "time": "2026-03-30",
+        "open": 283.4100036621094,
+        "high": 285.7300109863281,
+        "low": 278.1600036621094,
+        "close": 279.7300109863281
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-08-22",
-        "value": 303.35280151367186
-      },
       {
         "time": "2025-08-25",
         "value": 303.83360168457034
@@ -1701,13 +1697,13 @@
       {
         "time": "2026-03-27",
         "value": 278.68119873046874
+      },
+      {
+        "time": "2026-03-30",
+        "value": 278.79599914550784
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-08-22",
-        "value": 299.9616590961315
-      },
       {
         "time": "2025-08-25",
         "value": 301.99449960580426
@@ -2303,6 +2299,10 @@
       {
         "time": "2026-03-27",
         "value": 277.46174302968717
+      },
+      {
+        "time": "2026-03-30",
+        "value": 277.8462532135314
       }
     ],
     "supportLine": 255.78
