@@ -3,9 +3,9 @@
     "ticker": "FFIV",
     "name": "F5, Inc.",
     "market": "NMS",
-    "price": 294.59,
-    "change": -10.17,
-    "changePercent": -3.34
+    "price": 289.81,
+    "change": -4.78,
+    "changePercent": -1.62
   },
   "score": {
     "total": 41,
@@ -14,44 +14,37 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 283.91,
-    "maDistance_pct": 3.76,
-    "bb2Confluence_pct": 3.37,
-    "bb3Confluence_pct": 6.43,
+    "targetMA_price": 283.86,
+    "maDistance_pct": 2.1,
+    "bb2Confluence_pct": 3.06,
+    "bb3Confluence_pct": 6.04,
     "maKnock_count": 1,
-    "expectedRsi": 47.1
+    "expectedRsi": 46.9
   },
   "metrics": {
-    "maDistance": "+3.76%",
-    "bbConfluence": "3.37%",
+    "maDistance": "+2.10%",
+    "bbConfluence": "3.06%",
     "maKnock": "1 time recently",
-    "expectedRsi": "47.1"
+    "expectedRsi": "46.9"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 304.44,
         "touches": 3,
-        "strength_score": 1.74
+        "strength_score": 1.72
       },
       {
         "price": 315.34,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.977
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that FFIV is currently testing its Daily 50MA support zone near $283.91. Based on historical price action, bounces from this level have yielded a win rate of 80.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $304.44. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that FFIV is currently testing its Daily 50MA support zone near $283.86. Based on historical price action, bounces from this level have yielded a win rate of 80.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $304.44. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-04",
-        "open": 310.1600036621094,
-        "high": 314.739990234375,
-        "low": 309.3299865722656,
-        "close": 314.3500061035156
-      },
       {
         "time": "2025-09-05",
         "open": 314.3500061035156,
@@ -1094,13 +1087,16 @@
         "high": 305.7699890136719,
         "low": 289.8699951171875,
         "close": 294.5899963378906
+      },
+      {
+        "time": "2026-04-10",
+        "open": 294.5450134277344,
+        "high": 295.1400146484375,
+        "low": 284.0,
+        "close": 289.80999755859375
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-04",
-        "value": 307.13000244140625
-      },
       {
         "time": "2025-09-05",
         "value": 307.5596026611328
@@ -1696,32 +1692,32 @@
       {
         "time": "2026-04-09",
         "value": 283.9121990966797
+      },
+      {
+        "time": "2026-04-10",
+        "value": 283.8623992919922
       }
     ],
     "bbLower": [
       {
-        "time": "2025-09-04",
-        "value": 307.6692045614192
-      },
-      {
         "time": "2025-09-05",
-        "value": 307.6007268318575
+        "value": 307.60072683185757
       },
       {
         "time": "2025-09-08",
-        "value": 307.6627023373772
+        "value": 307.66270233737725
       },
       {
         "time": "2025-09-09",
-        "value": 307.22973625233715
+        "value": 307.2297362523372
       },
       {
         "time": "2025-09-10",
-        "value": 307.1966715251965
+        "value": 307.19667152519656
       },
       {
         "time": "2025-09-11",
-        "value": 305.49939734180305
+        "value": 305.4993973418031
       },
       {
         "time": "2025-09-12",
@@ -1729,7 +1725,7 @@
       },
       {
         "time": "2025-09-15",
-        "value": 305.66356394988253
+        "value": 305.6635639498826
       },
       {
         "time": "2025-09-16",
@@ -1737,7 +1733,7 @@
       },
       {
         "time": "2025-09-17",
-        "value": 306.0770946613077
+        "value": 306.07709466130774
       },
       {
         "time": "2025-09-18",
@@ -1781,15 +1777,15 @@
       },
       {
         "time": "2025-10-02",
-        "value": 317.3106815783229
+        "value": 317.31068157832294
       },
       {
         "time": "2025-10-03",
-        "value": 319.02110764365705
+        "value": 319.0211076436571
       },
       {
         "time": "2025-10-06",
-        "value": 319.7267930712964
+        "value": 319.72679307129647
       },
       {
         "time": "2025-10-07",
@@ -1801,7 +1797,7 @@
       },
       {
         "time": "2025-10-09",
-        "value": 316.2360713535785
+        "value": 316.23607135357855
       },
       {
         "time": "2025-10-10",
@@ -1813,7 +1809,7 @@
       },
       {
         "time": "2025-10-14",
-        "value": 316.43598049146874
+        "value": 316.4359804914688
       },
       {
         "time": "2025-10-15",
@@ -1873,7 +1869,7 @@
       },
       {
         "time": "2025-11-04",
-        "value": 230.74493234945098
+        "value": 230.744932349451
       },
       {
         "time": "2025-11-05",
@@ -2298,6 +2294,10 @@
       {
         "time": "2026-04-09",
         "value": 274.33842735066156
+      },
+      {
+        "time": "2026-04-10",
+        "value": 275.1636702645726
       }
     ],
     "supportLine": 276.95
