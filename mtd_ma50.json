@@ -3,90 +3,87 @@
     "ticker": "MTD",
     "name": "Mettler-Toledo International, I",
     "market": "NYQ",
-    "price": 1324.27,
-    "change": -0.39,
-    "changePercent": -0.03
+    "price": 1310.07,
+    "change": -14.2,
+    "changePercent": -1.07
   },
   "score": {
-    "total": 24,
-    "stars": 1.0,
+    "total": 14,
+    "stars": 0.5,
     "note": "/ 100 (Win Rate: 54%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 1296.64,
-    "maDistance_pct": 2.13,
-    "bb2Confluence_pct": 5.67,
-    "bb3Confluence_pct": 8.41,
+    "targetMA_price": 1295.23,
+    "maDistance_pct": 1.15,
+    "bb2Confluence_pct": 5.32,
+    "bb3Confluence_pct": 8.01,
     "maKnock_count": 1,
-    "expectedRsi": 51.75
+    "expectedRsi": 51.33
   },
   "metrics": {
-    "maDistance": "+2.13%",
-    "bbConfluence": "5.67%",
+    "maDistance": "+1.15%",
+    "bbConfluence": "5.32%",
     "maKnock": "1 time recently",
-    "expectedRsi": "51.75"
+    "expectedRsi": "51.33"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 1421.98,
         "touches": 5,
-        "strength_score": 2.531
+        "strength_score": 2.502
       },
       {
-        "price": 1365.79,
-        "touches": 1,
-        "strength_score": 0.944
+        "price": 1359.94,
+        "touches": 2,
+        "strength_score": 1.922
       },
       {
         "price": 1519.8,
         "touches": 2,
-        "strength_score": 0.78
+        "strength_score": 0.771
       },
       {
         "price": 1471.07,
         "touches": 1,
-        "strength_score": 0.287
+        "strength_score": 0.284
       }
     ],
     "trendline_clusters": [
       {
-        "price": 1360.02,
+        "price": 1351.42,
+        "count": 15
+      },
+      {
+        "price": 1359.06,
         "count": 5
       },
       {
-        "price": 1398.87,
+        "price": 1398.55,
         "count": 5
       },
       {
-        "price": 1357.58,
+        "price": 1356.2,
         "count": 4
       },
       {
-        "price": 1375.88,
+        "price": 1374.99,
         "count": 3
       },
       {
-        "price": 1418.08,
+        "price": 1417.99,
         "count": 3
       },
       {
-        "price": 1335.9,
+        "price": 1334.01,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that MTD is currently testing its Daily 50MA support zone near $1296.64. Based on historical price action, bounces from this level have yielded a win rate of 53.8%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $1421.98 and a significant trendline confluence around $1360.02 (formed by 5 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that MTD is currently testing its Daily 50MA support zone near $1295.23. Based on historical price action, bounces from this level have yielded a win rate of 53.8%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $1421.98 and a significant trendline confluence around $1351.42 (formed by 15 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-16",
-        "open": 1258.5,
-        "high": 1282.760009765625,
-        "low": 1242.8199462890625,
-        "close": 1276.0999755859375
-      },
       {
         "time": "2025-09-17",
         "open": 1282.0,
@@ -1126,16 +1123,19 @@
       {
         "time": "2026-04-21",
         "open": 1331.1500244140625,
-        "high": 1354.0849609375,
+        "high": 1354.0899658203125,
         "low": 1317.75,
         "close": 1324.27001953125
+      },
+      {
+        "time": "2026-04-22",
+        "open": 1330.489990234375,
+        "high": 1339.0250244140625,
+        "low": 1309.22998046875,
+        "close": 1310.0699462890625
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-16",
-        "value": 1259.548798828125
-      },
       {
         "time": "2025-09-17",
         "value": 1260.8973974609376
@@ -1731,13 +1731,13 @@
       {
         "time": "2026-04-21",
         "value": 1296.6415966796876
+      },
+      {
+        "time": "2026-04-22",
+        "value": 1295.2253955078124
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-16",
-        "value": 1247.6079173246483
-      },
       {
         "time": "2025-09-17",
         "value": 1248.1735717843944
@@ -2333,6 +2333,10 @@
       {
         "time": "2026-04-21",
         "value": 1223.0648339832524
+      },
+      {
+        "time": "2026-04-22",
+        "value": 1226.3560627266183
       }
     ],
     "supportLine": 1372.16
