@@ -3,75 +3,86 @@
     "ticker": "ILMN",
     "name": "Illumina, Inc.",
     "market": "NMS",
-    "price": 130.5,
-    "change": -1.48,
-    "changePercent": -1.12
+    "price": 125.44,
+    "change": -5.06,
+    "changePercent": -3.88
   },
   "score": {
-    "total": 33,
+    "total": 32,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 64%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 124.49,
-    "maDistance_pct": 4.83,
-    "bb2Confluence_pct": 4.91,
-    "bb3Confluence_pct": 8.47,
+    "targetMA_price": 124.61,
+    "maDistance_pct": 0.67,
+    "bb2Confluence_pct": 5.05,
+    "bb3Confluence_pct": 8.62,
     "maKnock_count": 0,
-    "expectedRsi": 46.49
+    "expectedRsi": 46.73
   },
   "metrics": {
-    "maDistance": "+4.83%",
-    "bbConfluence": "4.91%",
+    "maDistance": "+0.67%",
+    "bbConfluence": "5.05%",
     "maKnock": "0 times recently",
-    "expectedRsi": "46.49"
+    "expectedRsi": "46.73"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 137.89,
         "touches": 3,
-        "strength_score": 1.738
+        "strength_score": 1.718
       },
       {
         "price": 132.47,
         "touches": 2,
-        "strength_score": 1.217
+        "strength_score": 1.203
       },
       {
         "price": 151.17,
         "touches": 2,
-        "strength_score": 0.891
+        "strength_score": 0.881
+      },
+      {
+        "price": 128.74,
+        "touches": 1,
+        "strength_score": 0.794
       },
       {
         "price": 134.76,
         "touches": 1,
-        "strength_score": 0.652
+        "strength_score": 0.645
+      },
+      {
+        "price": 125.75,
+        "touches": 2,
+        "strength_score": 0.542
       },
       {
         "price": 155.53,
         "touches": 1,
-        "strength_score": 0.489
+        "strength_score": 0.483
       }
     ],
     "trendline_clusters": [
       {
-        "price": 132.02,
+        "price": 129.27,
+        "count": 2
+      },
+      {
+        "price": 131.96,
+        "count": 2
+      },
+      {
+        "price": 137.13,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that ILMN is currently testing its Daily 50MA support zone near $124.49. Based on historical price action, bounces from this level have yielded a win rate of 63.6%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $137.89 and a significant trendline confluence around $132.02 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that ILMN is currently testing its Daily 50MA support zone near $124.61. Based on historical price action, bounces from this level have yielded a win rate of 63.6%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $137.89 and a significant trendline confluence around $129.27 (formed by 2 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-17",
-        "open": 101.76000213623047,
-        "high": 104.22000122070312,
-        "low": 99.5,
-        "close": 100.87000274658203
-      },
       {
         "time": "2025-09-18",
         "open": 102.30999755859375,
@@ -1111,16 +1122,19 @@
       {
         "time": "2026-04-22",
         "open": 133.22000122070312,
-        "high": 133.64500427246094,
+        "high": 133.64999389648438,
         "low": 129.16000366210938,
         "close": 130.5
+      },
+      {
+        "time": "2026-04-23",
+        "open": 128.4600067138672,
+        "high": 128.66000366210938,
+        "low": 121.26499938964844,
+        "close": 125.44000244140625
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-17",
-        "value": 99.5956004333496
-      },
       {
         "time": "2025-09-18",
         "value": 99.70740036010743
@@ -1716,13 +1730,13 @@
       {
         "time": "2026-04-22",
         "value": 124.48579986572265
+      },
+      {
+        "time": "2026-04-23",
+        "value": 124.6081999206543
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-17",
-        "value": 95.30019678589055
-      },
       {
         "time": "2025-09-18",
         "value": 95.07239362543773
@@ -2318,6 +2332,10 @@
       {
         "time": "2026-04-22",
         "value": 118.37880523469926
+      },
+      {
+        "time": "2026-04-23",
+        "value": 118.31649723489024
       }
     ],
     "supportLine": 116.86

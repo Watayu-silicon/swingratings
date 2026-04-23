@@ -3,60 +3,53 @@
     "ticker": "AN",
     "name": "AutoNation, Inc.",
     "market": "NYQ",
-    "price": 203.38,
-    "change": -1.93,
-    "changePercent": -0.94
+    "price": 202.97,
+    "change": -0.41,
+    "changePercent": -0.2
   },
   "score": {
-    "total": 17,
+    "total": 19,
     "stars": 1.0,
     "note": "/ 100 (Win Rate: 46%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 196.03,
-    "maDistance_pct": 3.75,
-    "bb2Confluence_pct": 3.49,
-    "bb3Confluence_pct": 5.94,
+    "targetMA_price": 195.96,
+    "maDistance_pct": 3.58,
+    "bb2Confluence_pct": 3.14,
+    "bb3Confluence_pct": 5.55,
     "maKnock_count": 1,
-    "expectedRsi": 48.72
+    "expectedRsi": 48.16
   },
   "metrics": {
-    "maDistance": "+3.75%",
-    "bbConfluence": "3.49%",
+    "maDistance": "+3.58%",
+    "bbConfluence": "3.14%",
     "maKnock": "1 time recently",
-    "expectedRsi": "48.72"
+    "expectedRsi": "48.16"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 224.02,
         "touches": 3,
-        "strength_score": 1.401
+        "strength_score": 1.385
       },
       {
         "price": 212.95,
         "touches": 2,
-        "strength_score": 1.385
+        "strength_score": 1.369
       },
       {
         "price": 218.35,
         "touches": 2,
-        "strength_score": 0.76
+        "strength_score": 0.752
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that AN is currently testing its Daily 50MA support zone near $196.03. Based on historical price action, bounces from this level have yielded a win rate of 46.2%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $224.02. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that AN is currently testing its Daily 50MA support zone near $195.96. Based on historical price action, bounces from this level have yielded a win rate of 46.2%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $224.02. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-17",
-        "open": 221.0500030517578,
-        "high": 226.38999938964844,
-        "low": 219.2100067138672,
-        "close": 220.5
-      },
       {
         "time": "2025-09-18",
         "open": 220.0,
@@ -1097,15 +1090,18 @@
         "time": "2026-04-22",
         "open": 206.5399932861328,
         "high": 207.0800018310547,
-        "low": 202.2449951171875,
+        "low": 202.25,
         "close": 203.3800048828125
+      },
+      {
+        "time": "2026-04-23",
+        "open": 202.9600067138672,
+        "high": 204.07249450683594,
+        "low": 200.9550018310547,
+        "close": 202.97000122070312
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-17",
-        "value": 209.4153988647461
-      },
       {
         "time": "2025-09-18",
         "value": 209.57179901123047
@@ -1701,13 +1697,13 @@
       {
         "time": "2026-04-22",
         "value": 196.0281997680664
+      },
+      {
+        "time": "2026-04-23",
+        "value": 195.95599975585938
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-17",
-        "value": 211.89850935961334
-      },
       {
         "time": "2025-09-18",
         "value": 214.12381803809146
@@ -2303,6 +2299,10 @@
       {
         "time": "2026-04-22",
         "value": 189.17745095363705
+      },
+      {
+        "time": "2026-04-23",
+        "value": 189.79591131066923
       }
     ],
     "supportLine": 192.93

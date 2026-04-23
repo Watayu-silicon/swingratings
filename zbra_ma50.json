@@ -3,9 +3,9 @@
     "ticker": "ZBRA",
     "name": "Zebra Technologies Corporation",
     "market": "NMS",
-    "price": 231.1,
-    "change": -5.57,
-    "changePercent": -2.35
+    "price": 226.87,
+    "change": -4.23,
+    "changePercent": -1.83
   },
   "score": {
     "total": 10,
@@ -14,59 +14,52 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 224.66,
-    "maDistance_pct": 2.87,
-    "bb2Confluence_pct": 13.56,
-    "bb3Confluence_pct": 19.07,
+    "targetMA_price": 224.06,
+    "maDistance_pct": 1.25,
+    "bb2Confluence_pct": 12.8,
+    "bb3Confluence_pct": 18.27,
     "maKnock_count": 1,
-    "expectedRsi": 53.41
+    "expectedRsi": 52.63
   },
   "metrics": {
-    "maDistance": "+2.87%",
-    "bbConfluence": "13.56%",
+    "maDistance": "+1.25%",
+    "bbConfluence": "12.80%",
     "maKnock": "1 time recently",
-    "expectedRsi": "53.41"
+    "expectedRsi": "52.63"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 243.69,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.977
       },
       {
         "price": 236.5,
         "touches": 1,
-        "strength_score": 0.683
+        "strength_score": 0.675
+      },
+      {
+        "price": 275.15,
+        "touches": 2,
+        "strength_score": 0.616
       },
       {
         "price": 303.4,
         "touches": 1,
-        "strength_score": 0.581
+        "strength_score": 0.574
       },
       {
         "price": 268.0,
         "touches": 1,
-        "strength_score": 0.456
-      },
-      {
-        "price": 274.27,
-        "touches": 1,
-        "strength_score": 0.362
+        "strength_score": 0.451
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that ZBRA is currently testing its Daily 50MA support zone near $224.66. Based on historical price action, bounces from this level have yielded a win rate of 50.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $243.69. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that ZBRA is currently testing its Daily 50MA support zone near $224.06. Based on historical price action, bounces from this level have yielded a win rate of 50.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $243.69. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-17",
-        "open": 318.3900146484375,
-        "high": 322.2799987792969,
-        "low": 312.80999755859375,
-        "close": 317.32000732421875
-      },
       {
         "time": "2025-09-18",
         "open": 321.8399963378906,
@@ -1109,13 +1102,16 @@
         "high": 240.6999969482422,
         "low": 229.86000061035156,
         "close": 231.10000610351562
+      },
+      {
+        "time": "2026-04-23",
+        "open": 231.0,
+        "high": 231.86000061035156,
+        "low": 221.64999389648438,
+        "close": 226.8699951171875
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-17",
-        "value": 321.3897998046875
-      },
       {
         "time": "2025-09-18",
         "value": 321.4117999267578
@@ -1711,13 +1707,13 @@
       {
         "time": "2026-04-22",
         "value": 224.65619995117189
+      },
+      {
+        "time": "2026-04-23",
+        "value": 224.06219970703125
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-17",
-        "value": 303.0955618544618
-      },
       {
         "time": "2025-09-18",
         "value": 304.4013400972225
@@ -2313,6 +2309,10 @@
       {
         "time": "2026-04-22",
         "value": 194.19620495551402
+      },
+      {
+        "time": "2026-04-23",
+        "value": 195.37876081158302
       }
     ],
     "supportLine": 200.38
