@@ -3,89 +3,63 @@
     "ticker": "NFLX",
     "name": "Netflix, Inc.",
     "market": "NMS",
-    "price": 92.58,
-    "change": -2.25,
-    "changePercent": -2.37
+    "price": 92.44,
+    "change": -0.38,
+    "changePercent": -0.41
   },
   "score": {
-    "total": 45,
-    "stars": 2.5,
-    "note": "/ 100 (Win Rate: 67%)"
+    "total": 35,
+    "stars": 2.0,
+    "note": "/ 100 (Win Rate: 57%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 92.29,
-    "maDistance_pct": 0.32,
-    "bb2Confluence_pct": 4.68,
-    "bb3Confluence_pct": 10.26,
-    "maKnock_count": 2,
-    "expectedRsi": 41.62
+    "targetMA_price": 91.89,
+    "maDistance_pct": 0.6,
+    "bb2Confluence_pct": 3.89,
+    "bb3Confluence_pct": 9.35,
+    "maKnock_count": 3,
+    "expectedRsi": 41.34
   },
   "metrics": {
-    "maDistance": "+0.32%",
-    "bbConfluence": "4.68%",
-    "maKnock": "2 times recently",
-    "expectedRsi": "41.62"
+    "maDistance": "+0.60%",
+    "bbConfluence": "3.89%",
+    "maKnock": "3 times recently",
+    "expectedRsi": "41.34"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 96.21,
         "touches": 3,
-        "strength_score": 1.548
+        "strength_score": 1.495
       },
       {
         "price": 109.34,
         "touches": 2,
-        "strength_score": 1.3
+        "strength_score": 1.255
       },
       {
         "price": 102.69,
         "touches": 1,
-        "strength_score": 0.881
+        "strength_score": 0.851
       },
       {
         "price": 100.19,
         "touches": 1,
-        "strength_score": 0.691
+        "strength_score": 0.667
       },
       {
         "price": 116.73,
         "touches": 1,
-        "strength_score": 0.291
-      },
-      {
-        "price": 113.49,
-        "touches": 1,
-        "strength_score": 0.262
+        "strength_score": 0.281
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that NFLX is currently testing its Daily 100MA support zone near $92.29. Based on historical price action, bounces from this level have yielded a win rate of 66.7%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $96.21. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that NFLX is currently testing its Daily 100MA support zone near $91.89. Based on historical price action, bounces from this level have yielded a win rate of 57.1%. The asset has recently tested this support 3 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $96.21. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-16",
-        "open": 120.56400299072266,
-        "high": 120.9000015258789,
-        "low": 119.72799682617188,
-        "close": 120.0510025024414
-      },
-      {
-        "time": "2025-09-17",
-        "open": 122.10199737548828,
-        "high": 123.39299774169922,
-        "low": 120.66100311279297,
-        "close": 122.8499984741211
-      },
-      {
-        "time": "2025-09-18",
-        "open": 122.08200073242188,
-        "high": 123.30000305175781,
-        "low": 120.55000305175781,
-        "close": 120.77799987792969
-      },
       {
         "time": "2025-09-19",
         "open": 121.86199951171875,
@@ -1110,25 +1084,34 @@
       },
       {
         "time": "2026-04-21",
-        "open": 93.82499694824219,
+        "open": 94.0,
         "high": 94.6500015258789,
         "low": 92.37000274658203,
         "close": 92.58000183105469
+      },
+      {
+        "time": "2026-04-22",
+        "open": 93.05999755859375,
+        "high": 93.8499984741211,
+        "low": 92.7699966430664,
+        "close": 93.23999786376953
+      },
+      {
+        "time": "2026-04-23",
+        "open": 94.05999755859375,
+        "high": 94.63999938964844,
+        "low": 92.06999969482422,
+        "close": 92.81999969482422
+      },
+      {
+        "time": "2026-04-24",
+        "open": 92.57499694824219,
+        "high": 93.2750015258789,
+        "low": 91.80000305175781,
+        "close": 92.44000244140625
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-16",
-        "value": 120.9986001586914
-      },
-      {
-        "time": "2025-09-17",
-        "value": 121.130230178833
-      },
-      {
-        "time": "2025-09-18",
-        "value": 121.236480178833
-      },
       {
         "time": "2025-09-19",
         "value": 121.35307014465332
@@ -1716,21 +1699,21 @@
       {
         "time": "2026-04-21",
         "value": 92.28520004272461
+      },
+      {
+        "time": "2026-04-22",
+        "value": 92.17360000610351
+      },
+      {
+        "time": "2026-04-23",
+        "value": 92.04040000915528
+      },
+      {
+        "time": "2026-04-24",
+        "value": 91.88900001525879
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-16",
-        "value": 118.1897186263636
-      },
-      {
-        "time": "2025-09-17",
-        "value": 118.26826101012124
-      },
-      {
-        "time": "2025-09-18",
-        "value": 118.20253009899103
-      },
       {
         "time": "2025-09-19",
         "value": 118.37129581570485
@@ -1745,7 +1728,7 @@
       },
       {
         "time": "2025-09-24",
-        "value": 118.36833919708525
+        "value": 118.36833919708526
       },
       {
         "time": "2025-09-25",
@@ -1769,11 +1752,11 @@
       },
       {
         "time": "2025-10-02",
-        "value": 116.42089487445486
+        "value": 116.42089487445487
       },
       {
         "time": "2025-10-03",
-        "value": 115.52984121015699
+        "value": 115.529841210157
       },
       {
         "time": "2025-10-06",
@@ -1809,7 +1792,7 @@
       },
       {
         "time": "2025-10-16",
-        "value": 115.60044499032696
+        "value": 115.60044499032698
       },
       {
         "time": "2025-10-17",
@@ -1821,7 +1804,7 @@
       },
       {
         "time": "2025-10-21",
-        "value": 115.34289681246989
+        "value": 115.3428968124699
       },
       {
         "time": "2025-10-22",
@@ -1829,7 +1812,7 @@
       },
       {
         "time": "2025-10-23",
-        "value": 112.18847740083801
+        "value": 112.18847740083802
       },
       {
         "time": "2025-10-24",
@@ -1889,7 +1872,7 @@
       },
       {
         "time": "2025-11-13",
-        "value": 103.6974497165548
+        "value": 103.69744971655481
       },
       {
         "time": "2025-11-14",
@@ -1909,15 +1892,15 @@
       },
       {
         "time": "2025-11-20",
-        "value": 106.21831444463179
+        "value": 106.2183144446318
       },
       {
         "time": "2025-11-21",
-        "value": 105.1729283394107
+        "value": 105.17292833941072
       },
       {
         "time": "2025-11-24",
-        "value": 104.83927023707778
+        "value": 104.8392702370778
       },
       {
         "time": "2025-11-25",
@@ -1925,7 +1908,7 @@
       },
       {
         "time": "2025-11-26",
-        "value": 103.51281028513155
+        "value": 103.51281028513156
       },
       {
         "time": "2025-11-28",
@@ -1933,11 +1916,11 @@
       },
       {
         "time": "2025-12-01",
-        "value": 103.2938901230858
+        "value": 103.29389012308582
       },
       {
         "time": "2025-12-02",
-        "value": 103.2589925515224
+        "value": 103.25899255152241
       },
       {
         "time": "2025-12-03",
@@ -1977,7 +1960,7 @@
       },
       {
         "time": "2025-12-16",
-        "value": 89.87183300068338
+        "value": 89.8718330006834
       },
       {
         "time": "2025-12-17",
@@ -2037,7 +2020,7 @@
       },
       {
         "time": "2026-01-08",
-        "value": 90.2920587431251
+        "value": 90.29205874312511
       },
       {
         "time": "2026-01-09",
@@ -2045,7 +2028,7 @@
       },
       {
         "time": "2026-01-12",
-        "value": 89.15316943050499
+        "value": 89.153169430505
       },
       {
         "time": "2026-01-13",
@@ -2061,7 +2044,7 @@
       },
       {
         "time": "2026-01-16",
-        "value": 87.24560278484381
+        "value": 87.24560278484383
       },
       {
         "time": "2026-01-20",
@@ -2085,7 +2068,7 @@
       },
       {
         "time": "2026-01-27",
-        "value": 83.32679655874944
+        "value": 83.32679655874945
       },
       {
         "time": "2026-01-28",
@@ -2101,7 +2084,7 @@
       },
       {
         "time": "2026-02-02",
-        "value": 81.65889786556438
+        "value": 81.6588978655644
       },
       {
         "time": "2026-02-03",
@@ -2121,7 +2104,7 @@
       },
       {
         "time": "2026-02-09",
-        "value": 78.75084068052148
+        "value": 78.75084068052149
       },
       {
         "time": "2026-02-10",
@@ -2137,7 +2120,7 @@
       },
       {
         "time": "2026-02-13",
-        "value": 76.41740639966567
+        "value": 76.41740639966568
       },
       {
         "time": "2026-02-17",
@@ -2149,7 +2132,7 @@
       },
       {
         "time": "2026-02-19",
-        "value": 75.10500601054505
+        "value": 75.10500601054507
       },
       {
         "time": "2026-02-20",
@@ -2157,7 +2140,7 @@
       },
       {
         "time": "2026-02-23",
-        "value": 74.42767887901829
+        "value": 74.4276788790183
       },
       {
         "time": "2026-02-24",
@@ -2165,11 +2148,11 @@
       },
       {
         "time": "2026-02-25",
-        "value": 74.70764906176322
+        "value": 74.70764906176323
       },
       {
         "time": "2026-02-26",
-        "value": 74.71376112095513
+        "value": 74.71376112095514
       },
       {
         "time": "2026-02-27",
@@ -2213,7 +2196,7 @@
       },
       {
         "time": "2026-03-13",
-        "value": 70.09943391613243
+        "value": 70.09943391613244
       },
       {
         "time": "2026-03-16",
@@ -2225,7 +2208,7 @@
       },
       {
         "time": "2026-03-18",
-        "value": 75.18788658982439
+        "value": 75.1878865898244
       },
       {
         "time": "2026-03-19",
@@ -2241,35 +2224,35 @@
       },
       {
         "time": "2026-03-24",
-        "value": 85.78156527344422
+        "value": 85.78156527344423
       },
       {
         "time": "2026-03-25",
-        "value": 88.03106631833606
+        "value": 88.03106631833607
       },
       {
         "time": "2026-03-26",
-        "value": 90.27169415230328
+        "value": 90.2716941523033
       },
       {
         "time": "2026-03-27",
-        "value": 90.0905046158921
+        "value": 90.09050461589212
       },
       {
         "time": "2026-03-30",
-        "value": 89.88532277994514
+        "value": 89.88532277994516
       },
       {
         "time": "2026-03-31",
-        "value": 89.93509743348336
+        "value": 89.93509743348338
       },
       {
         "time": "2026-04-01",
-        "value": 90.0853661523809
+        "value": 90.08536615238091
       },
       {
         "time": "2026-04-02",
-        "value": 90.15475893883219
+        "value": 90.1547589388322
       },
       {
         "time": "2026-04-06",
@@ -2277,7 +2260,7 @@
       },
       {
         "time": "2026-04-07",
-        "value": 90.10653828792961
+        "value": 90.10653828792962
       },
       {
         "time": "2026-04-08",
@@ -2293,7 +2276,7 @@
       },
       {
         "time": "2026-04-13",
-        "value": 88.47596242812197
+        "value": 88.47596242812199
       },
       {
         "time": "2026-04-14",
@@ -2301,7 +2284,7 @@
       },
       {
         "time": "2026-04-15",
-        "value": 87.28901943158081
+        "value": 87.28901943158083
       },
       {
         "time": "2026-04-16",
@@ -2313,11 +2296,23 @@
       },
       {
         "time": "2026-04-20",
-        "value": 88.08736676583835
+        "value": 88.08736676583837
       },
       {
         "time": "2026-04-21",
-        "value": 87.96469041339456
+        "value": 87.96469041339458
+      },
+      {
+        "time": "2026-04-22",
+        "value": 88.36572486652136
+      },
+      {
+        "time": "2026-04-23",
+        "value": 88.45591289683529
+      },
+      {
+        "time": "2026-04-24",
+        "value": 88.31507597448282
       }
     ],
     "supportLine": 91.46
