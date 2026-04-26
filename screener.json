@@ -78,19 +78,6 @@
     "expected_rsi": 49.96
   },
   {
-    "ticker": "FOX",
-    "name": "Fox Corporation",
-    "price": 56.17,
-    "changePercent": -2.72,
-    "score": 41,
-    "stars": 2.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 4.95,
-    "bb_confluence": 3.49,
-    "expected_rsi": 42.49
-  },
-  {
     "ticker": "INCY",
     "name": "Incyte Corporation",
     "price": 94.65,
@@ -206,6 +193,19 @@
     "ma_distance": 0.6,
     "bb_confluence": 3.89,
     "expected_rsi": 41.34
+  },
+  {
+    "ticker": "FOX",
+    "name": "Fox Corporation",
+    "price": 56.17,
+    "changePercent": -2.72,
+    "score": 35,
+    "stars": 2.0,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 4.95,
+    "bb_confluence": 3.49,
+    "expected_rsi": 42.49
   },
   {
     "ticker": "HON",
