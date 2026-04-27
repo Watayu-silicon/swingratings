@@ -3,83 +3,48 @@
     "ticker": "BHF",
     "name": "Brighthouse Financial, Inc.",
     "market": "NMS",
-    "price": 61.84,
-    "change": -0.38,
-    "changePercent": -0.61
+    "price": 61.95,
+    "change": -0.09,
+    "changePercent": -0.15
   },
   "score": {
-    "total": 8,
+    "total": 5,
     "stars": 0.5,
-    "note": "/ 100 (Win Rate: 50%)"
+    "note": "/ 100 (Win Rate: 40%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 61.17,
-    "maDistance_pct": 1.1,
-    "bb2Confluence_pct": 3.44,
-    "bb3Confluence_pct": 4.79,
-    "maKnock_count": 1,
-    "expectedRsi": 57.03
+    "targetMA_price": 60.99,
+    "maDistance_pct": 1.58,
+    "bb2Confluence_pct": 2.76,
+    "bb3Confluence_pct": 4.29,
+    "maKnock_count": 2,
+    "expectedRsi": 52.33
   },
   "metrics": {
-    "maDistance": "+1.10%",
-    "bbConfluence": "3.44%",
-    "maKnock": "1 time recently",
-    "expectedRsi": "57.03"
+    "maDistance": "+1.58%",
+    "bbConfluence": "2.76%",
+    "maKnock": "2 times recently",
+    "expectedRsi": "52.33"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 65.19,
         "touches": 5,
-        "strength_score": 2.198
+        "strength_score": 2.075
       },
       {
         "price": 62.63,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.933
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that BHF is currently testing its Daily 50MA support zone near $61.17. Based on historical price action, bounces from this level have yielded a win rate of 50.0%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $65.19. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that BHF is currently testing its Daily 50MA support zone near $60.99. Based on historical price action, bounces from this level have yielded a win rate of 40.0%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $65.19. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-15",
-        "open": 48.81999969482422,
-        "high": 49.03499984741211,
-        "low": 47.18000030517578,
-        "close": 47.209999084472656
-      },
-      {
-        "time": "2025-09-16",
-        "open": 47.029998779296875,
-        "high": 47.334999084472656,
-        "low": 46.369998931884766,
-        "close": 46.81999969482422
-      },
-      {
-        "time": "2025-09-17",
-        "open": 46.900001525878906,
-        "high": 47.224998474121094,
-        "low": 45.619998931884766,
-        "close": 45.95000076293945
-      },
-      {
-        "time": "2025-09-18",
-        "open": 45.959999084472656,
-        "high": 46.540000915527344,
-        "low": 44.93000030517578,
-        "close": 45.2599983215332
-      },
-      {
-        "time": "2025-09-19",
-        "open": 45.36000061035156,
-        "high": 60.7400016784668,
-        "low": 44.72999954223633,
-        "close": 57.59000015258789
-      },
       {
         "time": "2025-09-22",
         "open": 56.560001373291016,
@@ -1091,32 +1056,47 @@
       {
         "time": "2026-04-20",
         "open": 62.16999816894531,
-        "high": 62.349998474121094,
+        "high": 62.369998931884766,
         "low": 61.77000045776367,
         "close": 61.84000015258789
+      },
+      {
+        "time": "2026-04-21",
+        "open": 61.849998474121094,
+        "high": 62.130001068115234,
+        "low": 61.790000915527344,
+        "close": 61.900001525878906
+      },
+      {
+        "time": "2026-04-22",
+        "open": 62.11000061035156,
+        "high": 62.16999816894531,
+        "low": 61.40999984741211,
+        "close": 62.08000183105469
+      },
+      {
+        "time": "2026-04-23",
+        "open": 62.09000015258789,
+        "high": 62.20000076293945,
+        "low": 61.814998626708984,
+        "close": 62.16999816894531
+      },
+      {
+        "time": "2026-04-24",
+        "open": 62.11000061035156,
+        "high": 62.20000076293945,
+        "low": 61.939998626708984,
+        "close": 62.040000915527344
+      },
+      {
+        "time": "2026-04-27",
+        "open": 62.02000045776367,
+        "high": 62.40999984741211,
+        "low": 61.849998474121094,
+        "close": 61.95000076293945
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-15",
-        "value": 47.72970001220703
-      },
-      {
-        "time": "2025-09-16",
-        "value": 47.652099990844725
-      },
-      {
-        "time": "2025-09-17",
-        "value": 47.52889999389649
-      },
-      {
-        "time": "2025-09-18",
-        "value": 47.39389999389648
-      },
-      {
-        "time": "2025-09-19",
-        "value": 47.50309997558594
-      },
       {
         "time": "2025-09-22",
         "value": 47.630699920654294
@@ -1696,29 +1676,29 @@
       {
         "time": "2026-04-20",
         "value": 61.16699996948242
+      },
+      {
+        "time": "2026-04-21",
+        "value": 61.130400009155274
+      },
+      {
+        "time": "2026-04-22",
+        "value": 61.098000030517575
+      },
+      {
+        "time": "2026-04-23",
+        "value": 61.065
+      },
+      {
+        "time": "2026-04-24",
+        "value": 61.02840003967285
+      },
+      {
+        "time": "2026-04-27",
+        "value": 60.98560012817383
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-15",
-        "value": 43.283603554682266
-      },
-      {
-        "time": "2025-09-16",
-        "value": 43.37329036997939
-      },
-      {
-        "time": "2025-09-17",
-        "value": 43.35802507085903
-      },
-      {
-        "time": "2025-09-18",
-        "value": 43.23502395281135
-      },
-      {
-        "time": "2025-09-19",
-        "value": 41.249376071614954
-      },
       {
         "time": "2025-09-22",
         "value": 40.672117754303194
@@ -2298,6 +2278,26 @@
       {
         "time": "2026-04-20",
         "value": 59.064143957504676
+      },
+      {
+        "time": "2026-04-21",
+        "value": 59.09802246122124
+      },
+      {
+        "time": "2026-04-22",
+        "value": 59.12353177621543
+      },
+      {
+        "time": "2026-04-23",
+        "value": 59.13089753256018
+      },
+      {
+        "time": "2026-04-24",
+        "value": 59.17034925892315
+      },
+      {
+        "time": "2026-04-27",
+        "value": 59.299462496643244
       }
     ],
     "supportLine": 59.01
