@@ -3,65 +3,58 @@
     "ticker": "BA",
     "name": "Boeing Company (The)",
     "market": "NYQ",
-    "price": 231.33,
-    "change": -1.11,
-    "changePercent": -0.48
+    "price": 230.72,
+    "change": -0.61,
+    "changePercent": -0.26
   },
   "score": {
-    "total": 8,
+    "total": 7,
     "stars": 0.5,
     "note": "/ 100 (Win Rate: 43%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 100MA",
-    "targetMA_price": 222.54,
-    "maDistance_pct": 3.95,
-    "bb2Confluence_pct": 11.9,
-    "bb3Confluence_pct": 16.91,
+    "targetMA_price": 222.79,
+    "maDistance_pct": 3.56,
+    "bb2Confluence_pct": 9.35,
+    "bb3Confluence_pct": 13.49,
     "maKnock_count": 1,
-    "expectedRsi": 53.59
+    "expectedRsi": 53.39
   },
   "metrics": {
-    "maDistance": "+3.95%",
-    "bbConfluence": "11.90%",
+    "maDistance": "+3.56%",
+    "bbConfluence": "9.35%",
     "maKnock": "1 time recently",
-    "expectedRsi": "53.59"
+    "expectedRsi": "53.39"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 236.45,
         "touches": 1,
-        "strength_score": 0.989
+        "strength_score": 0.977
       },
       {
         "price": 231.96,
         "touches": 1,
-        "strength_score": 0.667
+        "strength_score": 0.66
       },
       {
         "price": 247.86,
         "touches": 1,
-        "strength_score": 0.548
+        "strength_score": 0.542
       },
       {
         "price": 254.35,
         "touches": 1,
-        "strength_score": 0.489
+        "strength_score": 0.483
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that BA is currently testing its Daily 100MA support zone near $222.54. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $236.45. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that BA is currently testing its Daily 100MA support zone near $222.79. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $236.45. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-22",
-        "open": 215.1699981689453,
-        "high": 215.89999389648438,
-        "low": 211.42999267578125,
-        "close": 212.08999633789062
-      },
       {
         "time": "2025-09-23",
         "open": 217.1199951171875,
@@ -1101,16 +1094,19 @@
       {
         "time": "2026-04-27",
         "open": 233.0,
-        "high": 235.44000244140625,
+        "high": 235.4499969482422,
         "low": 229.38999938964844,
         "close": 231.3300018310547
+      },
+      {
+        "time": "2026-04-28",
+        "open": 231.0500030517578,
+        "high": 231.2899932861328,
+        "low": 227.07000732421875,
+        "close": 230.72000122070312
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-22",
-        "value": 216.1993000793457
-      },
       {
         "time": "2025-09-23",
         "value": 216.53029998779297
@@ -1706,13 +1702,13 @@
       {
         "time": "2026-04-27",
         "value": 222.53980041503905
+      },
+      {
+        "time": "2026-04-28",
+        "value": 222.79320037841796
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-22",
-        "value": 208.28417026408584
-      },
       {
         "time": "2025-09-23",
         "value": 207.31428137886476
@@ -2308,6 +2304,10 @@
       {
         "time": "2026-04-27",
         "value": 196.05308175363385
+      },
+      {
+        "time": "2026-04-28",
+        "value": 201.96884189867495
       }
     ],
     "supportLine": 215.25
