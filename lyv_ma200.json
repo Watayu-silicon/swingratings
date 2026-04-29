@@ -3,81 +3,78 @@
     "ticker": "LYV",
     "name": "Live Nation Entertainment, Inc.",
     "market": "NYQ",
-    "price": 154.75,
-    "change": -1.74,
-    "changePercent": -1.11
+    "price": 153.13,
+    "change": -1.62,
+    "changePercent": -1.05
   },
   "score": {
-    "total": 26,
+    "total": 27,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 38%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 151.92,
-    "maDistance_pct": 1.86,
-    "bb2Confluence_pct": 1.62,
-    "bb3Confluence_pct": 4.39,
+    "targetMA_price": 151.94,
+    "maDistance_pct": 0.78,
+    "bb2Confluence_pct": 1.57,
+    "bb3Confluence_pct": 4.31,
     "maKnock_count": 2,
-    "expectedRsi": 45.35
+    "expectedRsi": 45.47
   },
   "metrics": {
-    "maDistance": "+1.86%",
-    "bbConfluence": "1.62%",
+    "maDistance": "+0.78%",
+    "bbConfluence": "1.57%",
     "maKnock": "2 times recently",
-    "expectedRsi": "45.35"
+    "expectedRsi": "45.47"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 168.22,
         "touches": 3,
-        "strength_score": 2.146
+        "strength_score": 2.121
       },
       {
-        "price": 156.09,
-        "touches": 1,
-        "strength_score": 0.767
+        "price": 157.12,
+        "touches": 2,
+        "strength_score": 1.746
       },
       {
         "price": 164.33,
         "touches": 1,
-        "strength_score": 0.623
+        "strength_score": 0.616
       }
     ],
     "trendline_clusters": [
       {
-        "price": 160.0,
+        "price": 158.43,
+        "count": 14
+      },
+      {
+        "price": 160.16,
         "count": 6
       },
       {
-        "price": 159.5,
+        "price": 159.64,
         "count": 4
       },
       {
-        "price": 162.47,
+        "price": 162.66,
         "count": 3
       },
       {
-        "price": 161.23,
+        "price": 161.41,
         "count": 2
       },
       {
-        "price": 167.8,
+        "price": 168.05,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that LYV is currently testing its Daily 200MA support zone near $151.92. Based on historical price action, bounces from this level have yielded a win rate of 37.5%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $168.22 and a significant trendline confluence around $160.00 (formed by 6 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that LYV is currently testing its Daily 200MA support zone near $151.94. Based on historical price action, bounces from this level have yielded a win rate of 37.5%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $168.22 and a significant trendline confluence around $158.43 (formed by 14 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-23",
-        "open": 165.3699951171875,
-        "high": 166.14999389648438,
-        "low": 163.30999755859375,
-        "close": 164.1300048828125
-      },
       {
         "time": "2025-09-24",
         "open": 164.4600067138672,
@@ -1120,13 +1117,16 @@
         "high": 158.16000366210938,
         "low": 154.33999633789062,
         "close": 154.75
+      },
+      {
+        "time": "2026-04-29",
+        "open": 152.42999267578125,
+        "high": 154.21499633789062,
+        "low": 151.44000244140625,
+        "close": 153.1300048828125
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-23",
-        "value": 142.8804493331909
-      },
       {
         "time": "2025-09-24",
         "value": 143.0071993637085
@@ -1722,13 +1722,13 @@
       {
         "time": "2026-04-28",
         "value": 151.91695053100585
+      },
+      {
+        "time": "2026-04-29",
+        "value": 151.9403005218506
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-23",
-        "value": 160.1920425403922
-      },
       {
         "time": "2025-09-24",
         "value": 159.6064114242894
@@ -2324,6 +2324,10 @@
       {
         "time": "2026-04-28",
         "value": 149.45266205180016
+      },
+      {
+        "time": "2026-04-29",
+        "value": 149.5585787961068
       }
     ],
     "supportLine": 153.36

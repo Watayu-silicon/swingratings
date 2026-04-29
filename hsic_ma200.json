@@ -3,9 +3,9 @@
     "ticker": "HSIC",
     "name": "Henry Schein, Inc.",
     "market": "NMS",
-    "price": 76.12,
-    "change": -1.08,
-    "changePercent": -1.4
+    "price": 73.8,
+    "change": -2.32,
+    "changePercent": -3.05
   },
   "score": {
     "total": 41,
@@ -14,54 +14,47 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 72.53,
-    "maDistance_pct": 4.95,
-    "bb2Confluence_pct": 0.3,
-    "bb3Confluence_pct": 2.21,
+    "targetMA_price": 72.55,
+    "maDistance_pct": 1.73,
+    "bb2Confluence_pct": 0.31,
+    "bb3Confluence_pct": 2.19,
     "maKnock_count": 2,
-    "expectedRsi": 35.95
+    "expectedRsi": 35.85
   },
   "metrics": {
-    "maDistance": "+4.95%",
-    "bbConfluence": "0.30%",
+    "maDistance": "+1.73%",
+    "bbConfluence": "0.31%",
     "maKnock": "2 times recently",
-    "expectedRsi": "35.95"
+    "expectedRsi": "35.85"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 76.79,
         "touches": 5,
-        "strength_score": 2.654
+        "strength_score": 2.624
       },
       {
         "price": 80.41,
         "touches": 3,
-        "strength_score": 1.815
+        "strength_score": 1.794
       },
       {
         "price": 89.29,
         "touches": 1,
-        "strength_score": 0.602
+        "strength_score": 0.595
       },
       {
         "price": 82.8,
         "touches": 1,
-        "strength_score": 0.555
+        "strength_score": 0.548
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that HSIC is currently testing its Daily 200MA support zone near $72.53. Based on historical price action, bounces from this level have yielded a win rate of 30.0%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $76.79. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that HSIC is currently testing its Daily 200MA support zone near $72.55. Based on historical price action, bounces from this level have yielded a win rate of 30.0%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $76.79. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-23",
-        "open": 68.12999725341797,
-        "high": 69.58000183105469,
-        "low": 68.0,
-        "close": 69.20999908447266
-      },
       {
         "time": "2025-09-24",
         "open": 68.91000366210938,
@@ -1104,13 +1097,16 @@
         "high": 77.55999755859375,
         "low": 75.43000030517578,
         "close": 76.12000274658203
+      },
+      {
+        "time": "2026-04-29",
+        "open": 75.74500274658203,
+        "high": 76.11000061035156,
+        "low": 73.44000244140625,
+        "close": 73.80000305175781
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-23",
-        "value": 70.87070014953613
-      },
       {
         "time": "2025-09-24",
         "value": 70.83700016021729
@@ -1706,13 +1702,13 @@
       {
         "time": "2026-04-28",
         "value": 72.53015005111695
+      },
+      {
+        "time": "2026-04-29",
+        "value": 72.54575006484986
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-23",
-        "value": 66.9137110551314
-      },
       {
         "time": "2025-09-24",
         "value": 66.84739708063825
@@ -2308,6 +2304,10 @@
       {
         "time": "2026-04-28",
         "value": 72.7476403715023
+      },
+      {
+        "time": "2026-04-29",
+        "value": 72.76717362451443
       }
     ],
     "supportLine": 71.32

@@ -3,100 +3,69 @@
     "ticker": "EW",
     "name": "Edwards Lifesciences Corporatio",
     "market": "NYQ",
-    "price": 82.28,
-    "change": -1.18,
-    "changePercent": -1.41
+    "price": 81.22,
+    "change": -1.06,
+    "changePercent": -1.29
   },
   "score": {
-    "total": 13,
+    "total": 14,
     "stars": 0.5,
     "note": "/ 100 (Win Rate: 17%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 80.97,
-    "maDistance_pct": 1.62,
-    "bb2Confluence_pct": 4.82,
-    "bb3Confluence_pct": 6.94,
+    "targetMA_price": 80.98,
+    "maDistance_pct": 0.29,
+    "bb2Confluence_pct": 4.77,
+    "bb3Confluence_pct": 6.9,
     "maKnock_count": 2,
-    "expectedRsi": 51.27
+    "expectedRsi": 51.22
   },
   "metrics": {
-    "maDistance": "+1.62%",
-    "bbConfluence": "4.82%",
+    "maDistance": "+0.29%",
+    "bbConfluence": "4.77%",
     "maKnock": "2 times recently",
-    "expectedRsi": "51.27"
+    "expectedRsi": "51.22"
   },
   "resistances": {
     "horizontal": [
       {
-        "price": 87.05,
-        "touches": 9,
-        "strength_score": 3.85
+        "price": 83.23,
+        "touches": 5,
+        "strength_score": 4.06
       },
       {
-        "price": 82.8,
-        "touches": 4,
-        "strength_score": 3.108
+        "price": 87.05,
+        "touches": 9,
+        "strength_score": 3.806
       }
     ],
     "trendline_clusters": [
       {
-        "price": 85.94,
-        "count": 15
+        "price": 82.02,
+        "count": 29
       },
       {
-        "price": 85.44,
-        "count": 7
+        "price": 81.78,
+        "count": 12
       },
       {
-        "price": 82.45,
+        "price": 82.41,
         "count": 6
       },
       {
-        "price": 84.79,
-        "count": 5
-      },
-      {
-        "price": 83.66,
-        "count": 4
-      },
-      {
-        "price": 84.03,
-        "count": 4
-      },
-      {
-        "price": 82.78,
+        "price": 82.82,
         "count": 3
       },
       {
-        "price": 84.32,
-        "count": 3
-      },
-      {
-        "price": 86.21,
-        "count": 3
-      },
-      {
-        "price": 85.61,
-        "count": 2
-      },
-      {
-        "price": 86.91,
+        "price": 81.36,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that EW is currently testing its Daily 200MA support zone near $80.97. Based on historical price action, bounces from this level have yielded a win rate of 16.7%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $87.05 and a significant trendline confluence around $85.94 (formed by 15 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that EW is currently testing its Daily 200MA support zone near $80.98. Based on historical price action, bounces from this level have yielded a win rate of 16.7%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $83.23 and a significant trendline confluence around $82.02 (formed by 29 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-23",
-        "open": 73.69000244140625,
-        "high": 75.30000305175781,
-        "low": 73.2300033569336,
-        "close": 74.56999969482422
-      },
       {
         "time": "2025-09-24",
         "open": 74.30999755859375,
@@ -1139,13 +1108,16 @@
         "high": 84.94999694824219,
         "low": 81.51000213623047,
         "close": 82.27999877929688
+      },
+      {
+        "time": "2026-04-29",
+        "open": 81.94999694824219,
+        "high": 82.27999877929688,
+        "low": 80.75499725341797,
+        "close": 81.22000122070312
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-23",
-        "value": 74.70465000152588
-      },
       {
         "time": "2025-09-24",
         "value": 74.70695003509522
@@ -1741,13 +1713,13 @@
       {
         "time": "2026-04-28",
         "value": 80.96829998016358
+      },
+      {
+        "time": "2026-04-29",
+        "value": 80.98299999237061
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-23",
-        "value": 72.64182055572793
-      },
       {
         "time": "2025-09-24",
         "value": 72.2593292212634
@@ -2343,6 +2315,10 @@
       {
         "time": "2026-04-28",
         "value": 77.06872679249578
+      },
+      {
+        "time": "2026-04-29",
+        "value": 77.1176627778815
       }
     ],
     "supportLine": 81.18

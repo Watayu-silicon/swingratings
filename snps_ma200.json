@@ -3,9 +3,9 @@
     "ticker": "SNPS",
     "name": "Synopsys, Inc.",
     "market": "NMS",
-    "price": 483.89,
-    "change": -14.65,
-    "changePercent": -2.94
+    "price": 481.22,
+    "change": -2.67,
+    "changePercent": -0.55
   },
   "score": {
     "total": 0,
@@ -14,54 +14,52 @@
   },
   "raw_metrics": {
     "targetMA_label": "Daily 200MA",
-    "targetMA_price": 480.67,
-    "maDistance_pct": 0.67,
-    "bb2Confluence_pct": 24.53,
-    "bb3Confluence_pct": 32.07,
+    "targetMA_price": 480.33,
+    "maDistance_pct": 0.19,
+    "bb2Confluence_pct": 23.67,
+    "bb3Confluence_pct": 31.25,
     "maKnock_count": 0,
-    "expectedRsi": 63.22
+    "expectedRsi": 62.91
   },
   "metrics": {
-    "maDistance": "+0.67%",
-    "bbConfluence": "24.53%",
+    "maDistance": "+0.19%",
+    "bbConfluence": "23.67%",
     "maKnock": "0 times recently",
-    "expectedRsi": "63.22"
+    "expectedRsi": "62.91"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 502.28,
         "touches": 1,
-        "strength_score": 0.977
+        "strength_score": 0.966
+      },
+      {
+        "price": 483.07,
+        "touches": 2,
+        "strength_score": 0.704
       },
       {
         "price": 515.8,
         "touches": 1,
-        "strength_score": 0.489
+        "strength_score": 0.483
       },
       {
         "price": 525.49,
         "touches": 1,
-        "strength_score": 0.461
+        "strength_score": 0.456
       },
       {
         "price": 535.2,
         "touches": 1,
-        "strength_score": 0.43
+        "strength_score": 0.425
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that SNPS is currently testing its Daily 200MA support zone near $480.67. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $502.28. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that SNPS is currently testing its Daily 200MA support zone near $480.33. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $502.28. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2025-09-23",
-        "open": 511.4599914550781,
-        "high": 513.0,
-        "low": 488.5799865722656,
-        "close": 490.32000732421875
-      },
       {
         "time": "2025-09-24",
         "open": 491.0,
@@ -1100,17 +1098,20 @@
       },
       {
         "time": "2026-04-28",
-        "open": 496.57000732421875,
+        "open": 497.0,
         "high": 498.0,
         "low": 479.0,
         "close": 483.8900146484375
+      },
+      {
+        "time": "2026-04-29",
+        "open": 480.6449890136719,
+        "high": 481.6199951171875,
+        "low": 471.7025146484375,
+        "close": 481.2200012207031
       }
     ],
     "ma_target": [
-      {
-        "time": "2025-09-23",
-        "value": 507.13529998779296
-      },
       {
         "time": "2025-09-24",
         "value": 506.5357499694824
@@ -1706,13 +1707,13 @@
       {
         "time": "2026-04-28",
         "value": 480.66970138549806
+      },
+      {
+        "time": "2026-04-29",
+        "value": 480.32815124511717
       }
     ],
     "bbLower": [
-      {
-        "time": "2025-09-23",
-        "value": 364.5469422548578
-      },
       {
         "time": "2025-09-24",
         "value": 359.6636345797838
@@ -2308,6 +2309,10 @@
       {
         "time": "2026-04-28",
         "value": 362.7436390436926
+      },
+      {
+        "time": "2026-04-29",
+        "value": 366.6125904379065
       }
     ],
     "supportLine": 408.17
