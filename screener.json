@@ -234,19 +234,6 @@
     "expected_rsi": 26.38
   },
   {
-    "ticker": "EXPD",
-    "name": "Expeditors International of Was",
-    "price": 147.23,
-    "changePercent": -0.45,
-    "score": 16,
-    "stars": 1.0,
-    "ma_label": "Daily 50MA",
-    "ma_col": "ma50",
-    "ma_distance": 1.28,
-    "bb_confluence": 1.86,
-    "expected_rsi": 49.09
-  },
-  {
     "ticker": "BIIB",
     "name": "Biogen Inc.",
     "price": 187.06,
@@ -284,6 +271,19 @@
     "ma_distance": 1.48,
     "bb_confluence": 8.35,
     "expected_rsi": 61.16
+  },
+  {
+    "ticker": "EXPD",
+    "name": "Expeditors International of Was",
+    "price": 147.23,
+    "changePercent": -0.45,
+    "score": 9,
+    "stars": 0.5,
+    "ma_label": "Daily 50MA",
+    "ma_col": "ma50",
+    "ma_distance": 1.28,
+    "bb_confluence": 1.86,
+    "expected_rsi": 49.09
   },
   {
     "ticker": "AFL",
