@@ -13,6 +13,32 @@
     "expected_rsi": 34.46
   },
   {
+    "ticker": "HAS",
+    "name": "Hasbro, Inc.",
+    "price": 92.53,
+    "changePercent": -0.51,
+    "score": 68,
+    "stars": 3.5,
+    "ma_label": "Daily 200MA",
+    "ma_col": "ma200",
+    "ma_distance": 4.78,
+    "bb_confluence": 4.05,
+    "expected_rsi": 38.18
+  },
+  {
+    "ticker": "HAS",
+    "name": "Hasbro, Inc.",
+    "price": 92.53,
+    "changePercent": -0.51,
+    "score": 68,
+    "stars": 3.5,
+    "ma_label": "Daily 100MA",
+    "ma_col": "ma100",
+    "ma_distance": 4.17,
+    "bb_confluence": 3.45,
+    "expected_rsi": 39.5
+  },
+  {
     "ticker": "FANG",
     "name": "Diamondback Energy, Inc.",
     "price": 199.22,
@@ -24,19 +50,6 @@
     "ma_distance": 2.54,
     "bb_confluence": 0.16,
     "expected_rsi": 44.35
-  },
-  {
-    "ticker": "HAS",
-    "name": "Hasbro, Inc.",
-    "price": 92.53,
-    "changePercent": -0.51,
-    "score": 65,
-    "stars": 3.5,
-    "ma_label": "Daily 100MA",
-    "ma_col": "ma100",
-    "ma_distance": 4.17,
-    "bb_confluence": 3.45,
-    "expected_rsi": 39.5
   },
   {
     "ticker": "FANG",
@@ -89,19 +102,6 @@
     "ma_distance": 1.57,
     "bb_confluence": 0.95,
     "expected_rsi": 43.09
-  },
-  {
-    "ticker": "HAS",
-    "name": "Hasbro, Inc.",
-    "price": 92.53,
-    "changePercent": -0.51,
-    "score": 59,
-    "stars": 3.0,
-    "ma_label": "Daily 200MA",
-    "ma_col": "ma200",
-    "ma_distance": 4.78,
-    "bb_confluence": 4.05,
-    "expected_rsi": 38.18
   },
   {
     "ticker": "EXPE",
