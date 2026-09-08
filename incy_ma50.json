@@ -3,55 +3,57 @@
     "ticker": "INCY",
     "name": "Incyte Corporation",
     "market": "NMS",
-    "price": 126.75,
-    "change": -1.25,
-    "changePercent": -0.98
+    "price": 124.4,
+    "change": -2.35,
+    "changePercent": -1.85
   },
   "score": {
-    "total": 57,
+    "total": 58,
     "stars": 3.0,
     "note": "/ 100 (Win Rate: 85%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 120.81,
-    "maDistance_pct": 4.92,
-    "bb2Confluence_pct": 1.53,
-    "bb3Confluence_pct": 4.13,
+    "targetMA_price": 121.02,
+    "maDistance_pct": 2.79,
+    "bb2Confluence_pct": 1.41,
+    "bb3Confluence_pct": 3.91,
     "maKnock_count": 0,
-    "expectedRsi": 45.87
+    "expectedRsi": 45.92
   },
   "metrics": {
-    "maDistance": "+4.92%",
-    "bbConfluence": "1.53%",
+    "maDistance": "+2.79%",
+    "bbConfluence": "1.41%",
     "maKnock": "0 times recently",
-    "expectedRsi": "45.87"
+    "expectedRsi": "45.92"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 131.13,
         "touches": 3,
-        "strength_score": 2.624
+        "strength_score": 2.594
+      },
+      {
+        "price": 124.57,
+        "touches": 1,
+        "strength_score": 0.767
       }
     ],
     "trendline_clusters": [
       {
-        "price": 130.63,
+        "price": 130.94,
         "count": 14
+      },
+      {
+        "price": 129.68,
+        "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that INCY is currently testing its Daily 50MA support zone near $120.81. Based on historical price action, bounces from this level have yielded a win rate of 84.6%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $131.13 and a significant trendline confluence around $130.63 (formed by 14 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that INCY is currently testing its Daily 50MA support zone near $121.02. Based on historical price action, bounces from this level have yielded a win rate of 84.6%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $131.13 and a significant trendline confluence around $130.94 (formed by 14 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2026-02-02",
-        "open": 99.75,
-        "high": 102.86000061035156,
-        "low": 99.5,
-        "close": 102.66999816894531
-      },
       {
         "time": "2026-02-03",
         "open": 102.75,
@@ -1094,13 +1096,16 @@
         "high": 128.0800018310547,
         "low": 126.04000091552734,
         "close": 126.75
+      },
+      {
+        "time": "2026-09-08",
+        "open": 124.1050033569336,
+        "high": 126.4000015258789,
+        "low": 122.22200012207031,
+        "close": 124.4000015258789
       }
     ],
     "ma_target": [
-      {
-        "time": "2026-02-02",
-        "value": 101.83520004272461
-      },
       {
         "time": "2026-02-03",
         "value": 101.82720001220703
@@ -1696,13 +1701,13 @@
       {
         "time": "2026-09-04",
         "value": 120.80699996948242
+      },
+      {
+        "time": "2026-09-08",
+        "value": 121.02
       }
     ],
     "bbLower": [
-      {
-        "time": "2026-02-02",
-        "value": 99.20636739093605
-      },
       {
         "time": "2026-02-03",
         "value": 99.06517312915818
@@ -2298,6 +2303,10 @@
       {
         "time": "2026-09-04",
         "value": 118.95342089548494
+      },
+      {
+        "time": "2026-09-08",
+        "value": 119.30991662745167
       }
     ],
     "supportLine": 115.95
