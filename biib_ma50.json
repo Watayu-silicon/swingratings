@@ -3,71 +3,65 @@
     "ticker": "BIIB",
     "name": "Biogen Inc.",
     "market": "NMS",
-    "price": 212.5,
-    "change": -8.33,
-    "changePercent": -3.77
+    "price": 210.73,
+    "change": -1.77,
+    "changePercent": -0.83
   },
   "score": {
-    "total": 25,
-    "stars": 1.5,
+    "total": 38,
+    "stars": 2.0,
     "note": "/ 100 (Win Rate: 61%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 209.46,
-    "maDistance_pct": 1.45,
-    "bb2Confluence_pct": 2.09,
-    "bb3Confluence_pct": 4.7,
-    "maKnock_count": 2,
-    "expectedRsi": 46.36
+    "targetMA_price": 209.34,
+    "maDistance_pct": 0.66,
+    "bb2Confluence_pct": 1.31,
+    "bb3Confluence_pct": 3.64,
+    "maKnock_count": 1,
+    "expectedRsi": 46.34
   },
   "metrics": {
-    "maDistance": "+1.45%",
-    "bbConfluence": "2.09%",
-    "maKnock": "2 times recently",
-    "expectedRsi": "46.36"
+    "maDistance": "+0.66%",
+    "bbConfluence": "1.31%",
+    "maKnock": "1 time recently",
+    "expectedRsi": "46.34"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 220.07,
         "touches": 7,
-        "strength_score": 5.512
+        "strength_score": 5.448
+      },
+      {
+        "price": 211.52,
+        "touches": 2,
+        "strength_score": 1.381
       }
     ],
     "trendline_clusters": [
       {
-        "price": 218.65,
-        "count": 9
+        "price": 218.76,
+        "count": 6
       },
       {
-        "price": 217.72,
+        "price": 217.95,
         "count": 5
       },
       {
-        "price": 219.98,
-        "count": 3
-      },
-      {
-        "price": 213.0,
+        "price": 213.02,
         "count": 2
       },
       {
-        "price": 215.86,
+        "price": 216.07,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that BIIB is currently testing its Daily 50MA support zone near $209.46. Based on historical price action, bounces from this level have yielded a win rate of 61.1%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $220.07 and a significant trendline confluence around $218.65 (formed by 9 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that BIIB is currently testing its Daily 50MA support zone near $209.34. Based on historical price action, bounces from this level have yielded a win rate of 61.1%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $220.07 and a significant trendline confluence around $218.76 (formed by 6 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2026-02-03",
-        "open": 177.7899932861328,
-        "high": 182.6699981689453,
-        "low": 176.19000244140625,
-        "close": 176.75999450683594
-      },
       {
         "time": "2026-02-04",
         "open": 177.25,
@@ -1107,16 +1101,19 @@
       {
         "time": "2026-09-08",
         "open": 215.4499969482422,
-        "high": 217.28030395507812,
+        "high": 217.27999877929688,
         "low": 210.5399932861328,
         "close": 212.5
+      },
+      {
+        "time": "2026-09-09",
+        "open": 210.5,
+        "high": 213.47999572753906,
+        "low": 209.0,
+        "close": 210.72999572753906
       }
     ],
     "ma_target": [
-      {
-        "time": "2026-02-03",
-        "value": 176.4822006225586
-      },
       {
         "time": "2026-02-04",
         "value": 176.82760070800782
@@ -1712,13 +1709,13 @@
       {
         "time": "2026-09-08",
         "value": 209.45639984130858
+      },
+      {
+        "time": "2026-09-09",
+        "value": 209.33839965820312
       }
     ],
     "bbLower": [
-      {
-        "time": "2026-02-03",
-        "value": 162.81318346051376
-      },
       {
         "time": "2026-02-04",
         "value": 162.63879352123635
@@ -2314,6 +2311,10 @@
       {
         "time": "2026-09-08",
         "value": 205.08885487603501
+      },
+      {
+        "time": "2026-09-09",
+        "value": 206.60577131903221
       }
     ],
     "supportLine": 199.17

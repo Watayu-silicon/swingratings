@@ -3,60 +3,58 @@
     "ticker": "CRWD",
     "name": "CrowdStrike Holdings, Inc.",
     "market": "NMS",
-    "price": 210.02,
-    "change": -3.08,
-    "changePercent": -1.45
+    "price": 207.8,
+    "change": -2.22,
+    "changePercent": -1.06
   },
   "score": {
-    "total": 18,
-    "stars": 1.0,
+    "total": 25,
+    "stars": 1.5,
     "note": "/ 100 (Win Rate: 62%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 201.51,
-    "maDistance_pct": 4.22,
-    "bb2Confluence_pct": 9.43,
-    "bb3Confluence_pct": 16.2,
-    "maKnock_count": 3,
-    "expectedRsi": 48.4
+    "targetMA_price": 201.95,
+    "maDistance_pct": 2.9,
+    "bb2Confluence_pct": 9.7,
+    "bb3Confluence_pct": 16.32,
+    "maKnock_count": 2,
+    "expectedRsi": 48.45
   },
   "metrics": {
-    "maDistance": "+4.22%",
-    "bbConfluence": "9.43%",
-    "maKnock": "3 times recently",
-    "expectedRsi": "48.4"
+    "maDistance": "+2.90%",
+    "bbConfluence": "9.70%",
+    "maKnock": "2 times recently",
+    "expectedRsi": "48.45"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 227.2,
         "touches": 2,
-        "strength_score": 1.625
+        "strength_score": 1.606
       },
       {
         "price": 233.88,
         "touches": 1,
-        "strength_score": 0.944
+        "strength_score": 0.933
       },
       {
         "price": 217.5,
         "touches": 1,
-        "strength_score": 0.645
+        "strength_score": 0.637
+      },
+      {
+        "price": 209.5,
+        "touches": 1,
+        "strength_score": 0.588
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that CRWD is currently testing its Daily 50MA support zone near $201.51. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. The asset has recently tested this support 3 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $227.20. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that CRWD is currently testing its Daily 50MA support zone near $201.95. Based on historical price action, bounces from this level have yielded a win rate of 62.5%. The asset has recently tested this support 2 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $227.20. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2026-02-03",
-        "open": 108.9800033569336,
-        "high": 109.17725372314453,
-        "low": 103.76249694824219,
-        "close": 105.43250274658203
-      },
       {
         "time": "2026-02-04",
         "open": 102.98500061035156,
@@ -1097,15 +1095,18 @@
         "time": "2026-09-08",
         "open": 209.85000610351562,
         "high": 211.67999267578125,
-        "low": 205.41000366210938,
+        "low": 205.39999389648438,
         "close": 210.02000427246094
+      },
+      {
+        "time": "2026-09-09",
+        "open": 210.33999633789062,
+        "high": 212.77000427246094,
+        "low": 207.0,
+        "close": 207.8000030517578
       }
     ],
     "ma_target": [
-      {
-        "time": "2026-02-03",
-        "value": 119.77102508544922
-      },
       {
         "time": "2026-02-04",
         "value": 119.34127502441406
@@ -1701,13 +1702,13 @@
       {
         "time": "2026-09-08",
         "value": 201.50854919433593
+      },
+      {
+        "time": "2026-09-09",
+        "value": 201.94999938964844
       }
     ],
     "bbLower": [
-      {
-        "time": "2026-02-03",
-        "value": 107.12176777875369
-      },
       {
         "time": "2026-02-04",
         "value": 105.27850042843784
@@ -2303,6 +2304,10 @@
       {
         "time": "2026-09-08",
         "value": 182.50741064359804
+      },
+      {
+        "time": "2026-09-09",
+        "value": 182.36594459773409
       }
     ],
     "supportLine": 181.12

@@ -3,60 +3,53 @@
     "ticker": "IT",
     "name": "Gartner, Inc.",
     "market": "NYQ",
-    "price": 172.59,
-    "change": -13.83,
-    "changePercent": -7.42
+    "price": 169.69,
+    "change": -2.9,
+    "changePercent": -1.68
   },
   "score": {
-    "total": 31,
-    "stars": 1.5,
+    "total": 23,
+    "stars": 1.0,
     "note": "/ 100 (Win Rate: 43%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 164.66,
-    "maDistance_pct": 4.82,
-    "bb2Confluence_pct": 5.63,
-    "bb3Confluence_pct": 0.9,
+    "targetMA_price": 165.4,
+    "maDistance_pct": 2.59,
+    "bb2Confluence_pct": 3.28,
+    "bb3Confluence_pct": 2.11,
     "maKnock_count": 0,
-    "expectedRsi": 39.96
+    "expectedRsi": 40.21
   },
   "metrics": {
-    "maDistance": "+4.82%",
-    "bbConfluence": "5.63%",
+    "maDistance": "+2.59%",
+    "bbConfluence": "3.28%",
     "maKnock": "0 times recently",
-    "expectedRsi": "39.96"
+    "expectedRsi": "40.21"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 203.03,
         "touches": 1,
-        "strength_score": 0.891
+        "strength_score": 0.881
       },
       {
         "price": 194.53,
         "touches": 1,
-        "strength_score": 0.785
+        "strength_score": 0.776
       },
       {
         "price": 180.45,
         "touches": 1,
-        "strength_score": 0.456
+        "strength_score": 0.451
       }
     ],
     "trendline_clusters": []
   },
-  "summary": "The SwingRatings algorithm indicates that IT is currently testing its Daily 50MA support zone near $164.66. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $203.03. This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that IT is currently testing its Daily 50MA support zone near $165.4. Based on historical price action, bounces from this level have yielded a win rate of 42.9%. This is a fresh test of the support, suggesting that optimal buy-side liquidity remains intact. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $203.03. This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2026-02-03",
-        "open": 147.94000244140625,
-        "high": 162.0,
-        "low": 139.17999267578125,
-        "close": 160.16000366210938
-      },
       {
         "time": "2026-02-04",
         "open": 157.17999267578125,
@@ -1096,16 +1089,19 @@
       {
         "time": "2026-09-08",
         "open": 183.9199981689453,
-        "high": 184.09500122070312,
+        "high": 184.10000610351562,
         "low": 172.49000549316406,
         "close": 172.58999633789062
+      },
+      {
+        "time": "2026-09-09",
+        "open": 172.6999969482422,
+        "high": 172.28500366210938,
+        "low": 166.00999450683594,
+        "close": 169.69000244140625
       }
     ],
     "ma_target": [
-      {
-        "time": "2026-02-03",
-        "value": 234.96260009765626
-      },
       {
         "time": "2026-02-04",
         "value": 233.6366000366211
@@ -1701,13 +1697,13 @@
       {
         "time": "2026-09-08",
         "value": 164.6602001953125
+      },
+      {
+        "time": "2026-09-09",
+        "value": 165.39820037841798
       }
     ],
     "bbLower": [
-      {
-        "time": "2026-02-03",
-        "value": 188.7420137094287
-      },
       {
         "time": "2026-02-04",
         "value": 174.67711491233837
@@ -2303,6 +2299,10 @@
       {
         "time": "2026-09-08",
         "value": 173.93278109109255
+      },
+      {
+        "time": "2026-09-09",
+        "value": 170.8217788601591
       }
     ],
     "supportLine": 143.55

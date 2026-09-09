@@ -3,63 +3,60 @@
     "ticker": "INFO",
     "name": "Harbor PanAgora Dynamic Large C",
     "market": "NYQ",
-    "price": 28.1,
-    "change": -0.19,
-    "changePercent": -0.68
+    "price": 27.96,
+    "change": -0.14,
+    "changePercent": -0.49
   },
   "score": {
-    "total": 26,
+    "total": 25,
     "stars": 1.5,
     "note": "/ 100 (Win Rate: 13%)"
   },
   "raw_metrics": {
     "targetMA_label": "Daily 50MA",
-    "targetMA_price": 27.79,
-    "maDistance_pct": 1.11,
-    "bb2Confluence_pct": 0.06,
-    "bb3Confluence_pct": 0.65,
+    "targetMA_price": 27.81,
+    "maDistance_pct": 0.53,
+    "bb2Confluence_pct": 0.11,
+    "bb3Confluence_pct": 0.84,
     "maKnock_count": 1,
-    "expectedRsi": 49.14
+    "expectedRsi": 49.39
   },
   "metrics": {
-    "maDistance": "+1.11%",
-    "bbConfluence": "0.06%",
+    "maDistance": "+0.53%",
+    "bbConfluence": "0.11%",
     "maKnock": "1 time recently",
-    "expectedRsi": "49.14"
+    "expectedRsi": "49.39"
   },
   "resistances": {
     "horizontal": [
       {
         "price": 28.55,
         "touches": 4,
-        "strength_score": 3.499
+        "strength_score": 3.458
       }
     ],
     "trendline_clusters": [
       {
-        "price": 28.46,
-        "count": 13
-      },
-      {
         "price": 28.5,
-        "count": 11
+        "count": 20
       },
       {
-        "price": 28.3,
+        "price": 28.43,
+        "count": 3
+      },
+      {
+        "price": 28.04,
+        "count": 2
+      },
+      {
+        "price": 28.28,
         "count": 2
       }
     ]
   },
-  "summary": "The SwingRatings algorithm indicates that INFO is currently testing its Daily 50MA support zone near $27.79. Based on historical price action, bounces from this level have yielded a win rate of 13.3%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $28.55 and a significant trendline confluence around $28.46 (formed by 13 points). This setup presents a structured risk-reward profile for swing positioning.",
+  "summary": "The SwingRatings algorithm indicates that INFO is currently testing its Daily 50MA support zone near $27.81. Based on historical price action, bounces from this level have yielded a win rate of 13.3%. The asset has recently tested this support 1 time(s), which may have partially consumed buy-side liquidity. In the event of a successful bounce, traders should monitor overhead supply, particularly a primary horizontal resistance at $28.55 and a significant trendline confluence around $28.50 (formed by 20 points). This setup presents a structured risk-reward profile for swing positioning.",
   "chartData": {
     "candles": [
-      {
-        "time": "2026-02-03",
-        "open": 25.040000915527344,
-        "high": 25.040000915527344,
-        "low": 24.604999542236328,
-        "close": 24.770000457763672
-      },
       {
         "time": "2026-02-04",
         "open": 24.84000015258789,
@@ -1100,15 +1097,18 @@
         "time": "2026-09-08",
         "open": 28.170000076293945,
         "high": 28.190000534057617,
-        "low": 28.09910011291504,
-        "close": 28.09910011291504
+        "low": 28.099000930786133,
+        "close": 28.099000930786133
+      },
+      {
+        "time": "2026-09-09",
+        "open": 28.03130340576172,
+        "high": 28.031299591064453,
+        "low": 27.935100555419922,
+        "close": 27.959999084472656
       }
     ],
     "ma_target": [
-      {
-        "time": "2026-02-03",
-        "value": 24.543433113098146
-      },
       {
         "time": "2026-02-04",
         "value": 24.568709449768065
@@ -1703,14 +1703,14 @@
       },
       {
         "time": "2026-09-08",
-        "value": 27.79148193359375
+        "value": 27.79147994995117
+      },
+      {
+        "time": "2026-09-09",
+        "value": 27.811519927978516
       }
     ],
     "bbLower": [
-      {
-        "time": "2026-02-03",
-        "value": 24.39324982594658
-      },
       {
         "time": "2026-02-04",
         "value": 24.37205357502804
@@ -2305,7 +2305,11 @@
       },
       {
         "time": "2026-09-08",
-        "value": 27.807253578746227
+        "value": 27.807243455586075
+      },
+      {
+        "time": "2026-09-09",
+        "value": 27.77958280699422
       }
     ],
     "supportLine": 27.09
